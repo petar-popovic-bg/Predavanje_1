@@ -4,10 +4,15 @@
 Ovaj projekat je deo NlpWeb radionice i biće korišćen u svrhu predavanja iz oblasti grebanja weba na primeru web sajta Politike.
 Skript korišćenjem `requests` biblioteke upućuje zahtev serveru a potom iz dobijenog odgovora uz pomoć `BeautifulSoup` biblioteke ekstraktuje potrebne podatke koje potom čuva u .xml formatu uz pomoć `ElementTree` modula na odgovarajućem mestu na disku.
 - [requests](https://pypi.org/project/requests/)
+
   `requests` je mala biblioteka koja nam omogućava slanje HTTP zahteva pomoću pajtona.
+  
 - [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
+  
   `BeautifulSoup` je biblioteka za Python koja nam olakšava navigaciju kroz HTML
+  
 - [ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
+
   `ElementTree` je modul za parsiranje i kreiranje podataka u XML formatu.
   
 Prvi skript namenjen je grebanju određene sekcije(kategorije) sajta: svet, politika, društvo, ekonomija...
