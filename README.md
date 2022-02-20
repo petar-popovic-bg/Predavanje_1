@@ -2,7 +2,12 @@
 ## Opis projekta
 
 Ovaj projekat je deo NlpWeb radionice i biće korišćen u svrhu predavanja iz oblasti grebanja weba na primeru web sajta Politike.
-Skript korišćenjem `requests` biblioteke upućuje zahtev serveru a potom iz dobijenog odgovora uz pomoć `BeautifulSoup` biblioteke ekstraktuje potrebne podatke koje potom čuva u .xml formatu uz pomoć `ElementTree` modula na odgovarajućem mestu na disku.
+
+Grebanje weba ili ekstrakcija podataka sa weba podrazumeva prikupljanje podataka sa web sajtova. Programi za prikupljanje podataka uglavnom direktno pristupaju sadržaju na internetu putem HTTPa ili web pregledača. Grebanje weba može biti izvedeno i ručno od strane korisnika softvera, termin se obično koristi za automatizovan proces koji je deo nekog većeg sistema ili bota. Proces podrazumeva prikupljanje određenog sadžaja i njegovo pohranjivanje (obično u bazu podataka) za kasnije korišćenje ili analizu.
+
+Prikupljanje podataka podrazumeva proces ekvivalentan onome što radi web pregledač (Chrome, Mozilla, Internet Explorer itd.) kada korisnik otvorni neku stranicu. Nakon prikupljanja sledi proces ekstrakcije podataka u kome pribavljamo podatke koji su nam potrebni iz prethodno parsiranog ili pretraženog dokumenta.
+
+Skripte u ovom primeru korišćenjem `requests` biblioteke upućuje zahtev serveru a potom iz dobijenog odgovora uz pomoć `BeautifulSoup` biblioteke ekstraktuje potrebne podatke koje potom čuva u .xml formatu uz pomoć `ElementTree` modula na odgovarajućem mestu na disku.
 - [requests](https://pypi.org/project/requests/)
 
   `requests` je mala biblioteka koja nam omogućava slanje HTTP zahteva pomoću pajtona.
