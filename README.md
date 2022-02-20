@@ -8,18 +8,20 @@ Prvi skript namenjen je grebanju određene sekcije(kategorije) sajta: svet, poli
 Drugi skript namenjen je grebanju članaka koji se dobijaju korišćenjem pretrage sajta.
 
 ### Podešavanje okruženja
-Potrebno: Python 3, pip, internet konekcija.
-Poželjno: PyCharm.
+- Potrebno: Python 3, pip, internet konekcija
+- Poželjno: PyCharm
 
 1. Skinuti projekat sa github stanice
 Projekat se može preuzeti sa ove github stranice u formatu .zip datoteke ili ga skinuti direktno u IDE npr. PyCharm
-Link za download .zip verzije projekta ...
+Link za download .zip verzije projekta [Predavanje_1](https://github.com/petar-popovic-bg/Predavanje_1/archive/refs/heads/master.zip)
 
 ### Instalacija
 2. Instalirati potrebne biblioteke
 Biblioteke korišćene u projektu su requests i Beautiful Soup 4. Kako bi instalirali sve neophodne biblioteke korišćene u projektu potrebno je izvršiti komandu:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 ili
-Kako se obe biblioteke nalaze na PyPi mogu se i zasebno instalirati komandama pip install beautifulsoup4 i pip install requests
+Kako se obe biblioteke nalaze na PyPi mogu se i zasebno instalirati komandama
+`pip install beautifulsoup4` i `pip install requests`
+
 ### Korišćenje
 U samim skriptama potrebno je promeniti potrebne parametre i pokrenuti skriptu.
