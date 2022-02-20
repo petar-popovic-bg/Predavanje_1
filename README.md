@@ -8,8 +8,8 @@ Prvi skript namenjen je grebanju određene sekcije(kategorije) sajta: svet, poli
 Drugi skript namenjen je grebanju članaka koji se dobijaju korišćenjem pretrage sajta.
 
 ### Podešavanje okruženja
-Potrebno: Python 3, pip, internet konekcija
-Poželjno: PyCharm
+Potrebno: Python 3, pip, internet konekcija.
+Poželjno: PyCharm.
 
 1. Skinuti projekat sa github stanice
 Projekat se može preuzeti sa ove github stranice u formatu .zip datoteke ili ga skinuti direktno u IDE npr. PyCharm
