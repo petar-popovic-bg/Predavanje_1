@@ -69,7 +69,7 @@ while True:
             text_elem.text = '---'
 
         # 8. Konstruisemo putanju na kojoj ćemo sačuvati naš xml dokument
-        xml_path = 'out/politika/%s.xml' % link.split('/')[3]
+        xml_path = 'out/politika_keyword/%s.xml' % link.split('/')[3]
         print(xml_path)
         # 9. Upisujemo naš xml objekat u fajl
         with open(xml_path, 'w', encoding='utf-8') as f:
