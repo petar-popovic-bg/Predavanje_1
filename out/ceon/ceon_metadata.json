@@ -1,0 +1,94 @@
+{
+    "clanci": [
+        {
+            "naslov": "\r\n                                    Primena višekriterijumske optimizacije zasnovana na verovatnoći u tehnologiji materijala                                    \r\n                                    \r\n                                ",
+            "autor": "Zheng Maosheng",
+            "sazetak": "Uvod/cilj: Iako postoji mnogo metoda za rešavanje problema selekcije materijala zasnovanih na aditivnim algoritmima, takvi algoritmi inherentno sadrže nedostatke i subjektivne faktore. Radi prevazilaženja slabosti pomenutih metoda, nedavno je razvijena višekriterijumska optimizacija zasnovana na verovatnoći koja uvodi novi koncept poželjne verovatnoće koji pokazuje stepen poželjnosti kandidata pri optimizaciji. U ovom radu koristi se Nov metod za izvođenje optimalne šeme za materijal za kapacitivnu sklopku šanta u radiofrekvencijskim mikroelektromehaničkim sistemima (RF MEMS), za parametre sinterovanja prirodnog hidroksiapatita, kao i za optimalno projektovanje kandžaste spojnice. Metode: Svi pokazatelji performansi korisnosti materijala - kandidata dele se na korisne i nekorisne za selekciju. Svaki pokazatelj performansi korisnosti kvantitativno doprinosi delimičnoj poželjnoj verovatnoći, dok proizvod svih delimičnih poželjnih verovatnoća čini ukupnu poželjnu verovatnoću kandidata, čime se problem višekriterijumske optimizacije prevodi u problem jednokriterijumske optimizacije i predstavlja jedinstveni odlučujući indeks u kompetitivnom procesu selekcije. Rezultati: Bakar se pokazao kao odgovarajući materijal pri selekciji materijala za kapacitivne sklopke šanta u radiofrekvencijskim mikroelektromehaničkim sistemima (RF MEMS). Optimalni parametri sinterovanja prirodnog hidroksiapatita su 1100°C i nulti pritisak sabijanja, a optimalna šema za projektovanje kandžaste spojnice jeste šema broj 1. Zaključak: Višekriterijumska optimizacija na bazi verovatnoće može se jednostavno primeniti za objektivno rešavanje optimalnog problema u tehnologiji materijala.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201001Z.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201001Z.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Procena energija zasnovanih na stepenima čvorova                                    \r\n                                    \r\n                                ",
+            "autor": "Gutman Ivan",
+            "sazetak": "Uvod/cilj: U novijoj literaturi proučavaju se brojne grafovske invarijante zasnovane na stepenima čvorova (VDB). Svakoj od ovih invarijanti može se pridružiti matrica. VDB energija je energija (= zbir apsolutnih vrednosti sopstvenih vrednosti) odgovarajuće VDB matrice. Rad istražuje neke opšte osobine VDB energije bipartitnih grafova. Rezultati: Dobijene su procene (donje i gornje granice) za VDB energiju bipartitnih grafova koji nemaju cikolve veličine deljive sa 4, a u zavisnosti od obične grafovske energije. Zaključak: Rezultati ovog rada doprinose spektralnoj teoriji VDM matrica, a posebno opštoj teoriji VDB energije.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201013G.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201013G.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Drugačiji pristup prema b(αn,βn)-hipermetričkim prostorima                                    \r\n                                    \r\n                                ",
+            "autor": "Deghan Nezhad Akbar",
+            "sazetak": "Uvod/cilj: Cilj ovog rada jeste da se predstavi koncept b(αn,βn)-hipermetričkih prostora. Metode: Primenjene su konvencionalne teoretske metode funkcionalne analize. Rezultati: U radu su predstavljeni inicijalni rezultati koji se odnose na b(αn,βn)-hipermetričke prostore. U prvom delu generalizuje se n-dimenzionalno (n ≥ 2) hipermetričko rastojanje na proizvoljnom nepraznom skupu X. Funkcija b(αn,βn)-hiperrastojanja može se definisati na proizvoljan način dokle God su zadovoljene tri osobine: nenegativnost, pozitivna definitnost, simetrija i (αn,βn)-nejednakost trougla. U drugom delu rada razmatrani su koncept (αn,βn)-kompletnosti u odnosu na b(αn,βn) )-hipermetriku i teorema fiksne tačke, koja ima značajnu ulogu u primenjenoj matematici na više polja. Zaključak: Odgovarajućim generalizacijama moguće je formulisati poznate rezultate klasičnih metričkih prostora na slučaj b(αn,βn)-hipermetričkih prostora.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201024D.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201024D.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Harmonični niz sa polilogaritamskim funkcijama                                    \r\n                                    \r\n                                ",
+            "autor": "Stojiljković Vuk",
+            "sazetak": "Uvod/cilj: Ustanovljene su neke sume polilogaritamske funkcije povezane sa harmonijskim brojevima. Metode: Pristup se zasniva na korišćenju metoda sumiranja. Rezultati: Generalizovani su rezultati niza zeta - funkcija povezanih sa harmonijskim brojevima. Zaključak: Dobijeni su različiti zanimljivi nizovi kao posledica generalizacije.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201043S.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201043S.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Primena modela predikcije praga uočljivih razlika u proceni kvaliteta slika sa JPEG kompresijom                                    \r\n                                    \r\n                                ",
+            "autor": "Bondžulić Boban P.",
+            "sazetak": "Uvod/cilj: U radu su predstavljena interesantna istraživanja koja se odnose na analizu performansi modela predikcije praga uočljivih razlika (JND) na nivou slike i njegovu primenu u proceni kvaliteta slika sa JPEG kompresijom. Metode: Analiza performansi JND modela sprovedena je na indirektan način kroz zanimljivu ideju da se koriste javno dostupne baze slika sa rezultatima subjektivnih testova, sa podelom slika na dve klase (iznad i ispod praga uočljivih razlika). U analizi performansi predikcije JND modela i pri proceni kvaliteta korišćeno je pet baza slika, od kojih četiri potiču iz vidljivog opsega talasnih dužina, dok je jedna baza sa slikama iz infracrvenog dela elektromagnetnog spektra namenjenih daljinskom osmatranju i nadzoru. Rezultati: U radu je pokazano da se primenom JND modela sa većom preciznošću mogu estimirati subjektivni skorovi kvaliteta, što vodi značajnom poboljšanju performansi tradicionalnog vršnog odnosa signal/šum (PSNR). Dobitak ostvaren uvođenjem JND modela na nivou slike u objektivnu procenu zavisi od izabrane baze i rezultata polazne jednostavne PSNR mere, a ostvaren je na svih pet baza. Srednja vrednost koeficijenta linearne korelacije (za pet baza) između subjektivnih i PSNR objektivnih estimacija kvaliteta je sa 74% (tradicionalni PSNR) porasla na 90% (PSNR sa JND modelom na nivou slike). Zaključak: Dodatno unapređenje JND zasnovane objektivne mere može se dobiti unapređenjem modela predikcije JND.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201062B.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201062B.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Primena koncepta digitalne obuke u osnovnoj letačkoj obuci na Vojnoj akademiji                                    \r\n                                    \r\n                                ",
+            "autor": "Vlačić Slaviša I.",
+            "sazetak": "Uvod/cilj: U radu su predstavljena nedavna istraživanja u oblasti koncepta digitalne obuke primenjenog u letačkoj obuci na Vojnoj akademiji Republike Srbije, koja čini osnovu uspešnog obrazovanja vojnih pilota. Njena podela zasnovana je na okruženju i fazi realizacije. Glavni deo i osnovu uspešne letačke obuke predstavlja osnovna letačka obuka. Ova faza obuke doživela je značajne promene uvođenjem tehnički naprednih aviona (TAA) koji se odlikuju visokim stepenom digitalizacije kabinskog prostora i sistema aviona u celini. Shodno tome, potreban je drugačiji metodološki pristup obuci, uključujući koncept digitalne obuke. Prikazana su dostignuća i pojedina rešenja koja se koriste u osnovnoj letačkoj obuci na Vojnoj akademiji, uz primenu elemenata digitalnih koncepata obuke. Metode: Koristeći naučni pristup izvršen je uvid u digitalizaciju pilotskih kabinskih prostora i implementacije novog koncepta u osnovnu letačku obuku na Vojnoj akademiji Republike Srbije. Rezultati: Na osnovu primenjene metode analize prikazani su značaj i vrednosti koncepta digitalne obuke u osnovnoj letačkoj obuci. Zaključak: Iako koncept digitalne obuke nije obavezan u postojećem modelu letačke obuke na Vojnoj akademiji Srbije, pokazalo se da je veoma značajan. Njegov potencijal je veliki i, do određenog nivoa, može promeniti karakter osnovne letačke obuke. Zahvaljujući konceptu digitalne obuke, kadeti kasnije mogu bezbednije upravljati letelicama i brže sticati letačke veštine. U skladu sa nabavkom novih savremenih aviona u Ratnom vazduhoplovstvu i protivvazduhoplovnoj odbrani Vojske Srbije, svaki aspekt koncepta digitalne obuke mora se pažljivo razmotriti, posebno u fazi osnovne letačke obuke, uključujući i faze prelaska na nove tipove aviona.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201087V.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201087V.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Model planiranja logističke podrške u uslovima ograničenih resursa                                    \r\n                                    \r\n                                ",
+            "autor": "Simić Nikola B.",
+            "sazetak": "Uvod: U radu je predstavljen model planiranja logističke podrške u uslovima ograničenih logističkih resursa na osnovu prioritizacije zahteva kupaca i alokacije resursa. Donosioci odluka imaju ključnu ulogu u efikasnoj i pravičnoj alokaciji resursa jer daju prioritet različitim zahtevima korisnika. Metode: Tehnike prioritizacije zahteva koje koriste nominalnu skalu, ordinalnu skalu i skalu odnosa, kao i pet metoda za pretvaranje ranga u težinske koeficijente, primenjene su kako bi se odredio stepen značaja zahteva korisnika. Za utvrđivanje relativnih prioriteta korišćen je metod trijaže zahteva, dok je heuristički algoritam za određivanje medijane Kemenija korišćen za konsolidaciju individualno rangiranih zahteva u grupni rang. Radi balansiranja suprotstavljenih zahteva korisnika, korišćene su mere konsenzusa grupnog odlučivanja. Za dobijanje optimalnog planskog rešenja logističke podrške primenjene su metode i tehnike raspodele resursa. Rezultati: Razvijen je model za adaptivno planiranje logističke podrške u uslovima ograničenih resursnih kapaciteta logističkog sistema. Zaključak: Predloženi model može se efikasno primeniti i u drugim oblastima alokacije resursa.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201109S.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201109S.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Modelovanje statičkog apsorbera                                    \r\n                                    \r\n                                ",
+            "autor": "Đekić Milica D.",
+            "sazetak": "Uvod/cilj: Statički apsorber, čija analiza će biti prikazana u ovom radu, u stanju je da neutralizuje svaki signal u fizičkoj ili virtuelnoj ravni. . Metodi: Predstavljeno je isključivo naučno razmišljanje i model sa objašnjenjima koja su pažljivo evaluirana korišćenjem sofisticiranih računarskih alata za projektovanje i simulaciju. Empirijski rezultati nisu priloženi, već samo tvrdnje sa njihovim dokazima. Rezultati: Najznačajniji rezultat ovog istraživanja jeste potpuno novi pristup binarnim sistemima koji su ovde povezani sa skupom realnih brojeva. Zaključak: Svrha ovog istraživanja jeste da predstavi potpuno novi koncept koji može da se koristi u sajber industriji, dok je dinamička varijanta apsorbera još uvek u fazi razvoja.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201140Q.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201140Q.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Beta funkcije u kvantnoj teoriji polja                                    \r\n                                    \r\n                                ",
+            "autor": "Fabiano Nikola",
+            "sazetak": "Uvod / cilj: Ilustrovani su rad konstante sprege u raznim kvantnim teorijama polja kao i moguće ponašanje beta funkcije. Metode: Kalan-Šimanzikova jednačina koristi se za proučavanje evolucije beta funkcije. Rezultati: Primećeno je različito ponašanje konstante sprege za visoke energije za različite teorije. Od posebnog interesa je fenomen asimptotske slobode. Zaključak: Konstante sprege kvantne elektrodinamike (QED) i kvantne hromodinamike (QCD) imaju potpuno ra zličito ponašanje u režimu visokih energija. Dok se prva razilazi za konačne energije, druga teži nuli kako se energija povećava. Ovaj fenomen QCD naziva se asimptotska sloboda.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201157F.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201157F.pdf"
+            }
+        },
+        {
+            "naslov": "\r\n                                    Prenos Q-signalizacije postupkom tunelovanja u automatskoj telefonskoj mreži integrisanih servisa Vojske Srbije                                    \r\n                                    \r\n                                ",
+            "autor": "Svrzić Slađan M.",
+            "sazetak": "Uvod/cilj: Cilj ovog rada je da se specificira praktična primena Standarda ECMA-355 i ECMA-336 za tunelovanje QSIG i realizaciju funkcija mapiranja, preko postojeće IP (Internet Protocol) mreže Vojske Srbije (Intranet VS), u privatnoj automatskoj telefonskoj mreži VS (PATlMr VS), koja čini glavni deo privatne telekomunikacionoinformacione mreže integrisanih usluga VS (PISN VS). Metode: Opisano je implementirano rešenje i analizirani softverski parametri uspostavljene prenosničke SIP rute, sa prikazom rezultata dobijenih u borbi sa džiterom (Jitter) i ehom (Echo) u mreži. Rezultati: Prikazanim rešenjem postignuto je da učesnici sa rubnih delova PISN VS, koji funkcionišu na principu prenosa i komutacije kola po TDM (Time Division Multiplexing), mogu međusobno ostvariti vezu i preko novouspostavljene centralne IP mreže VS (Core mreža), koja funkcioniše na principu prenosa i komutacije paketa sa SIP (Session Initiation Protocol), a bez gubitka funkcionalnosti Q-SIG iz okvira digitalne telekomunikacione mreže integrisanih servisa ISDN (Integrated Services Digital Network). Zaključak: Analizirana je savremena IP PINX (Private Integrated Services Network Exchange) proizvođača Mitel, tipa \"MX-ONE Service Node 6.0\", koja je implementirana na tranzitnom nivou PATlMr VS. Ona uspešno realizuje kako postupak tunelovanja Q-SIG kroz IP mrežu, tako i neophodne funkcije za mapiranje prenosa tunelovanih poruka Q-SIG i mapiranje govornih (i drugih audio) informacija na medija tokove VoIP (Voice over IP) komunikacije kroz tu mrežu. Takođe, navode se osnovni elementi za njenu softversku pripremu pri uvođenju nove SIP rute, kapaciteta 30 IP trankova u prenosničkom snopu realizovanom 100 Mb/s-T Ethernet-om, te opisuje borba sa prisutnim Jitter-om i Echo-om u mreži. Na kraju se prezentuju i iskustveno postignute vrednosti parametara za smanjenje uticaja džitera i potiskivanje eha.",
+            "pdf": {
+                "link": "https://scindeks-clanci.ceon.rs/data/pdf/0042-8469/2022/0042-84692201169S.pdf",
+                "lokacija": "out/ceon/pdf/0042-84692201169S.pdf"
+            }
+        }
+    ]
+}
