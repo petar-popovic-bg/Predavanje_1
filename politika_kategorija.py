@@ -1,3 +1,10 @@
+# Predavanje_1 politika_kategorija.py
+# Autor: Petar Popović
+# Opis: Skript je namenjen pokaznoj vežbi na temu grebanja weba u sklopu VOA projekta.
+#       Skript sakuplja članke sa web sajta politike koji pripadaju određenoj kategoriji.
+
+# Datum: 28.02.2022
+
 from requests import get
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree

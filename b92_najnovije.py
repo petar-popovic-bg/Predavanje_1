@@ -1,5 +1,12 @@
-import datetime
+# Predavanje_1 b92_najnovije.py
+# Autor: Petar Popović
+# Opis: Skript je namenjen pokaznoj vežbi na temu grebanja weba u sklopu VOA projekta.
+#       Skript sakuplja najnovije članke sa b92 po datumu
 
+# Datum: 28.02.2022
+
+
+import datetime
 from requests import get
 from bs4 import BeautifulSoup
 from xml.etree import ElementTree
@@ -54,10 +61,13 @@ while True:
         # Parsiramo tekstualni zapis datuma i datetime,
         _datum = strptime(datum, '%d-%m-%Y')
 
+        # Kada naletimo na članak u listi koji nije od danas, znači da nema biše današnjih članaka i izlazimo iz petlje
         if (_datum.tm_mday != day) or (_datum.tm_mon != month) or (_datum.tm_year != year):
+            # postavljamo proemnljivu izlazak na True kako bi izašli iz spoljne petlje
             izlazak = True
             print('Pojavio se %s' % datum)
             break
+        # Ako je datum članka današnji nastavljamo dalje sa procedurom
         else:
             clanak_elem.attrib['datum'] = datum
             try:
@@ -75,9 +85,13 @@ while True:
             file_path = 'out/b92_najnovije/' + link.split('nav_id=')[1] + '.xml'
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(ElementTree.tostring(clanak_elem, encoding='unicode', method='xml'))
+            # pauziramo izvršavanje koda na 10 sekundi kako ne bi opteretili server
             sleep(10)
+    # Ako je promenljiva izlazak podešena na True izlazimo iz petlje
     if izlazak:
         break
     else:
+        # Ako ne treba da izađemo iz spoljnje petlje uvećavamo start parametar zahteva kako bi učitali
+        # sledećih devet članala u narednom krugu
         params['start'] = params['start'] + 9
 
