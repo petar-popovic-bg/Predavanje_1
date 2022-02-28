@@ -18,7 +18,7 @@ Skripte u ovom primeru korišćenjem `requests` biblioteke upućuje zahtev serve
 
 - [Selenium](https://pypi.org/project/selenium/)
 
-  'Selenium' je paket za automatizaciju interakcije sa web browserom.
+  `Selenium` je paket za automatizaciju interakcije sa web browserom.
   
 - [ElementTree](https://docs.python.org/3/library/xml.etree.elementtree.html)
 
