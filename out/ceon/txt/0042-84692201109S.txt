@@ -1,0 +1,1071 @@
+ХЛКХКЛЈХКХКЈХКЈХКЈХКЛХЈКЛХЈКЛХЛКЈ
+LOGISTICS SUPPORT PLANNING 
+MODEL IN THE CONDITIONS OF 
+LIMITED RESOURCES 
+Nikola B. Simića, Marjan A. Milenkovb,  
+Vladimir R. Milovanovićc, Vlada S. Sokolovićd,  
+Pavel Ј. Foltine, Balázs Ј. Taksásf 
+a University of Defence in Belgrade, Military Academy,  
+  Department for Logistics, Belgrade, Republic of Serbia,  
+  e-mail: nikolasimicva@hotmail.com,  
+  ORCID iD: b University of Defence in Belgrade, Military Academy,  
+  Department for Logistics, Belgrade, Republic of Serbia,  
+  e-mail: marjan.milenkov@va.mod.gov.rs,  
+  ORCID iD: c University of Defence in Belgrade, Military Academy,  
+  Department for Logistics, Belgrade, Republic of Serbia,  
+  e-mail: vaci84milovanovic@gmail.com,  
+  ORCID iD: d University of Defence in Belgrade, Military Academy,  
+  Department for Logistics, Belgrade, Republic of Serbia,  
+  e-mail: vlada.sokolovic@va.mod.gov.rs, corresponding author, 
+  ORCID iD: e University of Defence in Brno, Faculty of Military Leadership,     
+   Department of Logistics, Brno, Czech Republic, 
+   e-mail: pavel.foltin@unob.cz, 
+   ORCID iD:   f University of Public Service, Faculty of Military Science and Officer     
+   Training, Department of Supply, Finance and Military Transportation,   
+    Budapest, Hungary, 
+   e-mail: taksas.balazs@uni-nke.hu,  
+   ORCID iD: DOI: 10.5937/vojtehg70-33079; FIELD: Logistics, Engineering management, Information technology 
+ARTICLE TYPE: Original scientific paper 
+ACKNOWLEDGMENT: The work stemmed from the Model of Logistics Support Planning 
+Support System (VA-TT-1 / 20-22) Project, Military Academy, University of Defense in 
+Belgrade. 
+Abstract: 
+Introduction/purpose: The paper presents a model of logistics support 
+planning in the conditions of limited logistic resources based on the 
+prioritization of customer requirements and resource allocation. Decision-
+makers play a crucial role in the efficient and equitable allocation of 
+resources as they prioritize among different user requirements.  
+Methods: Requirement prioritization techniques that use nominal scale, 
+ordinal scale, and ratio scale, and five methods for converting ranks into 
+weighting coefficients have been applied to determine the degree of 
+significance of user requirements. The Requirements triage method has 
+been used for establishing relative priorities, while the heuristic algorithm 
+determining the Kemeny median was used to consolidate individually 
+ranked requests into a group rank. In order to balance opposing demands 
+of users, consensus measures of group decision making were used. For 
+obtaining an optimal planned solution of logistic support, the methods and 
+techniques of resource allocation were applied.  
+Results: A model for adaptive planning of logistics support in the 
+conditions of limited resource capacities of the logistics system has been 
+developed. 
+Conclusion: The proposed model can be effectively applied in other areas 
+of resource allocation. 
+Keywords: logistics planning, requirement prioritization, triage, 
+converting ranks into weights, resource allocation. 
+Introduction  
+Logistics support planning is a highly complex problem in a military 
+organization. Research shows that even the most powerful armies in the 
+world face numerous issues in planning the logistic support of military 
+operations (McConnell & King, 2019). The most common problems faced 
+by military logisticians are difficulties in forecasting, lengthy work, 
+mismatch of requirements, and poor visibility of logistic resources.  
+It is generally known that many logistics aspects (user requirements, 
+resource capacities, operational environment, time, etc.) are stochastic, 
+dynamic, and nonlinear, which causes high sensitivity of the logistic 
+system (Milenkov et al, 2020).  
+For military units to maintain the combat strength needed to conduct 
+operations in the new environment, whether combat or 
+humanitarian, research shows that armies will need to fundamentally 
+improve their logistics models used in the previous period and conduct 
+extensive logistics planning (Hurley & Coleman, 2018).  
+During the logistics support planning process, logistics bodies have 
+an essential role, first to understand and then to balance opposing 
+requirements of users, and with their knowledge, competence, and ability 
+to create an optimal Logistics Support Plan which will, in the observed 
+planning period, ensure the best overall military organization 
+performance with a limited resource capacity of the logistic system (Jia et 
+al, 2020).  
+All these limitations motivated the authors to explore the possibility 
+of applying the allocation of limited resources to the existing logistics 
+system and develop an awareness of the need to modernize the way of 
+thinking, decision making, and reducing the stress of logistics organs due 
+to increased outflow of staff. 
+Whenever deadlines are short, resources are limited and user 
+requirements exceed the resource capacities of the logistic system, it 
+implies that some requirements would not be completely met. In that 
+case, it is necessary to decide which requirements will be fully 
+completed, which partially, and which will not be completed, i.e. it is 
+essential to prioritize the requirements and allocate resources with which 
+the conflicting user requirements will be met to a certain 
+extent. Accordingly, priority prioritization and resource allocation are 
+significant activities in logistics support planning.   
+Determining the needs for ammunition (Zlatnik & Mares, 2020), fuel, 
+spare parts, food and water items, determining the occurrence of failure 
+on assets, as well as the place and time of service procedures, requires 
+extensive calculations and forecasts. To take specific measures to meet 
+these needs, logistics authorities must gain direct insight into the state of 
+availability of resource capacities of the logistics network (no matter 
+whether it is material stocks or maintenance capacities). These problems 
+cannot be adequately solved without modern decision support tools that 
+can predict rapid changes in logistic requirements and analyze the 
+resource capacities of the logistic network (McConnell et al, 2021). Some 
+of these tools, which can be found in the literature, belong to MCDM 
+methods: MARCOS, CODAS, EDAS, VIKOR, MABAC, and many others 
+(Li et al, 2020).  
+MARCOS (Measurement of Alternatives and Ranking according to 
+COmpromise Solution) considers an anti-ideal and ideal solution at the 
+very beginning of the formation of an initial matrix, closer determination of 
+utility degree concerning solutions, a proposal of a new way to determine 
+utility functions, a possibility to consider a large set of criteria and 
+alternatives while maintaining the stability of the method (Sarma et al, 
+2020). 
+CODAS stands for COmbinative Distance-based Assessment, and it is 
+used to determine the desirability of an alternative. This method uses the 
+Euclidean distance as the primary and the Taxicab (non-Euclidean) distance 
+as the secondary measure, and these distances are calculated according to 
+the negative-ideal point. The alternative which has greater distances is more 
+desirable in the CODAS method.  
+The desirability of alternatives in the Evaluation Based on Distance from 
+Average Solution (EDAS) method is determined based on their distances 
+from an average solution. Because the average solution is determined by the 
+arithmetic mean in this method, the EDAS method can be efficient for solving 
+stochastic problems. 
+VIKOR (Multicriteria Optimization and Compromise Solution in 
+Serbian) solves decision problems with conflicting and 
+noncommensurable (different units) criteria. Assuming 
+that compromise is acceptable for conflict resolution, the decision-maker 
+wants a solution that is closest to the ideal one, and the alternatives are 
+evaluated according to all established criteria. It ranks alternatives and 
+determines the solution named compromise that is closest to the ideal. 
+The MABAC (multi-attributive border approximation area comparison) 
+model handles the complex and uncertain decision-making issues by 
+computing the distance between each alternative and the bored 
+approximation area (Pamučar & Savin, 2020).   
+Based on all the above, the goal of this paper primarily indicates the 
+growing need to develop the logistics planning process, and the final 
+transition from traditional thinking to more modern, innovative solutions to 
+keep pace with foreign armies. In practice, this would be reflected in a 
+fast decision-making process using information systems based on 
+modern resource allocation models to reduced logistics staff effort and 
+shorten response time. 
+The current process of manual logistic support planning requires a 
+high level of resourcefulness, combinatorics, and calculations to perform 
+all the defined tasks with the best possible results. Based on practical 
+experience, the method of allocation of limited resources was applied in 
+this paper as a starting point for the development of a simplified logistics 
+support plan. Certainly, this paper should contribute to the development 
+of logistics support and the planning process in the army in general, 
+given that the existing literature does not recognize this way of solving 
+the allocation of resources (Daoud et al, 2021). 
+Nowadays, research shows that even in modern armies, logistics 
+planners do not have adequate tools to help them provide quick answers 
+to questions, especially in a time-limited expedition planning environment 
+(Schwartz et al, 2019). Therefore, the development of more intelligent 
+planning and analytics tools is enabling the military to expand logistics 
+innovations further and improve the efficiency of the logistics system. 
+Basic features of the logistics support planning 
+The logistics support planning is a complex undertaking that requires 
+good forecasting, logistics network optimization, and risk analysis in a 
+highly uncertain environment (Rogers et al, 2018).  
+The goal of the logistics support planning is to determine the optimal 
+logistics resources, as well as the order, manner, and deadlines for 
+performing logistics support tasks and elaboration of measures, based on 
+the elaborated variant of using engaged forces, objective assessment of 
+the situation, and accurate calculations and activities to increase the 
+efficiency of the logistics system, its stability, and vitality.  
+Logistics support planning is a segment of the operational planning 
+process and represents a very dynamic process with a defined goal that 
+takes place at a specific time. It requires a creative and organized action 
+of the logistics management bodies which is a necessary condition for 
+achieving a certain degree of organization in preparing executive logistic 
+staff and their precise work plan. The action should be harmonized 
+concerning the set goal, time, and space for the execution of tasks.  
+In the last period, the countenance of modern military operations has 
+changed radically, which has led to a change in the operational 
+environment and the use of military forces. Modern operations are 
+primarily reflected in the increasingly stringent and complex requirements 
+of users in terms of speed, safety, quality, quantity, and diversity of 
+providing the necessary resources. The emerging operational 
+environment is changing rapidly and requires rapid responses, which has 
+led to traditional military planning not offering good enough solutions.  
+New approaches to military planning should be able to deal with 
+emerging issues by providing solutions that are robust to deviations from 
+ordinary circumstances and be easily adaptable to new information that 
+becomes known during the execution of the plan, thus increasing 
+effectiveness and efficiency in military operations (Zeimpekis et al, 
+2015).  
+Traditional planning seeks solutions that require minimal 
+modifications of the plan during the execution phase. Such an approach 
+to initial plan development may require relatively large calculations. On 
+the other hand, agile planning requires quick solutions that allow a plan 
+modification and re-planning to anticipate events and information during 
+the execution phase (Zeimpekis et al, 2015).  
+The basic elements considered in logistics support planning for a 
+military operation, as complex actions of the project type, are user 
+requirements viewed as activities to be serviced, time, resources, and 
+costs.   
+Resources are usually of limited capacity, which leads to the fact 
+that user requests for a specific type of resource are more significant 
+than the ability of the logistics system to fully meet all requests in one 
+particular (given, planned) period of time. In that case, the process of 
+planning the allocation of limited resources is very complex because the 
+logistics authorities are faced with the problem of how to provide an 
+effective, efficient and fair way to meet user requirements while obtaining 
+the most significant global utility of the military system.  
+Implementing an effective policy of planning and resource 
+management in military logistics requires constant monitoring and a 
+comprehensive analysis of the availability of actual and potential logistic 
+resources. This enables the development of an optimal system of 
+resource allocation among interested users, taking into account the 
+introduction of modern technologies and energy savings (Kostiuchenko & 
+Solomon, 2020).  
+The approaches to solve the problem of the rational allocation of 
+limited logistic resources, in the logistics planning process, depending on 
+the policy of resource adjustment, can be classified as follows:  
+- To firmly set a deadline, with a known scope and type of  
+  requirements and engage resources sufficient to all user requirements  
+  to be met. In this case, a cost minimization strategy is applied;  
+- To find a solution for known available (limited) resources, with a  
+  known scope and type of requirements, which will provide a  
+  minimum extension of time to provide the necessary resources  
+  and meet all user requirements. In this case, a time minimization  
+  strategy is applied;  
+- To select the type and scope of requirements that can be met, to  
+  achieve maximum effects, for known available (limited) resources,  
+ in a firmly set period of time. In this case, the strategy of maximizing  
+ the global utility is applied, i.e. the rule of allocative or Pareto 
+         efficiency.  
+In the process of the logistics support planning, logistics staff should 
+continuously observe, study and analyze user requirements in different 
+ways and from different points of view, and generally have to make many 
+decisions based on individual perception and experimentally chosen 
+criteria, to respond to the requirements as rationally as possible to users 
+with available resource capacities of the logistics system (Milenkov et al, 
+2020).  
+Figure 1 presents a logistics support planning model. 
+Figure 1 – Logistics support planning model 
+Рис. 1 – Модель планирования логистической поддержки  
+Слика 1 – Модел планирања логистичке подршке 
+The result of the planning process is the Logistics Support Plan, a 
+document in which the planning actions are written towards the set 
+goal. The development of the plan concretizes the goal and determines 
+in more detail what needs to be done to reach the goal, having in mind 
+the probable development of future events. The concretization of the goal 
+includes answers to the questions: what needs to be done, who needs to 
+do it, when it needs to be done, where it needs to be done, with what to 
+do it (with what resources), and how to do it. It aso needs back-up 
+solutions in the case the assumptions and limitations on which the plan 
+change is based (Andrejić et al, 2004; Andrejić, 2001).  
+The plan must be flexible enough to allow for changes and additions, 
+thus expressing the continuity of the planning process. So, continuity of 
+planning requires reviewing the goals and, if necessary, redefining them, 
+i.e. revising the plan in certain time intervals. In general, the logistics 
+support planning process includes the following steps:  
+- Determining customer requirements, expressed through the  
+User 
+requirem-
+ents 
+Customer satisfaction 
+policy 
+Resource 
+capacities 
+of the 
+logistics 
+system 
+Logistics support 
+planning 
+Variants of the 
+Logistics Support 
+Plan 
+  necessary resource capacities of the logistics system;  
+- Determining the available resource capacities of the logistics  
+  system in the observed planning period; 
+- Determining the deviation of the required and available  
+  resource capacity;  
+- Choice of policy to meet customer requirements;  
+- Development of alternative planning solutions;  
+- Selection of a planning solution from the set of acceptable 
+  solutions; and 
+- Concretization (detailed elaboration) of the selected planning  
+  solution.  
+These activities indicate that in the process of logistics support 
+planning, it is necessary to apply adequate models for the allocation of 
+limited logistic resources in accordance with the conflicting requirements 
+of the users to achieve better global utility of military formation.  
+It is obvious that solving the problem of allocating limited resources 
+during the logistics support planning process requires the involvement of 
+several stakeholders, which in organizational terms is a collective (group) 
+way of decisions making. Therefore, it is imperative to adhere to certain 
+principles, adopted priorities and present restrictions to mitigate the 
+conflict of the user requirements and make the Logistics Support Plan as 
+efficient as possible.  
+Logistics support planning based on prioritization of 
+requests and allocation of limited resources  
+In the broader context of logistics support planning, the first 
+important question that arises is what to allocate and to whom to allocate 
+it, while the second question is how much to allocate. The answers to 
+these questions are very complex and must be assessed against the 
+higher goals of the military organization, especially when there are limited 
+resource capacities of the logistics system. In this regard, the problem of 
+resource allocation is an essential and challenging task in logistics 
+support planning, where logistics resource capacities such as material 
+resources, intangible items (e.g. services), and human resources are 
+allocated in accordance with user requirements.  
+In general, the problem of resource allocation is present in various 
+fields and attracts the attention of many researchers and 
+practitioners. Different approaches to resource allocation are presented 
+in the literature, which is based on specialized mathematical models and 
+algorithms (Luss, 2012). These models are used in many areas, such as 
+industrial production management, communication, and computer 
+networks, emergency services, health services, air traffic, allocation of 
+water rights, environmental and military issues (Luss, 2012; Meran et al, 
+2021; Skobelev, 2011; Hameed et al, 2016).  
+The central question in resource allocation problems is how to 
+optimize a goal based on certain criteria. In such problems, there are 
+often contradictions and tensions in establishing a certain balance 
+between user requirements because achieving one value can be 
+detrimental to another. These problems are often modelled so that the 
+immediate outcome of optimization is a Pareto set of sustainable 
+solutions (Chevaleyre et al, 2006; Ogryczak et al, 2014).  
+If there are conflicting goals among interested users, the Pareto set 
+contains several solutions that represent different trade-offs in conflicts 
+over resources. The basic goal of solving such problems is to choose the 
+best compromise for a particular domain in which optimization is applied 
+(Luss, 1999).  
+Resource allocation is a problem of discrete optimization and 
+belongs to the category of NP-heavy (non-deterministic polynomial-time 
+hardness) problems. Finding solutions that meet all the limitations means 
+searching for a vast space of possible solutions. Therefore, the 
+application of advanced techniques that use different heuristics to narrow 
+the search space allows us to find a solution that is close to optimal.  
+The development of fully automated systems for solving allocation 
+problems is often rejected in practice. The reason may be restrictions 
+that are difficult to register fully, decision criteria difficult to 
+determine, and end-users not usually being experts in using complex 
+mathematical concepts such as large matrices of mathematical 
+programming or weighting factors of multicriteria optimization.  
+In the conditions of uncertainty, logistics staff in charge of logistics 
+support planning often have incomplete, inaccurate, contradictory, 
+insufficiently clear, and insufficiently reliable information on user 
+requirements and available resource capacities of the logistics system, 
+which complicates the process of determining the distribution of 
+resources in the logistics system in accordance with customer 
+requirements.  
+In the case when resource capacities of the logistic system are 
+insufficient to meet all user requirements, specific heuristic rules can 
+provide great assistance to logistics authorities in choosing a policy to 
+meet user requirements, such as:  
+- Rule "First come, first served";  
+- Rule "The most urgent request is served first";  
+- Rule "The request whose realization lasts the shortest is served  
+  first";  
+- Rule "The nearest date is executed first" (request with the shortest  
+  time - waiting period);  
+- Rule "Priority of requests, i.e. ranking of requests according to the  
+  degree of significance".  
+Prioritization of requirements has proven in practice as an effective 
+strategy in the allocation (distribution) of resources that facilitates the 
+decision-making process and allows suppliers to efficiently and fairly 
+provide resources to a larger number of users (Luss, 2012). 
+Limited resource allocation model  
+To solve the problem of the logistics support planning, it is 
+necessary to know the requirements of users ( mi ,...,2,1= ) for a 
+particular type of resource ( )
+B , and, on the other hand, it is necessary 
+to know the availability of required resource capacities of the logistic 
+system ( )
+for the observed planning period. 
+The value ( )
+B  represents the needs of the i-th user ( mi ,...,2,1= ) 
+for the j-th type of resource ( )nj ,...,2,1= , i.e. 
+ it represents 
+the total required amount of the j-th type of resource of all m users. At the 
+same time, the size ( )
+R  represents the availability of the j-th type of 
+resources in the observed planning period. 
+Satisfaction of specific user requirements with the j-th type of 
+available resources ( )
+can be presented as follows: 
+                                    (1) 
+where: 
+R  - the amount of the j-th type of resource with which it entirely (100%) 
+meets specific user requirements ( )ki ,...,1= ,  
+R  - the amount of the j-th type of resource with which specific i-th user 
+requirements are partially met ( )lki ,...,1+= , 
+R  - the missing amount of the j-th type of resource due to which the i-th 
+user requirements are determined ( )mli ,...,1+=  unsatisfactory. 
+Depending of resources availability, two basic planning categories 
+can be applied: resource levelling and resource allocation. 
+The problem of levelling resources arises in the case when there is a 
+sufficient amount of available resources of the logistic system to meet all 
+user requirements in the observed planning period entirely. Here, it is 
+essential to fulfill the condition of timeliness of satisfying all user 
+requests, which is achieved by determining the order of satisfying user 
+requests for a specific type of resource. 
+In this case, the needs of all users are fully met, and the solution to 
+the problem of resource planning is unambiguous and comes down to 
+the distribution of the size of available resources
+R  of a series of 
+quantities ( )
+B , where the condition is satisfied: 
+                                                      (2) 
+The size 
+R  represents the available amount of resources, i.e. 
+rRR +=
+, where the size
+R  represents the number of resources that 
+are allocated to user requirements, while 
+r  represents the number of 
+resources that remain after distribution, i.e. represents the excess 
+resources for the observed planning period. 
+The problem of resource allocation occurs when resources are 
+limited, i.e. insufficient to meet all user needs in the observed planning 
+period, which can be mathematically represented with the following 
+expression: 
+RBB =
+                                        (3) 
+In this case, there is a shortage of resources, which for the j-th type 
+of resource is: 
+RBR −=                (4) 
+The size 
+R  should be taken away from the users in some way to 
+cover the existing lack of required resources. 
+The solution to this problem comes down to allocating the available 
+amount of the resources
+R  to the order of new quantities 
+b to satisfy 
+the following condition: 
+, respectively 
+   (5) 
+This can be done by shortening the required amount of resources to 
+each user by the number of missing resources 
+ , so that
+represents the total amount of missing resources that could cover the 
+resulting shortage or meet the condition: 
+       (6) 
+where: 
+ - reduced amount of the j-th resource to the i-th user. 
+Research on resource allocation problems shows that ranking user 
+requests according to the degree of importance, seeking or sharing the 
+same resource, is an important activity when deadlines are short and 
+resources are limited (Lehtola et al, 2004). Requirements prioritization is 
+the setting of ranks or ratings of importance to a set of requirements 
+based on specific criteria and according to the viewpoints of various 
+stakeholders (Moisiadis, 2002, Ogryczak et al, 2014). 
+In addition, when ranking the requests, what is important is the 
+method of determining the coefficient of the significance of the request 
+concerning the obtained rank. 
+From the set conditions and specific priority requests of the user 
+for a specific type of resource, the coefficient of the significance of 
+the request of the i-th user for the j-th type of resource can be determined
+ ( )1,0
+From the above conditions, the appropriate relative coefficient of the 
+significance of satisfying the user's request for the j-th type of resource 
+whose value is: 
+     (7) 
+where: 
+B  - the size of the required j-th type of resources by the i-th user for the 
+observed planning period, 
+- the coefficient of the significance of the request of the i-th user for 
+the j-th type of resource, and 
+m  - number of users. 
+In that case, the reduced amount of the j-th resource to the i-th user 
+can be determined by the following relation: 
+jijij
+      (8) 
+In this situation, the amount of the j-th resource allocated to the i-th 
+user is: 
+ijijij
+Bb −=
+                 (9) 
+The assessment of meeting the requirements of the i-th user with 
+the j-th type of resources after reducing the planned amount is 
+determined by the coefficient of individual service of the user: 
+=       (10) 
+In this way, it is ensured that the coefficient of individual customer 
+service
+  is equal to the coefficient of the average service j  of all p  
+ users ( )mp 0
+with the same priority of satisfying the requirements 
+with the j-th type of resource. 
+In this case, the coefficient of average customer service with the 
+same priority resource is: 
+       (11) 
+The procedure in this model of allocation of limited resources 
+ensures that the Plan of allocation of limited (insufficient) resources is 
+rational, fair, and correct for all users because all the set conditions are 
+met. 
+Requirements prioritization techniques 
+One of the key problems of optimal allocation of limited resources is 
+setting priorities to meet user needs. However, this problem can be 
+overcome by using specific techniques, methods, and approaches of 
+prioritization. 
+Numerous user prioritization techniques have been presented in the 
+literature, see (Vestola, 2010; Achimugu et al, 2014; Khan et al, 2015; 
+Qaddoura et al, 2017; Hudaib et al, 2018; Olaronke et al, 2018).  
+In general, request prioritization techniques can be divided in two 
+categories. Techniques include requirement prioritization methods and 
+requirements negotiation approaches (Olaronke et al, 2018). 
+Request prioritization methods are classified into methods that use a 
+nominal scale, ordinal scale, and ratio scale, while approaches to 
+negotiating claims focus on assigning priority to meeting requirements 
+through consensus of stakeholders. 
+Nominal scale methods allow requests to be assigned to different 
+priority groups, where all requests in one priority group are treated 
+equally. Ordinal scale methods result in an orderly list, so it is possible to 
+see which requirements are more important than the others, but not by 
+how much, while relationship scale methods give a relative difference 
+between requirements, i.e. they can quantify how much more important 
+one request is than another. In addition to these methods, other methods 
+are cited in the literature, such as Interval Scale, Hybridized Scale, and 
+Machine Learning (Olaronke et al, 2018). 
+Each of these methods and techniques is characterized by different 
+challenges, as none can be considered the best given the problems that 
+accompany them, such as reliability, consistency, consensus when 
+multiple stakeholders are involved, as well as difficulties when there is a 
+large number of requirements, etc. In addition, some take more time but 
+give more accurate results (Zou et al, 2019).  
+In practice, it becomes challenging for decision-makers to choose 
+the correct method and technique when prioritizing requirements. In 
+many cases, decision-makers are faced with the fact that not all 
+requirements can be fully met due to limited resources and time. This 
+means that it must be decided which of the requirements can be 
+removed from the observed set of requirements and which requirements 
+can be partially satisfied. 
+However, the development of models based on hybrid approaches 
+that include a combination of different methods and techniques, as well 
+as reaching consensus among stakeholders, can be considered as 
+promising models in decision-making when prioritizing customer 
+satisfaction (Wei et al, 2021). 
+The Requirements triage method is a handy tool for establishing 
+relative priorities in the assessment of resources to meet user 
+requirements, where requests are most often classified into three groups 
+on a nominal scale, as follows:  
+- High priority requirements (critical, fundamental), which must be  
+  fully met;  
+- Standard priority requirements (quite important), which can be  
+  partially met; and 
+- Low priority requirements (irrelevant, not mandatory), which do not  
+  have to be met in the observed period. 
+After the triage of requests, the next step is to rank those requests 
+that can be partially met according to the degree of importance 
+depending on their position on the ranking list. 
+Let  nxxxX ,,, 21 =  be a set of predefined options (requirements), 
+where ix  
+represents the i-th requirements ( )ni ,,1= . Let 
+dddD ,,,
+=  be a set of decision-makers, where kd denotes the k-
+th decision-maker ( )mk ,,1= . Each decision-maker Ddk  can 
+express their preference information using different preference 
+structures.  
+The procedure of the rank selection process is given as follows: 
+Step 1: Obtaining the individual preference vectors 
+Let  k
+rrrR ,,,
+the individual ranking vector, where 
+r represents the i-th rank of requirements ( )ni ,,1= , which is given by 
+the decision-maker kd . 
+Step 2: Obtaining the collective preference vectors 
+After obtaining individual preference vectors by different decision-
+makers, for calculating the collective preference vector 
+rrrR ,,,
+= , where ir  
+represents the i-th rank of requirements 
+( )ni ,,1= , in this paper, the heuristic algorithm of the median Kemenia 
+is applied (Milićević & Milenkov, 2014). 
+Step 3: Consensus reaching process 
+A consensus-reaching process is a dynamic and iterative group-
+discussion process that helps the decision-makers to bring their opinions 
+closer before making a decision (Pérez, 2018 ). This process consists of 
+several rounds where the decision-makers discuss and change their 
+preferences according to the suggestions given by a moderator. Usually, 
+the moderator is a person who does not participate in the discussion, but 
+he or she helps the decision-makers to make their preferences closer to 
+each other. The moderator's tasks are 1) computing the consensus 
+measures, 2) checking the level of agreement, and 3) generating some 
+advice for those decision-makers that should change their minds. 
+To calculate the level of consensus, the ordinal consensus degree 
+(OCD) measures is applied in this paper, The OCD is defined as the 
+deviation between individual preference vectors and collective preference 
+vectors (Dong & Zhang, 2014), as follows: 
+( ) 
+    (12) 
+The ordinal consensus degree among all decision-makers is given 
+as follows: 
+  ( )
+dddOCD
+,,,    (13) 
+If the ( ) 0,,, 21 =mdddOCD  , then all decision-makers have 
+complete ordinal consensus with the collective option. Otherwise, the 
+smaller  mdddOCD ,,, 21   value indicates the higher ordinal consensus 
+level among  mddd ,,, 21  . 
+When the level of consensus is not met, a feedback adjustment 
+procedure is applied to improve the level of consensus among decision-
+makers, which is repeated until a predetermined level of consensus is 
+reached 
+(Tang et al, 2021). 
+Methods of converting ranks into weighting coefficients  
+Ranking user requirements and then converting ranks into weights 
+has certain advantages. The main advantage of this method of 
+determining the significance of user requests is that it is much easier to 
+rank user requests by applying specific methods of prioritization, and 
+then based on the obtained unified list of n
+prioritized (ranked) 
+requirements, determine the weighting coefficients of the significance of 
+the requirements by applying specific methods for converting ranks into 
+weight values (Tufail et al, 2019). 
+In the literature (Milićević & Milenkov, 2014; Alfares & Duffuaa, 
+2016), several methods for determining the weight values of the 
+coefficients based on their rank are presented. The following methods 
+were used in this paper: 
+1) Variable-slope linear (VSL) weights:  
+75756.37
+19514.3100 −
++−= r
+  (14) 
+2) Rank-sum (RS) weights:  
+( ) nrnw
+/1100 −+=
+(15) 
+3) Rank reciprocal (RR) weights:  
+/100=
+      
+(16) 
+4) Rank order centroid (ROC) weights: 
+/1100
+     (17) 
+5) Geometric weights (GW): 
+( ) 12
+      
+(18) 
+where:  
+wr - weight value of the coefficient of significance of the request,  
+r - rank required, n - the total number of user requests. 
+The weight values of the coefficient of the significance of the 
+requirements obtained by these methods are in the range from 0 to 100. 
+By additive normalization, these values are reduced to the interval 0-1. 
+In this paper, the aggregation of the weight values of the coefficient 
+is performed by arithmetic averaging of the obtained values using the 
+above methods, with the following expression: 
+      (19) 
+where:  
+q  - the number of methods applied, and  
+nj ,,2,1 =
+- the user request number. 
+Application of the resource allocation model 
+For the observed planning period, the requirements of 5 users who 
+use the same resource of the logistics system were analyzed. 
+The logistics support planning process was implemented through the 
+following steps shown in Figure 2: 
+Step 1: Determine user requirements for a particular type of 
+resource 
+After the analysis, the user requirements were grouped into ten 
+homogeneous groups, with the total required capacity 7000=
+B of 
+resource units, as shown in Table 1. 
+Table 1 –  Overview of the user requests for the same type of resource 
+Tаблица 1 – Обзор запросов пользователей по одинаковому типу ресурса 
+Табела 1 – Преглед захтева корисника за исту врсту ресурса 
+  B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 Total 
+K1 300 200 0 100 100 100 250 100 150 200 1500 
+K2 100 200 100 200 300 150 150 100 200 200 1700 
+K3 0 0 200 100 150 300 200 50 100 0 1100 
+K4 200 0 0 300 300 50 100 100 250 200 1500 
+K5 0 100 200 50 150 0 300 150 100 150 1200 
+Total 600 500 500 750 1000 600 1000 500 800 750 7000 
+Step 2: Determining the available capacities of the logistics system 
+for the required type of resources 
+For the observed planning period, it was determined that the 
+logistics system for the required type of resources has a capacity of 
+5000=
+units of measure. 
+Step 3: Determining the deviation of the required (required) from the 
+available resource capacity 
+Given that the total required resource capacity of the user 
+is 7000=
+units of measure and that the logistics system has the 
+resource capacity of 5000=
+units of measure,  there is a shortage of 
+resources in the system of
+200050007000 =−=−=
+RBR  units of 
+measure. 
+Step 4: Select a customer satisfaction policy. 
+The choice of customer satisfaction policy plays a key role, given the 
+present deficit of resource capacity of the logistics system. In this regard, 
+the “Priority of Requirements” rule has proven in practice to be a very 
+effective policy for the allocation of limited resources. 
+In this paper, the technique of request triage was first applied, where 
+after the analysis, it was decided which requirements will be fully 
+satisfied, which partially, and which will not be served. After that, the 
+technique of ranking the partially met requirements was applied to 
+determine their degree of significance to achieve the greatest global 
+usefulness of the system. 
+Step 4.1: Application of the triage requirement technique 
+By applying the request triage technique, the decision-makers 
+decided that the requests of users B7, B8, and B9 were fully met, and the 
+request of B10 was not met. It was also decided that other requirements 
+would be partially met by all users.
+Table 2 – Overview of the user requirements after the triage 
+Tаблица 2 – Обзор запросов пользователей после сортировки 
+Табела 2 – Преглед захтева корисника након тријаже 
+  B1 B2 B3 B4 B5 B6 Total 
+K1 300 200 0 100 100 100 800 
+K2 100 200 100 200 300 150 1050 
+K3 0 0 200 100 150 300 750 
+K4 200 0 0 300 300 50 850 
+K5 0 100 200 50 150 0 500 
+Total
+Following the request triage procedure, the total required resource 
+capacity of the users is 3950=
+B  units of measure, and the available 
+resource capacity of the logistics system is now 2700=
+units of 
+measure. So, there is still a deficit of resources in the system, which now 
+amounts to: 
+125027003950 =−=−=
+Step 4.2: Ranking the requests that are partially served 
+In the process of determining the degree of significance of the 
+requests that are partially served, five decision-makers participated in 
+ranking the requests B1, B2, B3, B4, B5, and B6. 
+Table 3 provides an overview of the ranked user requirements by 
+the decision-makers.
+Table 3 – Overview of the ranked user requests by the decision makers 
+Tаблица 3 – Проверка ранжированных запросов пользователей ответственным 
+лицом, принимающим решения 
+Табела 3 – Преглед рангираних захтева корисника од стране доносиоца одлуке 
+Decision-
+makers 
+B1 B2 B3 B4 B5 B6 
+DM1 1 2 4 3 6 5 
+DM2 1 2 3 4 6 5 
+DM3 3 1 2 5 4 6 
+DM4 1 2 3 4 5 6 
+DM5 2 1 3 5 4 6 
+Step 4.3: Consolidate individually ranked requests into a group rank 
+Consolidation of individually ranked requests by a group of decision-
+makers into the final group order was done by applying the heuristic 
+algorithm to determine the Kemeny median.  
+After performing the procedure of binary relations between ranking 
+pairs, the obtained elements of the loss matrix are shown in Table 4.  
+Table 4 – Loss matrix element values 
+Tаблица 4 – Значения элементов матрицы потерь 
+Табела 4 – Вредности елемената матрице губитака 
+ B1 B2 B3 B4 B5 B6 
+B1 0 6 2 0 0 0 
+B2 4 0 0 0 0 0 
+B3 8 10 0 2 0 0 
+B4 10 10 8 0 4 0 
+B5 10 10 10 6 0 4 
+B6 10 10 10 10 6 0 
+Table 5 shows the procedure for applying the Kemeny median 
+algorithm to obtain the final group order of user requests in accordance 
+with the degree of significance. 
+Table 5 – Application of the heuristic algorithm of the Kemeny median to obtain a group 
+order 
+Tаблица 5 – Применение эвристического алгоритма медианы Кемени для 
+получения группового порядка 
+Табела 5 – Примена хеуристичког алгоритма медијане Кеменија за добијање 
+групног поретка 
+B1 8 2     
+B2 4      
+B3 30 10 2    
+B4 34 22 12 4   
+B5 42 30 20 10 4  
+B6 26 36 26 16 6 0 
+The final group rank of the requests is B2, B1, B3, B4, B5, and B6. 
+Step 4.4: To calculate consensus levels 
+By applying Eqs. (12) and Eqs. (13), the level of consensus is 
+calculated, which is .08889.0=OCD  The obtained level of consensus is 
+satisfactory, which means that the decision-makers do not need to adjust 
+their preferences.  
+Step 4.5: Determining the weight values of the coefficient of the 
+significance of the requirements  
+Table 6 shows the weight values of the coefficients of the 
+significance of the requirements based on their rank, obtained by 
+applying the method of converting the ranks into weight values. 
+Table 6 – Weight values of the coefficient of significance of the request 
+Tаблица 6 – Весовые значения коэффициента значимости запроса 
+Табела 6 – Тежинске вредности коефицијената значајности захтева 
+ B2 B1 B3 B4 B5 B6 
+VLS 0.2185 0.1978 0.1770 0.1563 0.1356 0.1148 
+RS 0.2857 0.2381 0.1905 0.1429 0.0952 0.0476 
+RR 0.4082 0.2041 0.1361 0.1020 0.0816 0.0680 
+ROC 0.4083 0.2417 0.1583 0.1028 0.0611 0.0278 
+GW 0.3347 0.2367 0.1674 0.1183 0.0837 0.0592 
+Wj 0.2763 0.2181 0.1714 0.1375 0.1101 0.0866 
+Step 5: Development of alternative planning solutions 
+By applying the model, alternative solutions for selecting the optimal 
+Logistic Support Plan have been developed, depending on the weight 
+values of the coefficients of the significance of the requirements
+which are shown in Table 7. 
+From Table 7, it can be seen that the difference between the 
+maximum and minimum values of the percentage of customer service in 
+the VLS method is 18.80, in the RS method 55.08, In the RR method 
+41.26, in the ROC method 69.33, while in the GW method it is 46.26. 
+The difference between the maximum and minimum values of the 
+percentage of customer service in the arithmetically combined group 
+value of weight coefficients 
+W  is  33.08.  
+Step 6: Selection of the planning solution   
+After analysing acceptable planning solutions for developing the 
+optimal Logistic Support Plan, the resource allocation was selected 
+based on the values of weighting coefficients
+Step 7: Detailed elaboration of the selected planning solution  
+In this step, a customer service order with the allocated amount of 
+resources in the observed planning period is elaborated. 
+Figure 2 – Flowchart of the proposed methodology 
+Рис. 2 – Блок-схема предлагаемой методологии 
+Слика 2 – Дијаграм тока предложене методологије 
+                    
+Conclusion  
+In logistics systems, there is often a need to make decisions 
+regarding the allocation of limited resources. Resource allocation 
+efficiency is measured by optimizing appropriate parameters such as 
+demand size, resource capacity, task execution time, system latency, 
+and cost, which are key elements in planning the logistics support of 
+military operations. 
+The considerable uncertainty and dynamics of the requirements 
+generated by military units (users of logistic products and services), and, 
+on the other hand, numerous limitations present in logistics indicate that 
+logistics support planning is a crucial and challenging area of logistics. 
+Optimal planning reduces or eliminates the uncertainty of future 
+activities and maintains the system within the permissible (tolerant) 
+framework of functionality in the observed future period. 
+To plan logistics support well, it is necessary to have reliable data on 
+customer requirements, as well as data on the availability of limited 
+resources of the logistics system. In addition, quality planning implies 
+applying modern methods, techniques, and software tools, which will 
+provide greater rationality and objectivity in determining the variants of 
+planning solutions.  
+This paper has shown that techniques for prioritizing customer 
+requirements and resource allocation provide a possibility of agile 
+planning of logistics support and ensure optimal allocation of limited 
+resource capacities of the logistic system. The goal in future research is 
+to consider the possibility of applying the allocation of multiple resources, 
+in multiperiod, according to priorities, and by substitution of resources to 
+finally obtain, as much as it is possible, an automated logistics support 
+plan ready to respond to all possible scenarios. 
+Due to the extraordinary dynamism and heterogeneity of 
+phenomena in logistics activities, logistics support planning cannot be 
+fully and easily formalized and automated. In that sense, the efficiency of 
+logistics support planning depends on creativity, organizational skills, and 
+innovation in the work of logistics staff. 
+References  
+Achimugu, P., Selamat, A., Ibrahim, R. & Mahrin, M.N. 2014. A systematic 
+literature review of software requirements prioritization research. Information and 
+Software Technology, 56(6), pp.568-585. Available at: 
+Alfares, H.K. & Duffuaa, S.O. 2016. Simulation-based evaluation of criteria 
+rank-weighting methods in multi-criteria decision-making. International Journal of 
+Information Technology & Decision Making, 15(01), pp.43-61. Available at: 
+Andrejić, M. 2001. Methods and software for the support of planning in 
+logistic organizational systems. Vojnotehnički glasnik /Military Technical Courier, 
+49(1), pp.36-52 (in Serbian). Available at: 
+Andrejić, M., Nikolić, N. & Stojković, D. 2004. Logistička podrška logističkim 
+operacijama. Vojnotehnički glasnik /Military Technical Courier, 52(3-4), pp.275-
+285 (in Serbian). Available at: Chevaleyre, Y., Dunne, P., Endriss, U., Lang, J., Lemaıtre, M., Maudet, N., 
+Padget, J., Phelps, S., Rodrıguez-Aguilar, J. & Sousa, P. 2006. Issues in 
+multiagent resource allocation. Informatica, 30(1), pp.3-31 [online]. Available at: 
+July 2021]. 
+Daoud, A., Balbo, F., Gianessi, P. & Picard, G. 2021. A Generic Multi-
+Agent Model for Resource Allocation Strategies in Online On-Demand Transport 
+with Autonomous Vehicles. In: Proceedings of the 20th International Conference 
+AAMAS 2021, London, UK, p.3, May, hal-03093017 [online]. Available at: 
+July 2021]. 
+Dong, Y. & Zhang, H. 2014. Multiperson decision making with different 
+preference representation structures: A direct consensus framework and its 
+properties. Knowledge-Based Systems, 58, pp.45-57. Available at: 
+Hameed, A., Khoshkbarforoushha, A., Ranjan, R., Jayaraman, P.P., 
+Kolodziej, J., Balaji, P., Zeadally, S, Malluhi, Q.M., Tziritas, N., Vishnu, A., Khan, 
+S.U. & Zomaya, A. 2016. A survey and taxonomy on energy-efficient resource 
+allocation techniques for cloud computing systems. Computing, 98(7), pp.751-
+774. Available at: Hudaib, A., Masadeh, R., Qasem, M. & Alzaqebah, A. 2018. Requirements 
+prioritization techniques comparison. Modern Applied Science, 12(2), pp.62-80. 
+Available at: Hurley, P.C.Jr & Coleman, H.H. 2018. What FM 3-0 means for 
+expeditionary battlefield sustainment. Army Sustainment, May-June [online]. 
+Available at: Jia, Q., Wang, T-n & Zhang, Y-c. 2020. A New Mode of Army Equipment 
+Support. Journal of Physics: Conference Series, 1649, pp.1-8. Available at: 
+Khan, J.A., Rehman, I.U., Khan, Y.H., Khan, I.J. & Rashid, S. 2015. 
+Comparison of Requirement Prioritization Techniques to Find Best Prioritization 
+Technique. International Journal of Modern Education & Computer Science, 
+7(11), pp.53-59. Available at:  
+Kostiuchenko, L. & Solomon, D. 2020. The basic terminology of the modern 
+military logistics. Intellectualization of logistics and supply chain management, 
+1(1), pp.91-98. Available at: Lehtola, L., Kauppinen, M. & Kujala, S. 2004. Requirements Prioritization 
+Challenges in Practice. In: Bomarius, F. & Iida, H. (Eds.) Product Focused 
+Software Process Improvement. PROFES 2004. Lecture Notes in Computer 
+Science, 3009, pp.497-508. Springer, Berlin, Heidelberg. Available at: 
+Li, X., Li, A. & Guo, X. 2020. The sustainable development-oriented 
+development and utilization of renewable energy industry – A comprehensive 
+analysis of MCDM methods. Energy, 212(art.number:118694). Available at: 
+Luss, H. 1999. On Equitable Resource Allocation Problems: A 
+Lexicographic Minimax Approach. Operations Research 47(3), pp.361-378, 
+Available at: Luss, H. 2012. Equitable resource allocation: Models, Algorithms, and 
+Applications. Hoboken, NJ: John Wiley & Sons. ISBN: 978-1-118-05468-0. 
+McConnell, B.M., Hodgson, T.J., Kay, M.G., King, R.E., Liu, Y., Parlier, 
+G.H., Thoney-Barletta, K. & Wilson, J.R. 2021. Assessing uncertainty and risk in 
+an expeditionary military logistics network. Journal of Defense Modeling and 
+Simulation: Applications, Methodology, Technology, 18(2), pp.135-156.  
+Available at:  McConnell, B.M. & King, R. 2019. Expeditionary Logistics Analysis for 
+Decision Support. Technical Report. North Carolina State University Raleigh 
+United States [online]. Available at: [Accessed: 5 July 2021]. 
+Meran, G., Siehlow, M. & von Hirschhausen, C. 2021. Integrated Water 
+Resource Management: Principles and Applications. In: The Economics of 
+Water, pp.23-121. Springer, Cham. Available at: 030-48485-9_3. ISBN: 978-3-030-48485-9. 
+Milenkov, M.A., Sokolović, V.S., Milovanović, V.R. & Milić, M.D. 2020. 
+Logistics: Its role, significance and approaches. Vojnotehnički glasnik/Military 
+Technical Courier, 68(1), pp.79-106. Available at: 
+Milićević, M.R., & Milenkov, M.A. 2014. Determination of criteria weights 
+using ranking. Vojnotehnički glasnik/Military Technical Courier, 62(1), pp.141-
+166 (in Serbian). Available at: Moisiadis, F. 2002. The fundamentals of prioritizing requirements. In: 
+Proceedings of the systems engineering, test and evaluation conference 
+(SETE’2002), Sydney, Australia, October [online]. Available at: 
+ype=pdf [Accessed: 6 July 2021]. 
+Ogryczak, W., Luss, H., Pióro, M., Nace, D. & Tomaszewski, A. 2014. Fair 
+optimization and networks: A survey. Journal of Applied Mathematics, 
+art.ID:612018. Available at:  
+Olaronke, I., Rhoda, I. & Ishaya, G. 2018. An appraisal of software 
+requirement prioritization techniques. Asian Journal of Research in Computer 
+Science, 1(1), pp.1-16. Available at: 
+Pamučar, D.S. & Savin, L.M. 2020. Multiple-criteria model for optimal off-
+road vehicle selection for passenger transportation: BWM-COPRAS model. 
+Vojnotehnički glasnik/Military Technical Courier, 68(1), pp.28-64. Available at: 
+Pérez, I.J., Cabrerizo, F.J., Alonso, S., Dong, Y.C., Chiclana, F. & Herrera-
+Viedma, E. 2018. On dynamic consensus processes in group decision making 
+problems. Information Sciences, 459, pp.20-35. Available at: 
+Qaddoura, R., Abu-Srhan, A., Qasem, M.H. & Hudaib, A. 2017. 
+Requirements prioritization techniques review and analysis. In: 2017 
+International Conference on New Trends in Computing Sciences (ICTCS), 
+Amman, Jordan, pp.258-263, October 11-13. Available at: 
+Rogers, M.B., McConnell, B.M., Hodgson, T.J., Kay, M.G., King, R.E., 
+Parlier, G. & Thoney-Barletta, K. 2018. A Military Logistics Network Planning 
+System. Military Operations Research, 23(4), pp.5-24 [online]. Available at: 
+Sarma, D., Das, A., Dutta, P. & Bera, U.K. 2020. A Cost Minimization 
+Resource Allocation Model for Disaster Relief Operations With an Information 
+Crowdsourcing-Based MCDM Approach. IEEE Transactions on Engineering 
+Management, pp.1-21., Available at: Schwartz, B., McConnell, B.M. & Parlier, G.H. 2019. How Data Analytics 
+Will Improve Logistics Planning. Army Sustainment, 51(3), pp.54-57 [online]. 
+Available at: [Accessed: 5 July 2021]. 
+Skobelev, P. 2011. Multi-agent systems for real-time resource allocation, 
+scheduling, optimization and controlling: industrial applications. In: Mařík, V., 
+Vrba, P., Leitão, P. (Eds.) Holonic and Multi-Agent Systems for Manufacturing. 
+HoloMAS 2011. Lecture Notes in Computer Science, 6867, pp.1-14. Berlin, 
+Heidelberg: Springer. Available at: ISBN: 978-3-642-23181-0. 
+Tang, H., Wan, S., Li, C-C., Liang, H. & Dong, Y. 2021. Consensus 
+Reaching Process in the Two-Rank Group Decision-Making with Heterogeneous 
+Preference Information. International Journal of Computational Intelligence 
+Systems, 14(1), pp.758-768. Available at: 
+Tufail, H., Qasim, I., Masood, M.F., Tanvir, S. & Butt, W.H. 2019. 
+Towards the selection of Optimum Requirements Prioritization Technique: A 
+Comparative Analysis. In: The 5th International Conference on Information 
+Management, Cambridge, UK, pp.227-231, March 24-27. Available at: 
+Vestola, M. 2010. A comparison of nine basic techniques for requirements 
+prioritization, pp.1-8. Helsinki University of Technology [online]. Available at: 
+5 July 2021]. 
+Wei, X., Quan, S., , Shi zhuang, Y, Yan song, A. & Gang, Q. 2021. 
+Research on Dynamic Resource Allocation and Decision-making Model of 
+Equipment Independent Maintenance. Journal of Physics: Conference Series, 
+1939, pp.1-9. Available at: Zeimpekis, V., Kaimakamis, G. & Daras, N.J. 2015. Military logistics: 
+research advances and future trends. Springer. Available at: 
+Zlatnik, D. & Mares, J. 2020. Ammunition supplies, new proposal of 
+ammunition sufficiency. Vojnotehnički glasnik/Military Technical Courier, 68(2), 
+pp.250-267. Available at: Zou, H., Liu, D., Guo, S., Xiong, L., Liu, P., Yin, J., Zeng, Y., Zhang, J. & 
+Shen, Y. 2019. Quantitative assessment of adaptive measures on optimal water 
+resources allocation by using reliability, resilience, vulnerability indicators. 
+Stochastic Environmental Research and Risk Assessment, 34, pp.103-199. 
+Available at:  
+МОДЕЛЬ ПЛАНИРОВАНИЯ ЛОГИСТИЧЕСКОЙ ПОДДЕРЖКИ В 
+УСЛОВИЯХ ОГРАНИЧЕННЫХ РЕСУРСОВ  
+Никола Б. Симичa, Марьян A. Миленковa,  
+Владимир Р. Миловановичa, Влада С. Соколовичa, корреспондент,  
+Павел Й. Фольтинб, Балаж Й. Такшасв 
+a Университет обороны в г. Белград, Военная академия,  
+  Департамент логистики, г. Белград, Республика Сербия  
+      б Университет обороны в Брно, факультет военного руководства,     
+  Департамент материально-технического обеспечения,  
+  г. Брно, Чешская Республика 
+                          в Университет государственной службы, факультет военных наук и     
+    подготовки офицеров, факультет снабжения, финансов и военного    
+   транспорта, г. Будапешт, Венгрия 
+РУБРИКА ГРНТИ: 81.00.00 ОБЩИЕ И КОМПЛЕКСНЫЕ ПРОБЛЕМЫ                              
+                                              ТЕХНИЧЕСКИХ И ПРИКЛАДНЫХ 
+                                               НАУК И ОТРАСЛЕЙ НАРОДНОГО                  
+                                               ХОЗЯЙСТВА:  
+                                81.88.00 Материально-техническое снабжение.  
+                                               Логистика; 
+   81.88.75 Экономика, организация, управление,    
+                                               планирование и прогнозирование в   
+                                               материальнотехническом снабжении 
+ВИД СТАТЬИ: оригинальная научная статья 
+Резюме:  
+Введение: В статье представлена модель планирования 
+логистической поддержки в условиях ограниченных логистических 
+ресурсов, основанная на приоритезации запросов клиентов и 
+распределении ресурсов. Лица, принимающие решения, играют 
+ключевую роль в эффективном и справедливом распределении 
+ресурсов, поскольку они определяют приоритеты среди различных 
+запросов пользователей.  
+Методы. Для определения степени важности требований 
+пользователя были применены методы приоритизации запросов с 
+использованием номинальной шкалы, порядковой шкалы и шкалы 
+отношений, а также пять методов преобразования ранга в 
+весовые коэффициенты. Метод сортировки запросов 
+использовался для определения относительных приоритетов, в 
+то время как эвристический алгоритм определения медианы 
+Кемени использовался для объединения индивидуально 
+ранжированных запросов в групповой ранг. Чтобы уравновесить 
+противоположные требования пользователей, использовались 
+консенсусные меры группового принятия решений. Для получения 
+оптимального планировочного решения логистической поддержки 
+применены методы и приемы распределения ресурсов.   
+Результаты: Разработана модель адаптивного планирования 
+логистической поддержки в условиях ограниченных ресурсных 
+возможностей логистической системы. 
+Вывод: Предложенная модель может быть эффективно 
+применена и в других сферах распределения ресурсов.  
+Ключевые слова: планирование логистики, приоритезация 
+запросов, сортировка, преобразование рангов, веса, распределение 
+ресурсов.  
+МОДЕЛ ПЛАНИРАЊА ЛОГИСТИЧКЕ ПОДРШКЕ У УСЛОВИМА 
+ОГРАНИЧЕНИХ РЕСУРСА  
+Никола Б. Симићa, Марјан A. Миленковa,  
+Владимир Р. Миловановићa, Влада С. Соколовићa, аутор за преписку, 
+Павел Ј. Фолтинб, Балаж Ј. Такшасв 
+а Универзитет одбране у Београду, Војна академија, Катедра логистике,     
+   Београд, Република Србија 
+                          б Универзитет одбране у Брну, Факултет за војно руководство,  
+  Одсек за логистику, Брно, Чешка Република 
+                          в Универзитет за јавне службе, Факултет војних наука и обуку официра,   
+  Одсек за снабдевање, финансије и војни саобраћај,  
+  Будимпешта, Мађарска 
+ОБЛАСТ: логистика, инжињерски менаџмент, информационе технологије 
+ВРСТА ЧЛАНКА: оригинални научни рад 
+Сажетак: 
+Увод: У раду је представљен модел планирања логистичке 
+подршке у условима ограничених логистичких ресурса на основу 
+приоритизације захтева купаца и алокације ресурса. Доносиоци 
+одлука имају кључну улогу у ефикасној и правичној алокацији 
+ресурса јер дају приоритет различитим захтевима корисника.  
+Методе: Технике приоритизације захтева које користе 
+номиналну скалу, ординалну скалу и скалу односа, као и пет 
+метода за претварање ранга у тежинске коефицијенте, 
+примењене су како би се одредио степен значаја захтева 
+корисника. За утврђивање релативних приоритета коришћен је 
+метод тријаже захтева, док је хеуристички алгоритам за 
+одређивање медијане Кемениja коришћен за консолидацију 
+индивидуално рангираних захтева у групни ранг. Ради 
+балансирања супротстављених захтева корисника, коришћене 
+су мере консензуса групног одлучивања. За добијање 
+оптималног планског решења логистичке подршке примењене 
+су методе и технике расподеле ресурса.  
+Резултати: Развијен је модел за адаптивно планирање 
+логистичке подршке у условима ограничених ресурсних 
+капацитета логистичког система.  
+Закључак: Предложени модел може се ефикасно применити и у 
+другим областима алокације ресурса.  
+Кључне речи: планирање логистике, приоритизација захтева, 
+тријажа, претварање ранга у пондере, алокација ресурса.   
+Paper received on / Дата получения работы / Датум пријема чланка: 10.07.2021.  
+Manuscript corrections submitted on / Дата получения исправленной версии работы / 
+Датум достављања исправки рукописа: 03.01.2022. 
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум 
+коначног прихватања чланка за објављивање: 04.01.2022. 
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). This article is an open access article distributed under the 
+terms and conditions of the Creative Commons Attribution license 
+(© 2022 Авторы. Опубликовано в «Военно-технический вестник / Vojnotehnički glasnik / Military 
+Technical Courier» (www.vtg.mod.gov.rs, втг.мо.упр.срб). Данная статья в открытом доступе и 
+распространяется в соответствии с лицензией «Creative Commons» 
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). Ово је чланак отвореног приступа и дистрибуира се у 
+складу са  Creative Commons лиценцом (  

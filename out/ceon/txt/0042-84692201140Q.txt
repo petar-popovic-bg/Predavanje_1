@@ -1,0 +1,506 @@
+ХЛКХКЛЈХКХКЈХКЈХКЈХКЛХЈКЛХЈКЛХЛКЈ
+STATIC ABSORBER MODELLING 
+Milica D. Đekić 
+Independent researcher, Subotica, Republic of Serbia, 
+e-mail: milicadjekic82@gmail.com,  
+ORCID iD:    DOI: 10.5937/vojtehg70-34776; ARTICLE FIELD: Binary Logics, Applied Mathematics, Informatics,  
+                            Defense Industry, Computer Science, Electronics 
+ARTICLE TYPE: Preliminary communication 
+Abstract: 
+Introduction/purpose: A static absorber is capable of neutralizing any 
+signal either in the physical or virtual domain and its analysis will be 
+presented in this paper. 
+Methods: The approach used here includes purely scientific thoughts as 
+well as a model with its explanations evaluated step by step applying 
+highly sophisticated computer tools for design and simulation. No 
+empirical results will be attached, only claims with their evidence. 
+Results: The crucial outcome of this research is a completely new 
+approach to binary systems that are now observed as a set of real 
+numbers. 
+Conclusion: The purpose of this research is to introduce something brand- 
+new that can be used in cyber industry while a dynamic variation of the 
+absorber is still under development. 
+Key words: cyber defense, intelligence, static absorber, signal ban, 
+hacking, singularity, mathematical modelling. 
+Introduction 
+The first applications of binary algebra started several decades ago. 
+The entire mathematical concept is based on the set theory which deals 
+with two basic elements: 0 and 1. Engineers of the 20th century 
+discovered semiconductor technology that represents 0 and 1 as the 
+definite voltage values: 0 V and 5 V. In such a way, that paradigm has 
+gotten its physical sense as in digital electronics where it deals with real 
+electricity fields. The idea of the given mathematical model is quite 
+simple and it relies on the fundamental and proven theorems of binary 
+ПРЕЛИМИНАРНА САОПШТЕЊА 
+ПРЕДВАРИТЕЛЬНЫЕ СООБЩЕНИЯ 
+PRELIMINARY COMMUNICATIONS 
+logics. This paper demonstrates a complete set of mathematical models, 
+digital circuits, and truth tables as well as proofs that serve to illustrate a 
+digital logic scheme being capable of neutralizing any signal or a set of 
+signals coming to its input. In other words, whatever is given at the input 
+will be made into 0 at its output. This is feasible as any signal being 
+ANDed with its inverted variation is equal to 0. Apparently, such a model 
+can be assumed as a singularity in the voltage field and some testing 
+graphs in such a context will be described. Also, this paper will introduce 
+a completely new approach to binary algebra offering a chance to 
+analyze such an energy area in a set of real numbers. In the essence, 
+this modelling can serve in software and hardware production as there 
+have been a lot of benefits from a static absorber that can be applied in 
+cyber industry. Indeed, there have been a lot of pluses and minuses of 
+such a solution and this article will address how to use its advantages 
+and, consequently, avoid some drawbacks. (Djekic, 2020b), (Djekic, 
+2021e), (Djekic, 2021d)  
+In general, technology has always been a responsibility of the one 
+who applies it and for such a reason it is important to appeal to everyone 
+being in possession of something powerful to deal with it with 
+selflessness, not selfishness. 
+It has been quite easy to pass by things without noticing anything. 
+Once mankind has had an eye for details, it will progress much faster 
+than ever. The nature is full of wonders that wait for humans to pay 
+attention to them. Apparently, that is how the biggest discoveries in 
+science were made. Next, there has been a question how well the 
+current natural phenomena were explained and understood. For 
+instance, it is well known that an original signal with its inversion at the 
+input of the AND logic gate always gives 0 at the output. Boolean algebra 
+can mathematically prove such a theorem and, indeed, digital electronics 
+can provide these circuits to work accurately. Indeed, it has been 
+necessary to sort things out intelligently in order to get their maximum 
+performance. In other words, it is like testing the mathematical and 
+logical IQ by attempting to fit the right shape object into the right opening. 
+Another good question about such a theory could be: Where will all that 
+energy go if anything at the input gives nothing at the output? It seems 
+something has been very strange with such a circuit as it behaves like a 
+singular point pulling everything inside. On the other hand, if that logic 
+configuration were to behave like a sink, it would need better 
+mathematical modelling to be better tackled. Also, there has been a 
+strong need for computer simulations as well as experimental 
+examinations in order to gain a deep insight into all scientific secrets. 
+Humankind may not be at that degree of technological development at 
+present, but the ongoing tendency suggests that the modern world could 
+be on a good track to make a better use of current endeavors. 
+Next, there has been a sense of wonder how such a fundamental 
+Boolean rule could serve in cyber security. The majority of the present IT 
+security solutions are based on binary algebra. On the other hand, the 
+marketplace is literally overwhelmed with highly expensive, but not that 
+effective analytical tools. In other words, cyber defense analysts sitting in 
+their security operating centers (SOCs) can recognize if anyone has 
+been trying to make a breach and maintain connection with some 
+network’s device, but in order to protect their asset from such an attack 
+they need to terminate that signal manually. It is an appealing message, 
+is it not? In the 21st century, something is still needed to be done with 
+hands. How inconvenient?! Apparently, if it is feasible to recognize web’s 
+anomalies, it should be possible to terminate them automatically letting 
+only trusted devices exchange the information with a well-protected grid. 
+Indeed, there has been something which could absorb any signal and if 
+there were an opportunity to pass only untrusted connections through 
+that absorber, all unwanted behaviors would be banned in a sub-second 
+period of time. No more breaches, right? At this stage, it is about how to 
+prevent or probably reduce such a concern; however, if the right things 
+are put into right places, the best possible performances are expected. 
+(Djekic, 2017), (Đekić, 2021)  
+In a similar way, hackers can get a brilliant idea creating a malware 
+that can neutralize the internet connectivity and put into quarantine any 
+infected object. In total, everything is still an idea which can become a 
+reality in the coming time. 
+The purpose of this idea is to improve the effectiveness of the 
+incident response turning active defense into the passive one or, in other 
+words - converting monitoring and incident responses into extremely 
+intelligent prevention. There has been a need to develop a computer 
+code very smartly so that it could differentiate trusted from untrusted 
+behaviors on the web. (Djekic, 2021a), (Djekic, 2021b), (Djekic, 2021c)  
+Maybe it is not that much about artificial intelligence as it has been 
+about allowing the communication through a well-developed algorithm 
+that can make a decision, not think for real. Also, there is a need for anti-
+breach software, where the attacker leaves an IP address, but cannot 
+establish communication with a targeted device for being rejected any 
+time an attempt occurs. In other words, it is a sort of communication 
+filtering and quite good protection due to which cyber warfare could be 
+history if appropriately applied. The entire concept can be imagined as 
+the informatics body armor of cyber warriors that cannot be wounded or 
+killed on their positions once they apply such a shield. The model is 
+called static since it uses only logic gates without returning branches that 
+could consist of some memory elements.       
+Mathematical models using binary algebra 
+The set theory is a well-developed and researched area of 
+mathematics which has many applications in everyday life. On the other 
+hand, there is binary algebra that deals with only two unique elements, 0 
+and 1. Such a field of science has found many usages in electronics, 
+especially digital, as the entire modern computer science applies the 
+results of these explorations. In this research, it has been investigated 
+how it is possible to do modelling of logic circuits without any dynamics 
+applied to them in order to analyze and simulate their behavior excluding 
+real experimental conditions and laboratory testing. Also, no coding has 
+been done in this research as it presents an idea how to develop a code 
+so far as mathematical modelling can contribute in making both hardware 
+and software.  
+A basic static absorber can be obtained if original and inverted 
+signals are settled at the input of the AND logic gate. The mathematical 
+description is given in equation (1) as follows: 
+B A A=                                                        (1) 
+where: 
+A  - is an input to the AND logic gate which is in affirmation; 
+A  - is an input to the AND logic gate which is in negation; and 
+B - is an output of the AND logic gate with two inputs so far. 
+In other words, any combination at the input will give 0 at the output 
+causing the signal to just disappear. This is given in equation (2) as 
+follows: 
+0A A =                                                       (2) 
+where: 
+A  - is an input to the AND logic gate which is in affirmation and 
+A  - is an input to the AND logic gate which is in negation. 
+This can be examined in the truth table that is given in Table 1 as 
+follows:  
+Table 1 – Truth table of the initial static absorber 
+Таблица 1 – Таблица истинности исходного статического абсорбера 
+Табела 1 – Истинитосна табела иницијалног статичког апсорбера 
+Next, an illustration of the basic static absorber digital circuit will be 
+provided. The illustration is made in Logic Circuit Designer software that 
+can offer quite a reliable simulation option. Figure 1 is given as follows.  
+Figure 1 – Basic static absorber circuit 
+Рис. 1 – Базовая схема статического абсорбера 
+Слика 1 – Основно коло статичког апсорбера 
+The illustration represents the AND logic gate with 2 inputs which 
+are, in this case, the original signal and its inverted version. If equations 
+(1) and (2) are taken into consideration with their truth table (given in 
+Table 1), it is quite obvious that the results of the simulation will be 
+identical to the given mathematical description. In this case, such a 
+model has gotten its proof and it is highly recommended that software 
+developers make an attempt to create a program that can work as given 
+through this modelling. Also, it is obvious that any entry at the input of 
+this circuit will absorb the signal and give 0 as its output. Further, it will be 
+explained why such a sort of mathematical models could be considered 
+as a singularity as it literally neutralizes any electricity coming in. In other 
+words, it can be discussed that everything given in equations (1) and (2) 
+as well as in their truth table and logic diagram will be like a sink to 
+anything at the input. The recommendation is to go deeper into the 
+analysis of electronic circuits in order to completely understand such 
+semiconductor technology as well as the behavior of the applied 
+electronic elements. Digital electronics is a field with so many areas to 
+investigate and at this stage there has been insufficient awareness about 
+the opportunity that such a branch of science and technology can offer so 
+far.  
+This paper will demonstrate how a slightly complicated model of the 
+static absorber can be developed. In such a case, through simple 
+mathematics and proof using truth tables and logic simulations, it will be 
+shown how this model can find its applications in practice. From this 
+standpoint, it is possible to begin with a mathematical model that relies 
+on Boolean algebra and combines the AND, OR and NOT logic 
+functions. The description of the model is given in equation (3) as follows: 
+( ) ( )C A A B B=  +                                       (3) 
+where: 
+A  - is an input to the AND logic gate which is in affirmation; 
+A  - is an input to the AND logic gate which is in negation;  
+B  - is an input to the AND logic gate which is in affirmation; 
+B  - is an input to the AND logic gate which is in negation; and 
+C  - is an output of the OR logic gate that always gives nothing for a 
+result as its inputs are always 0. 
+As given in equations (1) and (2), something AND its inversion are 
+always equal to nothing; so, if everything is submitted into equation (3), it 
+will be continued with equation (4) as follows:  
+0 0 0C = + =                                            (4) 
+where:   
+C  - is an output of the OR logic gate that always gives nothing for a 
+result as its inputs are always 0. 
+In practice, the OR logic gate gives nothing only if all its inputs do 
+not have a signal as their incoming value. Such modelling can serve in 
+designing much complicated logic circuitries. Apparently, the real clues to 
+this modelling can be obtained via equation (3) the truth table of which is 
+given in Table 2 as follows:  
+Table 2 – Truth table of the complex static neutralizer  
+Таблица 2 – Таблица истинности комплексного статического нейтрализатора 
+Табела 2 – Истинитосна тебела комплексног статичког неутрализатора 
+A B C 
+0 0 0 
+0 1 0 
+1 0 0 
+1 1 0 
+The truth table given above is the evidence of the well-developed 
+mathematical model whose logic circuit is given in Figure 2 as follows: 
+Figure 2 – Logic diagram of a complicated static absorber 
+Рис. 2 – Логическая схема сложного статического абсорбера 
+Слика 2 – Логички дијаграм компликованог статичког апсорбера 
+The static absorber is possible to be designed applying so simple 
+and fundamental logic functions available in both hardware and software 
+formats. The further research will try to handle a set of real numbers in 
+order to examine all possibilities of an energetic field as well as some 
+characteristics of semiconductor technology typical to silicon-based 
+solutions. It will also introduce a kind of mathematical transformations 
+from a set of binary numbers into a set of real numbers trying to invoke 
+the entire new area of mathematics that could find its applications in 
+future scientific research and explorations. In other words, it will be 
+necessary to thoroughly understand the physical characteristics of digital 
+technology since it can cope, as far as it is known at this stage, with the 
+singular points in some scalar or vector fields, suggesting maybe that 
+future investigations will need a better understanding of the field theory. 
+At this stage, it is feasible to offer some ideas and indeed, the entire 
+investigation can be so time-consuming and can need a great deal of  
+effort from the scientific community worldwide.    
+Examining functions in a set of real numbers  
+Boolean algebra is a part of the set theory that consists of two basic 
+elements: 0,1 . It seems the binary numbers deal with duality since 
+they can be described as a series of 0s and 1s. Quantum mechanics 
+suggests that the entire nature deals with duality and oscillates between 
+two basic states, matter and energy. At this stage, it is quite hasty to 
+make any sort of correlations as there is a need for more profound 
+research in both theoretical and empirical manner. The purpose of this 
+effort is to bring forward some brand-new ideas and try to find a link 
+between something already known. In this paper, it is discussed how to 
+design a static absorber which, from the perspective of the field theory, 
+could be regarded as a singularity in the energy field.  
+Indeed, equations (1) and (2) provide some fundamental steps into 
+such an investigation and, no matter what the inputs are, the output is 
+always nothing. In theory, the absorber could neutralize any power as if 
+some ways of signal conversion were applied. The recommendation is to 
+make as many experimental attempts as possible since their results will 
+help defense industry on its way to produce something that will truly work 
+in practice. As mentioned before, binary algebra deals with two basic 
+states like quantum physics, so in other words – maybe a Boolean 
+analysis can be used for future research and modelling in that area of 
+science.  
+The real impact of this article will be described under this chapter as 
+it is needed to introduce a completely new approach to binary logics as a 
+fragment of mathematics that needs to deal with some practical 
+applications as well as with a much deeper understanding of its 
+theoretical paradigms. Further, this chapter will introduce how the binary 
+functions can be presented in a set of real numbers making a 
+comparative analysis of the input and output energetic fields. Everything 
+will be illustrated in the 2-D and 3-D coordinate systems trying to 
+encourage prospective researchers to give their contributions. It will be 
+also explained how the previous mathematical models could be 
+transferred in a set of real numbers not giving any analytics of the 
+transitional function that could project the elements of the binary logics 
+set into the set of real numbers. For such scientific research it may be 
+necessary to gather a multidisciplinary expert team who would work on 
+such a project for a longer period of time.   
+Indeed, it is well-known that if equations (1) and (2) are dealt with in 
+the binary set of numbers, such a correlation can give an equation in the 
+real set of numbers as follows: 
+( )1B A A=  −                                               (5) 
+where: 
+A  - is an input signal in affirmation that is multiplied with its 
+negation; 
+1 A−  - is an inverted input signal that is a negation of the input A  
+which is in the sense of Boolean algebra illustrated as A ; and 
+B  - is an output signal that is a product of affirmation and negation 
+being brought at the inputs. 
+In any case, the output of equation (5) is 0 which can be described 
+with the truth table as follows: 
+Table 3 – Truth table of the static absorber    
+Таблица 3 – Таблица истинности статического абсорбера 
+Табела 3 – Истинитосна тебела статичког апсорбера 
+A 1-A B 
+0 1 0 
+1 0 0 
+As illustrated in Table 3, for , , 0,1A B A B   , it has been 
+feasible to prove that if the binary values have been taken for the inputs 
+and the output, the result will always be a neutralized function that can be 
+graphically represented in a set of real numbers  via the graph made in 
+the 2-D and 2-D form using the 3D Grapher tool. These illustrations have 
+been provided in the figures as follows.  
+Figure 3 –  2-D graph of equation (5)  
+Рис. 3 –2-Д график уравнения (5) 
+Слика 3 – 2-Д графика једначине (5) 
+Figure 3 shows how equation (5) behaves in the 2-D coordinate 
+system indicating that it is about the square function if ( ), ,A B − + .  
+In other words, in such a case, it is possible to compare a correlation 
+between the input and output signals which can be voltage dealing first, 
+with the values 0 V and 5 V as well as the rest of taken variables.  
+The next illustration in the 3-D surrounding suggests how input and 
+output voltages are dependable on each other. The graphical 
+representation is given in Figure 4 as follows. 
+Figures 3 and 4 give a closer insight into how equation (5), being the 
+square function in a set of real numbers, behaves in the 2-D and 3-D 
+space. If singular dots behave like a sink in this case, it is quite clear they 
+can be analyzed as a curve as well as an entire surface in the 3-D 
+environment. As explained through this chapter, the AND logic function in 
+Boolean algebra can be represented as a product in a set of real 
+numbers.  
+Figure 4 –  3-D drawing of the singularity surface  
+Рис. 4 – 3-Д рисунок  сингулярной поверхности 
+Слика 4 – 3-Д цртеж сингуларне површине 
+On the other hand, signals in affirmation and negation are given as 
+described in equation (5). 3D Grapher software deals with the X-Y-Z 
+coordinate system and in this case it is given that X=u, Y=v, and Z=u*(1-
+u). De facto, the true correlation between the inputs and the output would 
+be X=u, Y=1-u, and Z=u*(1-u). That means only in such a case it is 
+possible to analyze the behavior of the inputs regarding the outputs.  
+At this stage, it is sufficient to demonstrate the feasible singularity 
+objects as practically there is only one input being either in affirmation or 
+negation and its unique output deals as given above. The advice for 
+future research is to make an attempt to compare input and output 
+voltages in order to realize how they depend on each other and why such 
+an energetic field neutralizes anything getting close to it.  
+Further, it is significant to introduce the behavior of equations (3) 
+and (4) in a set of real numbers. Their mathematical model is provided in 
+equation (6) as follows: 
+( ) ( )1 1C A A B B=  − +  −                                        (6) 
+where:  
+A  - is an input which is multiplied with its negation being ( )1 A− in 
+which case these two inputs give some product as a result; 
+B  - is an input which is multiplied with its negation being ( )1 B− in 
+which case these two inputs give some product as a result; and 
+C  - is an output of the big function which is in this case a sum of the 
+variables mentioned above. 
+The truth table of equation (6) is illustrated in Table 4 as follows. 
+Table 4 – Proof of  equation (6) in the truth table 
+Таблица 4 – Доказательство уравнения (6) в таблице истинности 
+Табела 4 – Доказ једначине (6) у истинитосној табели 
+A B C 
+0 0 0 
+0 1 0 
+1 0 0 
+1 1 0 
+Apparently, it is necessary to illustrate, using 3D Grapher, how 
+equation (6) deals in the 2-D and 3-D space leaving to other researchers 
+to examine the behavior of the input and output energetic fields. At this 
+level, it is enough to demonstrate such a behavior only in the sense of 
+the X-Y-Z coordinate system. The illustration in the 2-D form is given in 
+Figure 5 as follows. 
+In this case, the 3D Grapher mathematical model includes two 
+inputs and only one output whose correlations are given in Figures 5 and 
+6. The model is as follows X=u, Y=v, and Z=u*(1-u)+v*(1-v) which can be 
+assumed as a singular area seeking to be better investigated. In total, 
+some initial ideas are given through this effort and there is a huge task 
+for researchers, engineers, and scientists to develop more superior 
+findings for the entire defense industry. 
+Figure 5 – 2-D behavior of equation (6) 
+Рис. 5 – 2-Д поведение уравнения (6) 
+Слика 5 – 2-Д понашање једначине (6) 
+On the other hand, the 3-D variation of equation (6) is given in 
+Figure 6 as follows. 
+Figure 6 – 3-D graph of equation (6) 
+Рис. 6 – 3-Д график уравнения (6) 
+Слика 6 – 3-Д графикон једначине (6) 
+Applications in cyber industry 
+As it is well known, one of the biggest applications of Boolean 
+algebra is within digital systems and their electronics. The overall 
+computer science and engineering area relies on that mathematical 
+landscape. One of the worst nightmares for any IT security professional 
+is a breach into some IT infrastructure as that can mean loss of data, 
+sabotage or espionage. Entire teams of cyber analysts have been 
+employed 24 hours a day, 7 days a week in order to discover and 
+terminate any attempt to break into protected networks and establish 
+communication between them and the hacker’s workstation. (Djekic, 
+2021f), (Djekic, 2019), (Djekic, 2020a)  
+The point is, these professionals will need to manage their 
+surveillance capacities and disconnect manually any attempt of a breach. 
+This is called a good incident response. In other words, monitoring 
+software can recognize any anomalies in the cyberspace, but the incident 
+response is not very effective as it is needed to be done manually. The 
+idea of this research effort is to suggest that the effectiveness of the 
+incident response could be improved by simply passing untrusted traffic 
+through a static absorber and terminating it subsequently. The neutralizer 
+would in such a case reject anything being unwanted and the total 
+incident response could take only a few moments. The basic theory of 
+such a concept is given in this paper and if the idea passes some deeper 
+analyses it could find its place in practice. At this stage, it is sufficient to 
+be aware of such simple, but yet powerful abilities of binary numbers.   
+Conclusion 
+This paper discusses some possible capabilities of binary logics 
+suggesting that a static absorber already has some initial modelling, 
+while its dynamic version is still under development. The results given 
+here can trigger an entirely novel research stream when these ideas 
+become empirically verified. Finally, humankind has a skill to handle such 
+superior technology, but the message is to be responsible while doing so. 
+References 
+Djekic, M. 2017. The Internet of Things: Concept, Application and Security. 
+LAP LAMBERT Academic Publishing. ISBN-13: 978-6202096294. 
+Djekic, M. 2019. The Informant Task. Asia-Pacific Security Magazine, 19 
+November [online]. Available at: 
+November 2021].    
+Djekic, M. 2020a. The Importance of Communication in Investigations. 
+International Security Journal, 12 November [online]. Available at: 
+[Accessed: 1 November 2021].      
+Djekic, M. 2020b. Detecting an Insider Threat. Cyber Security Magazine, 4 
+June [online]. Available at: insider-threat/ [Accessed: 1 November 2021].  
+Djekic, M. 2021a. The Digital Technology Insight. Cyber Security 
+Magazine, 10 October [online]. Available at: 
+November 2021].   
+Djekic, M. 2021b. Smart Technological Landscape. Cyber Security 
+Magazine, 26 October [online]. Available at: 
+November 2021].   
+Djekic, M. 2021c. Biometrics Cyber Security. Cyber Security Magazine, 26 
+October [online]. Available at: cyber-security/ [Accessed: 1 November 2021]. 
+Djekic, M. 2021d. Channeling as a Challenge. Cyber Defense Magazine, 
+17 February [online]. Available at: 
+1 November 2021].   
+Djekic, M. 2021e. Communication Streaming Challenges. Cyber Defense 
+Magazine, 16 January [online]. Available at: 
+[Accessed: 1 November 2021].  
+Djekic, M. 2021f. Offense Sharing Activities in Criminal Justice Case. Cyber 
+Defense Magazine, 13 September [online]. Available at: 
+November 2021].   
+Đekić, M. 2021. The Insider’s Threats: Operational, Tactical and Strategic 
+Perspective. LAP LAMBERT Academic Publishing. ISBN-13: 978-620-3-20063-8. 
+МОДЕЛИРОВАНИЕ СТАТИЧЕСКОГО АБСОРБЕРА 
+Милица Д. Джекич  
+независимый исследователь, г. Суботица, Республика Сербия  
+РУБРИКА ГРНТИ: 27.00.00 МАТЕМАТИКА:  
+                               27.43.17 Математическая статистика  
+                               20.00.00 ИНФОРМАТИКА:  
+                               20.23.25 Информационные системы с базами знаний 
+                               78.00.00 ВОЕННОЕ ДЕЛО:  
+                               78.21.49 Военная электроника и кибернетика 
+ВИД СТАТЬИ: предварительное сообщение 
+Резюме:  
+Введение/цель: В данной статье будет представлен анализ 
+статического абсорбера, который способен нейтрализовать 
+любой сигнал как в физической, так и в виртуальной 
+плоскостях.  
+Методы: Используемый в статье подход включает в себя 
+исключительно научные рассуждения, а также модель с ее 
+объяснениями, которые были внимательно проанализированы и 
+оценены с помощью высокоразвитых вычислительных 
+инструментов для проектирования и моделирования. 
+Эмпирические результаты к статье не прилагаются, а только 
+утверждения с их доказательствами. 
+Результаты: Значимым результатом данного исследования 
+является совершенно новый подход к двоичным системам, 
+которые в данном исследовании связаны со множеством 
+действительных чисел. 
+Выводы: Цель данного исследования заключается в 
+представлении совершенно новой концепции, которая может 
+быть использована в кибериндустрии, в то время как 
+динамический вариант абсорбера все еще находится в стадии 
+разработки. 
+Ключевые слова: высокотехнологичная безопасность, знания, 
+статический абсорбер, отклонение сигналов, хакерские атаки, 
+сингулярность, математическое моделирование. 
+МОДЕЛОВАЊЕ СТАТИЧКОГ АПСОРБЕРА 
+Милица Д. Ђекић  
+независни истраживач, Суботица, Република Србија 
+ОБЛАСТ: бинарна логика, примењена математика, информатика,  
+                 наменска индустрија, рачунарство, електроника  
+ВРСТА ЧЛАНКА: претходно саопштење 
+Сажетак: 
+Увод/циљ: Статички апсорбер, чија анализа  ће бити приказана у 
+овом раду,  у стању је да неутрализује сваки сигнал у физичкој или 
+виртуелној равни. . 
+Методи: Представљено је искључиво научно размишљање и модел 
+са објашњењима која су пажљиво евалуирана коришћењем 
+софистицираних рачунарских алата за пројектовање и симулацију. 
+Емпиријски резултати нису приложени, већ само тврдње са 
+њиховим доказима. 
+Резултати: Најзначајнији резултат овог истраживања јесте 
+потпуно нови приступ бинарним системима који су овде повезани 
+са скупом реалних бројева. 
+Закључак: Сврха овог истраживања јесте да представи потпуно 
+нови концепт који може да се користи у сајбер индустрији, док је 
+динамичка варијанта апсорбера још увек у фази развоја. 
+Кључне речи: високотехнолошка безбедност, сазнања, 
+статички апсорбер, одбијање сигнала, хаковање, сингуларност, 
+математичко моделовање. 
+Paper received on / Дата получения работы / Датум пријема чланка: 03.11.2021. 
+Manuscript corrections submitted on / Дата получения исправленной версии работы / 
+Датум достављања исправки рукописа: 03.01.2022. 
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум 
+коначног прихватања чланка за објављивање: 04.01.2022.  
+© 2022 The Author. Published by Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). This article is an open access article distributed 
+under the terms and conditions of the Creative Commons Attribution license 
+(© 2022 Автор. Опубликовано в «Военно-технический вестник / Vojnotehnički glasnik / Military 
+Technical Courier» (www.vtg.mod.gov.rs, втг.мо.упр.срб). Данная статья в открытом доступе и 
+распространяется в соответствии с лицензией «Creative Commons» 
+(© 2022 Аутор. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). Ово је чланак отвореног приступа и дистрибуира се у 
+складу са  Creative Commons лиценцом (  

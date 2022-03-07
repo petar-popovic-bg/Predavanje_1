@@ -1,0 +1,641 @@
+HARMONIC SERIES WITH
+POLYLOGARITHMIC FUNCTIONS
+Vuk Stojiljkovića, Nicola Fabianob, Vesna Šešum Čavićc
+University of Novi Sad, Faculty of Sciences,
+Novi Sad, Republic of Serbia,
+e-mail: vuk.stojiljkovic999@gmail.com,
+ORCID iD:�b
+University of Belgrade, “Vinča” Institute of Nuclear Sciences -
+Institute of National Importance for the Republic of Serbia,
+Belgrade, Republic of Serbia,
+e-mail: nicola.fabiano@gmail.com, corresponding author,
+ORCID iD:�c
+TU Wien, Institute of Information Systems Engineering,
+Vienna, Republic of Austria;
+University of Belgrade, Faculty of Civil Engineering,
+Belgrade, Republic of Serbia,
+e-mail: vsesumcavic@grf.bg.ac.rs,
+ORCID iD:�DOI: 10.5937/vojtehg70-35148;FIELD: Mathematics
+ARTICLE TYPE: Original scientific paper
+Abstract:
+Introduction/purpose: Some sums of the polylogarithmic function asso-
+ciated with harmonic numbers are established.
+Methods: The approach is based on using the summation methods.
+Results: This paper generalizes the results of the zeta function series
+associated with the harmonic numbers.
+Conclusions: Various interesting series as the consequence of the ge-
+neralization are obtained.
+Key words: polylogarithmic function, series, harmonic numbers, integra-
+tion.
+Introduction and preliminaries
+The polylogarithm is a function in mathematics which was investigated
+intensively by many mathematicians. Many of them used different defini-
+tions but the one we use is the standard modern definition. For more in-
+formation about the polylogarithm as a function consult the following book
+(Lewin, 1981). Questions about sums and their evaluations trace back to
+ancient times. Even the great Euler concerned himself with evaluating the
+ζ(2) known as the Basel problem, which was later generalized by him in
+view of finding a formula for even zeta values. More on various sums and
+evaluations can be found here (Hirschman, 2014; Knopp, 1990; Stojiljković,
+2021; Davis, 2015). We will use the following notation throughout the pa-
+per. The first known definition is as follows.
+Defınıtıon 1. The polylogarithm, see (Lewin, 1981), is defined by a power
+series in z, given by
+Lis(z) =
+This definition is valid for the arbitrary complex order s and for all complex
+arguments z with |z| < 1. We will also need the definition given by
+Lis(z) =
+Lis−1(z)
+Also, the special case we will use frequently is
+Li2(z) = −
+ln(1− z)
+For z = 1 we get the Riemann zeta function ζ which is also a function of the
+complex variable s. For more information see (Edwards, 1974; Fabiano,
+2020).
+Lis(1) = ζ(s) =
+,<(s) > 1
+The second definition is as follows.
+Defınıtıon 2. The harmonic numbers, see (Olaikhan, 2021), are defined
+as follows
+Hn := 1 +
++ ...+
+for n > 1 and by definition H0 = 0
+The main results of this paper are the following.
+Theorem 1. Let Lis(z) denote the polylogarithmic function. Then the
+following equality holds for |z| < 1
+Lis(z)− z − · · · −
+Lis−1(z)− Lis−1(zm) + zm− z
+−Lis−1(z) + z.
+Theorem 2. Let Lis(z) denote the polylogarithmic function. Then the
+following equality holds for |z| < 1
+Lis(z)− z −
+− · · · −
+(Lis−1(z)− Lis−2(z))+
+Lis−2(z) + Lis−1(zm)− Lis−1(z)− Lis−2(zm)
+Theorem 3. Let Lis(z) denote the polylogarithmic function. Then the
+following equality holds for |z| < 1
+Lis(z)− z −
+− ...−
+Li(s−1)(z)−z−(Li(s−1)(zt)−zt)
+1−t dt−
+Li(s−1)(zm)−zm−(Li(s−1)(zmr)−zmr)
+1−r dr
+(1−m)2
+Li(s)(z)− z − (Li(s)(zm)− zm)
+Lis−1(z)− Lis−1(zm) + zm− z
+dm− Lis−1(z) + z
+The corollaries of the results are given as follows.
+Corollary 1. The following equalities come from theorem 1.
+Li1(z)− z − ...−
+z + ln(1− z)
+z − 1
+, |z| < 1
+Setting z = 1
+we get
+− ...−
+= ln(4)− 1.
+We can also derive
+Li2(z)− z − ...−
+= −Li2
+z − 1
+− Li1(z).
+By setting z = 1
+we get
+− ...−
+− ln(2).
+Corollary 2. The following equalities come from Theorem 2.
+Li2 (z)− z −
+− · · · −
+ln(1− z)
+z − 1
+z − 1
+(Li1(z)− Li0(z)) .
+By setting z = 1
+we get
+− · · · −
+5 ln(2)
+Corollary 3. The following equalities come from Theorem 3.
+Li1(z)− z −
+− ...−
+4z + ln(1− z) (4 + ln(1− z))− 2z Li2( zz−1)
+2(z − 1)
+By setting z = 1
+we get
+Li(1)
+− ...−
+= 2 +
++ ln2(2)− ln(16).
+Main results
+We will need some lemmas in order to proceed further. The following
+lemma will be extensively used throughout the paper.
+Lemma 1. The following equality holds for |z| < 1.
+(k + 1)s−1
+= Lis−1(z)− z
+Proof. Follows from the definition of the polylogarithm.
+We will need the following in order to proceed further.
+We will need in our analysis Abel’s summation formula (Bonar & Koury,
+2006, p.55),(Lewin, 1981, p.258), which states that if (an)n>1 and (bn)n>1
+are two sequences of real numbers and An =
+k=1 ak, then
+akbk = Anbn+1 +
+Ak(bk − bk+1)
+We will also be using, in our calculations, the infinite version of the pre-
+ceding formula
+akbk = lim
+(Anbn+1) +
+Ak(bk − bk+1).
+The second lemma will be given.
+Lemma 2. The following identity holds:
+Hk = (n+ 1)Hn+1 − (n+ 1)
+Proof. We will prove it using the Abel’s summation (finite version). By
+choosing ak = 1, bk = Hk we get
+Hk = nHn+1 +
+k + 1
+= nHn+1 −
+k + 1
+= nHn+1 − n
+k + 1
+= nHn+1 − n+ (Hn+1 − 1) = (n+ 1)Hn+1 − (n+ 1)
+and the proof is done.
+The third lemma that we will need.
+Lemma 3. The following equality holds.
+kHk =
+n(n+ 1)
+Hn+1 −
+n(n+ 1)
+Proof. We will prove it using the Abel’s summation (finite version). By
+choosing ak = k, bk = Hk we get
+kHk =
+n(n+ 1)
+Hn+1 +
+k(k + 1)
+k + 1
+n(n+ 1)
+Hn+1 −
+n(n+ 1)
+Hn+1 −
+n(n+ 1)
+and the proof is complete.
+Lemma 4. The following equality holds for any q and for |z| < 1
+Lis(z)− z − · · · −
+(k + 1)s
+Proof. Let us observe the expression inside the brackets(
+Lis(z)− z − · · · −
+(k + 1)s
+(k + 2)s
+(k + 3)s
+(k + 4)s
++ . . .
+What we can realise is that every term is less than z
+; therefore, by
+(k + 2)s
+(k + 3)s
+(k + 4)s
++ ... ≤
++ ...
+multiplying both sides by kq and letting the limit go to infinity, we get
+Lis(z)− z − ....−
+(k + 1)s
+≤ lim
+= lim
+ks−q−1
+and this will go to zero independently of s − q − 1 because |z| < 1 and zk
+goes faster to zero than any power of the form ks−q−1.
+The proof is complete.
+We give our first generalization of the zeta function series.
+Lemma 5. Let Lis(z) denote the polylogarithmic function. Then the following
+equality holds for |z| < 1
+Lis(z)− z −
+− ...−
+= Lis−1(z)− Lis(z).
+Proof. We apply the Abel’s summation formula with ak = 1 and bk =
+Lis(z)− z − z
+− ...− z
+from which we get
+Lis(z)− z −
+− ...−
+= lim
+Lis(z)− z −
+− ...−
+(k + 1)s
+kzk+1
+(k + 1)s
+Since the first term goes to zero when k → +∞, Lemma 4 (q = 1), we
+Lis(z)− z −
+− ...−
+kzk+1
+(k + 1)s
+Adding and subtracting 1 in the numerator leaves us with two sums
+(k + 1)s−1
+(k + 1)s
+= Lis−1(z)− Lis(z)
+because of Lemma 1. The proof is complete.
+In the following we give a proof of Theorem 1.
+Theorem 1. Let Lis(z) denote the polylogarithmic function. Then the fo-
+llowing equality holds for |z| < 1
+Lis(z)− z − · · · −
+Lis−1(z)− Lis−1(zm) + zm− z
+−Lis−1(z) + z.
+Proof. By using Abel’s theorem (infinite version) and choosing
+ak = Hk, bk = Lis(z)− z − · · · − z
+and Lemma 2 we get
+Lis(z)− z − ...−
+= lim
+((k + 1)Hk+1 − (k + 1))
+Lis(z)− z − ...−
+(k + 1)s
+((k + 1)Hk+1 − (k + 1))zk+1
+(k + 1)s
+Since the first term goes to zero when k → +∞, Lemma 4 (q = 2), the
+above equals to:
+((k + 1)Hk+1 − (k + 1))zk+1
+(k + 1)s
+Hk+1z
+(k + 1)s−1
+(k + 1)s−1
+The second sum follows from Lemma 1. In the first sum we will rewrite
+the harmonic number as an integral and interchange the sum and the inte-
+gral thanks to Fubini’s theorem:
+Hk+1z
+(k + 1)s−1
+(k + 1)s−1
+1−mk+1
+(k + 1)s−1
+1−mk+1
+By rewriting it as two sums, we get
+(k+1)s−1
+(mz)k+1
+(k+1)s−1
+Using the results from the Lemma 1 leaves us with
+Lis−1(z)− z − (Lis−1(zm)− zm)
+Which, when substituted above, gives us:
+Lis(z)− z − ...−
+Lis−1(z)− Lis−1(zm) + zm− z
+−Lis−1(z) + z.
+Now we prove Corollary 1, part a).
+When s = 1 it can be shown, after a long and tedious calculation, that
+the following holds
+Li1(z)− z − ...−
+z + ln(1− z)
+z − 1
+, |z| < 1.
+By setting z = 1
+we get b)
+− ...−
+= ln(4)− 1.
+When s = 2 it can be shown, similarly to the case s = 1, that c) part
+holds
+Li2(z)− z − ...−
+= −Li2
+z − 1
+− Li1(z).
+By setting z = 1
+we arrive at d)
+− ...−
+− ln(2).
+In the following we give proof of Theorem 2.
+Theorem 2. Let Lis(z) denote the polylogarithmic function. Then the fo-
+llowing equality holds for |z| < 1
+Lis(z)− z −
+− ...−
+(Lis−1(z)− Lis−2(z))+
+Lis−2(z) + Lis−1(zm)− Lis−1(z)− Lis−2(zm)
+Proof. Using the Abel’s summation with ak = kHk and bk = Lis(z) − z1s −
+...− z
+and Lemma 3 for the ak part gives
+Lis(z)− z −
+− ...−
+= lim
+k(k + 1)Hk+1
+k(k + 1)
+Lis(z)− z −
+− ...−
+(k + 1)s
+k(k + 1)Hk+1
+k(k + 1)
+(k + 1)s
+The expression in the brackets goes to zero by Lemma 4, so we are left
+with:
+kHk+1z
+(k + 1)s−1
+kzk+1
+(k + 1)s−1
+We will use Lemma 1:
+kzk+1
+(k + 1)s
+= Lis−1(z)− Lis(z) .
+As we can see, the second sum is the expression above with s shifted
+by −1 and multiplied by 1
+. For the first sum, we will rewrite the harmonic
+number into its integral form.
+kHk+1z
+(k + 1)s−1
+kzk+1
+(k + 1)s−1
+1−mk+1
+kzk+1
+(k + 1)s−1
+1−mk+1
+kzk+1
+(k+1)s−1
+k(zm)k+1
+(k+1)s−1
+Both sums are of the form given above. Therefore, we get
+Lis−2(z)− Lis−1(z)− (Lis−2(zm)− Lis−1(zm))
+By incorporating this into the original equality, we get
+Lis(z)− z −
+− ...−
+(Lis−1(z)− Lis−2(z))+
+Lis−2(z) + Lis−1(zm)− Lis−1(z)− Lis−2(zm)
+By setting s = 2 it can be shown that Corollary 2 part a) holds
+Li2 (z)− z −
+− ...−
+ln(1− z)
+z − 1
+z − 1
+(Li1(z)− Li0(z)) .
+By setting z = 1
+we arrive at part b)
+− ...−
++ ln(4)
+(ln(2)− 1) .
+Our significant result in this paper is given in the following theorem. The
+next theorem will use all the previous results.
+Theorem 3. Let Lis(z) denote the polylogarithmic function. Then the fo-
+llowing equality holds for |z| < 1
+Lis(z)− z −
+− ...−
+Li(s−1)(z)−z−(Li(s−1)(zt)−zt)
+1−t dt−
+Li(s−1)(zm)−zm−(Li(s−1)(zmr)−zmr)
+1−r dr
+Li(s)(z)− z − (Li(s)(zm)− zm)
+Lis−1(z)− Lis−1(zm) + zm− z
+dm− Lis−1(z) + z
+Proof. We will use Abel’s summation method, choosing
+ak = Hk, bk = Hk
+Lis(z)− z − z
+− ...− z
+with Lemma 2, we will use
+the following notation to minimize the clutter in the formulas, let us call
+Sk = Lis(z)− z − z
+− ...− z
+. By evaluating bk − bk+1 we get
+bk − bk+1 =
+(k + 1)s
+(k + 1)
+(k + 1)s+1
+By using Abel’s summation we get
+((k + 1)Hk+1 − (k + 1))Hk+1Sk+1+
+((k + 1)Hk+1 − (k + 1))
+(k + 1)s
+(k + 1)
+(k + 1)s+1
+The expression in the limit goes to zero by Lemma 4. We are left with
+the sum
+Hk+1Hkz
+(k + 1)s−1
+SkHk+1 +
+zk+1Hk+1
+(k + 1)s
+(k + 1)s−1
+(k + 1)s
+We know the third term from the proof of Theorem 1, the fifth term from
+Lemma 5 and the sixth term from Lemma 1. Let us focus on the second
+k=1Hk+1Sk. This is a separate problem we must deal with. So let
+us write
+Hk+1Sk =
+k + 1
+HkSk +
+k + 1
+The first term is known from Theorem 1, but the second one is not, so
+we will use again Abel’s summation method choosing ak =
+, bk = Sk.
+We get
+(Hk+1−1)Sk+1+
+(Hk+1 − 1)
+(k + 1)s
+zk+1Hk+1
+(k + 1)s
+(k + 1)s
+The first sum is from the proof of Theorem 1 while the second one is
+from Lemma 1; therefore, the original second sum is done. Let us deal
+with the fourth sum:
+(k + 1)s−1
+k + 1
+k + 1
+(k + 1)s−1
+Hk+1z
+(k + 1)s−1
+(k + 1)s
+The first sum is from the proof of Theorem 1 while the second one is
+from Lemma 1. Therefore, the fourth sum is done. Let us focus on the first
+Hk+1Hkz
+(k + 1)s−1
+(k + 1)s−1
+H2k+1z
+(k + 1)s−1
+zk+1Hk+1
+(k + 1)s
+The second one is from the proof of Theorem 1, but we need to dig
+further for the first one
+H2k+1z
+(k + 1)s−1
+Hk+1z
+(k + 1)s−1
+1−mk+1
+Hk+1z
+(k+1)s−1
+Hk+1(mz)
+(k+1)s−1
+The second term is the same as in Theorem 1 when taking z as zm;
+therefore, the result follows.
+Hk+1(zm)
+(k + 1)s−1
+Lis−1(zm)− zm− (Lis−1(zmr)− zmr)
+While the first one we have directly from the proof of Theorem 1
+Hk+1z
+(k + 1)s−1
+Li(s−1)(z)− z − (Li(s−1)(zt)− zt)
+Therefore, by putting all together, we obtain
+Hk+1Hkz
+(k + 1)s−1
+SkHk+1 +
+zk+1Hk+1
+(k + 1)s
+(k + 1)s−1
+(k + 1)s
+H2k+1z
+(k + 1)s−1
+zk+1Hk+1
+(k + 1)s
+HkSk+
+zk+1Hk+1
+(k + 1)s
+(k + 1)s
+zk+1Hk+1
+(k + 1)s
+Hk+1z
+(k + 1)s−1
+(k + 1)s
+(k + 1)s
+We can see that four of the terms will cancel themselves; then we plug
+the polylogarithm expressions we have got and establish the equality.
+Lis(z)− z −
+− ...−
+Li(s−1)(z)−z−(Li(s−1)(zt)−zt)
+1−t dt−
+Li(s−1)(zm)−zm−(Li(s−1)(zmr)−zmr)
+1−r dr
+Li(s)(z)− z − (Li(s)(zm)− zm)
+Lis−1(z)− Lis−1(zm) + zm− z
+dm− Lis−1(z) + z
+And the proof is done.
+By setting s=1 in theorem 3 we arrive at Corollary 3 part a)
+Li1(z)− z −
+− ...−
+4z + ln(1− z) (4 + ln(1− z))− 2z Li2( zz−1)
+2(z − 1)
+By setting z = 1
+we arrive at part b) of Corollary 3
+Li(1)
+− ...−
+= 2 +
++ ln2(2)− ln(16).
+Some examples of series
+The usage of the previously derived theorems will be displayed in the
+following examples. Equipped with the series in a closed form we have de-
+rived, we can get many series via incorporating the values from the domain
+which is |z| < 1. By letting z =
+in Corollary 1 part c), Corollary 2 part
+a) and Corollary 3 part a) we get, respectively
+− ...−
++ ln2
+− ...−
+5 + (
+5− 7) ln
+5− 3) csch−1(2)2
+5− 3)
+− ...−
+5− 3)
+5− 1)π2 − 20 + 20
+(47− 21
++ cosh−1
+5− 1) csch−1(2)2
+More interesting sums can be obtained incorporating in the value z =
+By setting z = 3−
+in Corollary 1 part c), Corollary 2 part a) and Corol-
+lary 3 part a), we get, respectively
+− ...−
+csch−1(2)
+2 + csch−1(2)
+− ...−
+5 + (1 +
+5) sinh−1(2) + csch−1(2)(5 +
+5 + 4 csch−1(2))
+− ...−
+5− 1)π2 + 15(2(
+5− 1)− 2(1 +
+5) csch−1(2) + csch−1(2)2)
+The numerical values of Li2 at the points z =
+be found here (Lewin, 1981). Many more series can be obtained by sub-
+stituting different values.
+Conclusions
+1. To assure the accuracy of the results, we verified all the numerical
+series identities through Wolfram Alpha.
+2. Further questions can be asked regarding the sums with harmonic
+numbers of an arbitrary order as to, whether it is possible to find more of
+them of the form Hn
+for some fixed k.
+3. In this paper, we generalized the results given in (Furdui, 2016) as the
+polylogarithm is a generalization of the zeta function since Lis(1) = ζ(s).
+We can obtain many more series by varying the two parameters z and s.
+References
+Bonar, D.D. and Khoury, M.J. 2006. Real Infinite Series. Washington D.C.,
+American Mathematical Society: MAA Press. ISBN: 978-1-4704-4782-3.
+Davis, H.T. 2015. The Summation of Series (Dover Books on Mathematics).
+Mineola, New York: Dover Publications. ISBN-13: 978-0486789682.
+Edwards, M.H. 1974. Riemann’s Zeta Function. Mineola, New York: Dover
+Publications. ISBN-13: 978-0486417400.
+Fabiano, N. 2020. Zeta function and some of its properties. Vojnotehnički glas-
+nik/Military Technical Courier, 68(4), pp.895-906. Available at:
+Furdui, O. 2016. Harmonic series with polygamma functions. Journal of Cla-
+ssical Analysis, 8(2), pp.123-130. Available at: Hirschman, I.I. 2014. Infinite series (Dover Books on Mathematics). Mineola,
+New York: Dover Publications. ISBN-13: 978-0-486-78975-0.
+Knopp, K. 1990. Theory and Applications of Infinite Series. Mineola, New York:
+Dover Publications. ISBN-13: 978-0-486-66165-2.
+Lewin, L. 1981. Polylogarithms and associated functions. Elsevier Science Ltd.
+ISBN-13: 978-0444005502.
+Olaikhan, A.S. 2021. An Introduction To The Harmonic Series And Logarith-
+mic Integrals: For High School Students Up To Researcher. Ali Shadhar Olaikhan
+(private edition). ISBN-13: 978-1-7367360-0-5.
+Stojiljković, V. 2021. SomeSeriesAssociated with Central Binomial Coefficients
+and Harmonic Numbers. Octogon Mathematical Magazine, 29(2).
+ГАРМОНИЧЕСКИЙ РЯД С ПОЛИЛОГАРИФМИЧЕСКИМИ
+ФУНКЦИЯМИ
+Вук Стоилькович
+, Никола Фабиано
+, Весна Шешум Чaвич
+Нови-Садский университет, факультет естественных наук,
+г. Нови-Сад, Республика Сербия
+Белградский университет, Институт ядерных исследований
+«Винча» − Институт государственного значения для Республики
+Сербия, г. Белград, Республика Сербия, корреспондент
+TU Wien, Институт инженерии информационных систем,
+г. Вена, Республика Австрия;
+Белградский университет, инженерно-строительный факультет,
+г. Белград, Республика Сербия
+РУБРИКА ГРНТИ: 27.00.00 МАТЕМАТИКА:
+27.23.25 Специальные функции,
+27.25.15 Дескриптивная теория функций
+ВИД СТАТЬИ: оригинальная научная статья
+Резюме:
+Введение/цель: Устанавлены некоторые суммы поли- ло-
+гарифмической функции, связанные с гармоническими чи-
+слами.
+Методы: Подход основан на использовании методов су-
+ммирования.
+Результаты: В данной статье обобщены результаты
+ряда дзета-функций, связанных с гармоническими числами.
+Выводы: В следствие обобщения получены различные ин-
+тересные ряды.
+Ключевые слова: полилогарифмическая функция, ряды,
+гармонические числа, интегрирование.
+ХАРМОНИЧНИ НИЗ СА ПОЛИЛОГАРИТАМСКИМ
+ФУНКЦИЈАМА
+Вук Стојиљковић
+, Никола Фабиано
+, Весна Шешум Чaвић
+Универзитет у Новом Саду, Природно-математички факултет,
+Нови Сад, Република Србија
+Универзитет у Београду, Институт за нуклеарне науке ”Винча”-
+Институт од националног значаја за Републику Србију,
+Београд, Република Србија, аутор за преписку
+Технички универзитет у Бечу, Институт за инжењерство
+информационих система, Беч, Република Аустрија;
+Универзитет у Београду, Грађевински факултет,
+Београд, Република Србија
+ОБЛАСТ: математика
+ВРСТА ЧЛАНКА: оригинални научни рад
+Сажетак:
+Увод/циљ: Установљенe су некe сумe полилогаритамске
+функције повезане са хармонијским бројевима.
+Методе: Приступ се заснива на коришћењу метода суми-
+рања.
+Резултати: Генерализовани су резултати низа зета -
+функција повезаних са хармонијским бројевима.
+Закључак: Добијени су различити занимљиви низови као
+последица генерализације.
+Кључне речи: полилогаритамска функција, серија, хармо-
+нијски бројеви, интеграција.
+Paper received on / Дата получения работы / Датум пријема чланка: 30.11.2021.
+Manuscript corrections submitted on / Дата получения исправленной версии работы /
+Датум достављања исправки рукописа: 03.01.2022.
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум
+коначног прихватања чланка за објављивање: 04.01.2022.
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier
+(the terms and conditions of the Creative Commons Attribution license
+(© 2022 Авторы. Опубликовано в ”Военно-технический вестник / Vojnotehnički glasnik / Military
+Technical Courier” (и распространяется в соответствии с лицензией ”Creative Commons”
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier
+(у складу са Creative Commons лиценцом (61

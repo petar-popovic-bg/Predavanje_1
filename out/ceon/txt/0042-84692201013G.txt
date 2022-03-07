@@ -1,0 +1,308 @@
+ESTIMATING VERTEX-DEGREE-BASED
+ENERGIES
+Ivan Gutman
+University of Kragujevac, Faculty of Science,
+Kragujevac, Republic of Serbia,
+e-mail: gutman@kg.ac.rs,
+ORCID iD:DOI: 10.5937/vojtehg70-35584;FIELD: Mathematics
+ARTICLE TYPE: Original scientific paper
+Abstract:
+Introduction/purpose: In the current literature, several dozens of vertex-
+degree-based (VDB) graph invariants are being studied. To each such
+invariant, a matrix can be associated. The VDB energy is the energy
+(= sum of the absolute values of the eigenvalues) of the respective VDB
+matrix. The paper examines some general properties of the VDB energy
+of bipartite graphs.
+Results: Estimates (lower and upper bounds) are established for the
+VDB energy of bipartite graphs in which there are no cycles of size divi-
+sible by 4, in terms of ordinary graph energy.
+Conclusion: The results of the paper contribute to the spectral theory of
+VDB matrices, especially to the general theory of VDB energy.
+Keywords: vertex-degree-based graph invariant, vertex-degree-based
+matrix, vertex-degree-based energy, energy (of graph).
+Introduction
+LetG be a simple graph with the vertex setV(G) and the edge setE(G).
+If the vertices u, v ∈ V(G) are adjacent, then the edge connecting them
+is denoted by uv. The number of edges incident to a vertex v is the degree
+of that vertex, and is denoted by d(v). The minimum and maximum vertex
+degrees are denoted by δ and ∆, respectively.
+Let V(G) = {v1, v2, . . . , vn}. Then the adjacency matrix A(G) =
+of the graph G is the symmetric matrix of order n, whose elements are
+(Cvetković et al, 2010):
+aij =
+1 if vivj ∈ E(G)
+0 if vivj ̸∈ E(G)
+0 if i = j .
+If the eigenvalues ofA(G) are λ1, λ2, . . . , λn, then the (ordinary) energy
+of the graph G is defined as
+E = E(G) =
+|λi| . (2)
+The theory of graph energy is nowadays elaborated in due detail (Li et
+al, 2012; Ramane, 2020).
+In the chemical and mathematical literature, a variety of vertex-degree-
+based (VDB) graph invariants of the form
+I = I(G) =
+uv∈E(G)
+d(u), d(v)
+has been considered, where f is a suitably chosen function, with a pro-
+perty f(x, y) = f(y, x) (Kulli, 2020; Todeschini & Consonni, 2009).
+These are usually referred to as topological indices. Of these, we list
+here a few most popular and best studied ones:
+f(x, y) name of index type
+x+ y first Zagreb ↑
+x y second Zagreb ↑
+x2 + y2 forgotten ↑√
+x2 + y2 Sombor ↑
+x+ y nirmala ↑
+x y Randić ↓
+x+ y sum-connectivity ↓
+2/(x+ y) harmonic ↓
+1/x2 + 1/y2 inverse degree ↓
+x2 + y2 modified Sombor ↓
+[(x+ y − 2)/(xy)]1/2 atom-bond-connectivity ∼
+|x− y| Albertson ∼
+The parameters x and y (being vertex degrees) always satisfy the con-
+dition x ≥ 1 , y ≥ 1. Bearing this in mind, we immediately recognize that
+most VDB indices are either monotonically increasing (↑) or monotonically
+decreasing functions (↓) of the vertex degrees. Only a few such indices do
+not possess such a monotonicity property (∼).
+It should be noted that for practically all VDB indices of type ↑ that exist
+in the literature, the condition f(x, y) ≥ 1 is satisfied for all values of x and
+y that occur for the edges of graphs. Analogously, for practically all VDB
+indices of type ↓, 0 < f(x, y) ≤ 1 holds for all values of x and y.
+Taking into account Eqs. (1) and (3), we introduce the VDB matrix
+AI(G) =
+(aI)ij
+(aI)ij =
+d(vi), d(v)
+if vivj ∈ E(G)
+0 if vivj ̸∈ E(G)
+0 if i = j .
+If its eigenvalues are µ1, µ2, . . . , µn, then the energy pertaining to the
+VDB invariant I, Eq. (3), is
+EI = EI(G) =
+|µi| . (5)
+For recent works on the investigation of this class of graph-spectral in-
+variants see (Das et al, 2018; Gutman, 2020, 2021; Gutman et al, 2022,
+2021; Li & Wang, 2021; Shao et al, 2021).
+Main results
+A cycle of length p is a cycle consisting of (exactly) p vertices
+v1, v2, . . . , vp, so that vi and vi+1 are adjacent for i = 1, 2, . . . , p − 1, and
+also v1 and vp are adjacent. As it is well known, a graph G is bipartite if and
+only if all its cycles (if any) are of even length. In this paper, we prove the
+results valid for bipartite graphs which do not possess cycles of a length di-
+visible by 4. Let G be such a graph. Without loss of generality, we assume
+that G is connected.
+Let the graph energy E and the VDB energy EI be the quantities defined
+via Eqs. (2) and (5), and let f be the function specified in Eq. (3). Let δ ad
+∆ be the smallest and largest vertex degrees of G.
+THEOREM 1. Let G be a bipartite graph with no cycle of size divisible by 4.
+f(δ, δ) E(G) ≤ EI(G) ≤ f(∆,∆) E(G)
+holds for all V DB invariants in which the function f is monotonically in-
+creasing and f(x, y) ≥ 1 for all vertex degrees x and y. Equality on both
+sides holds if and only if G is a regular graph, in which case δ = ∆.
+The examples of the VDB invariants for Theorem 1 are the above listed
+first and second Zagreb, forgotten, Sombor, and nirmala indices.
+THEOREM 2. Let G be a bipartite graph with no cycle of size divisible by 4.
+f(∆,∆) E(G) ≤ EI(G) ≤ f(δ, δ) E(G)
+holds for all V DB invariants in which the function f is monotonically de-
+creasing and 0 < f(x, y) ≤ 1 for all vertex degrees x and y. Equality on
+both sides holds if and only if G is a regular graph.
+The examples of the VDB invariants for Theorem 2 are the above listed
+Randić, sum-connectivity, harmonic, and modified Sombor indices, as well
+as the inverse degree.
+A tree is a connected graph with no cycles. Therefore, Theorems 1 and
+2 apply to trees. For any tree δ = 1, but Theorems 1 and 2 can be slightly
+strengthened.
+THEOREM 3. Let T be a tree with n ≥ 3 vertices. Then
+f(1, 2) E(T ) ≤ EI(T ) < f(∆,∆) E(T )
+holds for all V DB invariants in which the function f is monotonically in-
+creasing and f(x, y) ≥ 1 for all x, y. Equality on the left-hand side holds if
+and only if n = 3.
+THEOREM 4. Let T be a tree with n ≥ 3 vertices. Then
+f(∆,∆) E(T ) < EI(T ) ≤ f(1, 2) E(T )
+holds for all V DB invariants in which the function f is monotonically de-
+creasing and 0 < f(x, y) ≤ 1 for all x, y. Equality on the right-hand side
+holds if and only if n = 3.
+In addition to trees, Theorems 1 and 2 are applicable to various classes
+of cycle-containing graphs. Of these, of particular interest may be the
+hexagonal systems (molecular graphs of benzenoid hydrocarbons) (Gut-
+man & Cyvin, 1989). All their vertices are of degrees 2 and 3. The so-called
+catacondesned hexagonal systems (= hexagonal systems having no inter-
+nal vertices) are known to possess only cycles of size 4p + 2. For these
+molecular graphs
+f(2, 2) E(G) < EI(G) < f(3, 3) E(G) . (6)
+f(3, 3) E(G) < EI(G) < f(2, 2) E(G) . (7)
+depending on whether f(x, y) monotonically increases or decreases.
+Hexagonal systems possessing internal vertices have cycles of size
+4p , p = 3, 4, . . ., and thus Theorems 1 and 2 are not applicable. We ne-
+vertheless conjecture that estimates (6) and (7) are valid for all hexagonal
+systems.
+In order to prove the above theorems, we need an auxiliary result, stated
+below as Lemma 3.
+Energy of a weighted bipartite graph
+The main part of the results outlined in this section was reported in (Gut-
+man et al, 2021). These are repeated here (in an abbreviated form) in order
+to maintain completeness. Also, a few errors committed in (Gutman et al,
+2021) are corrected.
+Let G be a bipartite graph with n vertices. Let Gw be obtained from G
+by associating weighs to its edges, so that wij is the weight of the edge
+ij. Then the characteristic polynomial of Gw is of the form (Cvetković et al,
+2010)
+ϕ(Gw, λ) = λ
+(−1)k c(Gw, k)λn−2k (8)
+whereas the energy of Gw satisfies the equality (Gutman, 1977, 2020; Li et
+al, 2012)
+E(Gw) =
+1 +∑
+c(Gw, k)x
+. (9)
+Note that E(Gw) is a monotonically increasing function of any of the
+coefficients c(Gw, k).
+According to the Sachs theorem (Cvetković et al, 2010)
+(−1)k c(Gw, k) =
+σ∈S2k(Gw)
+(−1)p(σ) 2c(σ)w(σ) (10)
+where Sk(Gw) is the set of all Sachs graphs of Gw possessing exactly 2k
+vertices, and where σ is an element of S2k(Gw), containing p(σ) compo-
+nents, of which c(σ) are cycles. The weight of the Sachs graph σ is equal
+to the product of the weights of its components. If the isolated edge ij is
+a component of σ, then its weight is w2ij . If a cycle Z is a component of σ,
+then its weight is the product of weights of the edges contained in Z.
+LEMMA 1. (Gutman et al, 2021) If the Sachs graph σ ∈ S2k(Gw) ̸= ∅ does
+not contain cycles whose size is divisible by 4, then
+(−1)k (−1)p(σ) 2c(σ) > 0 .
+Proof. The Sachs graph σ has p(σ) components. Let among them be r0 ≥
+0 isolated edges, whose total number of vertices is 2r0. Let σ contain r1 ≥ 0
+cycles, whose total number of vertices is 4x+2 r1 for some integer x. Thus,
+2k = 2r0 + 4x+ 2 r1.
+Case 1: 2k is not divisible by 4. Then (−1)k = −1whereas r0+r1 = p(σ)
+is odd. Therefore, (−1)k (−1)p(σ) > 0 and the claim of Lemma 1 holds.
+Case 2: 2k is divisible by 4. Then (−1)k = +1 whereas r0 + r1 = p(σ)
+is even, implying, again, (−1)k (−1)p(σ) > 0.
+Lemma 1 has the following noteworthy consequences:
+LEMMA 2.
+(a) Let Gw be an edge-weighted bipartite graph whose all cycles (if any)
+have size not divisible by 4, and let the weights of all its edges be positive-
+valued. Then for any Sachs graph σ ∈ S2k(Gw) ̸= ∅,
+(−1)k (−1)p(σ) 2c(σ)w(σ) > 0 .
+(b) Therefore, because of Eq. (10), the coefficients c(Gw, k) in Eq. (8) are
+non-negative and are the monotonically increasing functions of the edge-
+weights.
+(c) Therefore, because of Eq. (9), the energy of the graphs Gw is a mono-
+tonically increasing function of the edge-weights.
+From Lemma 2(c), we obtain the result needed for our proofs:
+LEMMA 3. Let Gw be an edge-weighted bipartite graph whose all cycles (if
+any) have size not divisible by 4.
+(a) If for all edges ij ∈ E(Gw), the condition wij ≥ 1 holds, then E(Gw) ≥
+E(G). If wij > 1 for at least one edge ij, then E(Gw) > E(G).
+(b) If for all edges ij ∈ E(Gw), the condition wij ≤ 1 holds, then E(Gw) ≤
+E(G). If wij < 1 for at least one edge ij, then E(Gw) < E(G).
+(c) If in both cases (a) and (b), wij = w holds for all edges ij ∈ E(Gw), then
+E(Gw) = w E(G).
+Proof of Theorems 1-4
+The adjacency matrix AI(G), Eq. (4), could be viewed as the ordinary
+adjacency matrix of an edge-weighted modification of the graph G. There-
+fore, if the condition f(dvi , dvj ) > 1 holds, and if f(x, y) is an increasing
+function for x ≥ 1 and y ≥ 1, then the lower bound of Theorem 1 follows by
+Lemma 3 if all f(x, y) are replaced by f(δ, δ). The upper bound is obtained
+if all f(x, y) are replaced by f(∆,∆).
+The proof of Theorem 2 is analogous.
+Theorems 3 and 4 are based on the fact that no tree with n ≥ 3 vertices
+is a regular graph. The only tree having two adjacent degree-one vertices
+is the two-vertex tree. Therefore, for trees with 3 or more vertices, the
+minimal (resp. maximal) value of f(x, y) is f(1, 2).
+References
+Cvetković, D., Rowlinson, P. & Simić, K. 2010. An Introduction to the Theory of
+Graph Spectra. Cambridge: Cambridge University Press. ISBN: 9780521134088.
+Das, K.C., Gutman, I., Milovanović, I., Milovanović, E. & Furtula, B. 2018.
+Degree-based energies of graphs. Linear Algebra and its Applications, 554,
+pp.185-204. Available at: Gutman, I. 1977. Acyclic systems with extremal Hückel π-electron energy. The-
+oretica chimica acta, 45, pp.79-87. Available at:
+Gutman, I. 2020. Relating graph energy with vertex-degree-based energies.
+Vojnotehnički glasnik/Military Technical Courier, 68(4), pp.715-725. Available at:
+Gutman, I. 2021. Comparing degree-based energies of trees. Contributions to
+Mathematics, 4, pp.1-5. Available at: Gutman, I. & Cyvin, S.J. 1989. Introduction to the theory of benzenoid hydro-
+carbons. Berlin: Springer. Available at: Gutman, I., Monsalve, J. & Rada, J. 2022. A relation between a vertex-
+degree-based topological index and its energy. Linear Algebra and its Applications,
+636(March), pp.134-142. Available at: Gutman, I., Redžepović, I. & Rada, J. 2021. Relating energy and Sombor en-
+ergy. Contributions to Mathematics, 4, pp.41-44. Available at:
+Kulli, V.R. 2020. Graph indices. In: Pal, M., Samanta, S. & Pal, A. (Eds.), Hand-
+book of Research of Advanced Applications of Graph Theory in Modern Society,
+pp.66-91. Hershey, USA: IGI Global. Available at:
+Li, X., Shi, Y. & Gutman, I. 2012. Introduction. In: Graph Energy, pp.1-9. New
+York, NY: Springer. Available at: 20
+Li, X. & Wang, Z. 2021. Trees with extremal spectral radius of weighted ad-
+jacency matrices among trees weighted by degree-based indices. Linear Algebra
+and Its Applications, 620, pp.61-75. Available at:
+Ramane, H.S. 2020. Energy of graphs. In: Pal, M., Samanta, S., & Pal, A.
+(Eds.) Handbook of Research on Advanced Applications of Graph Theory in Mo-
+dern Society, pp.267-296. Hershey, PA, USA: IGI Global. Available at:
+Shao, Y., Gao, Y., Gao, W. & Zhao, X. 2021. Degree-based energies of trees.
+Linear Algebra and Its Applications, 621, pp.18-28. Available at:
+Todeschini, R. & Consonni, V. 2009. Molecular Descriptors for Chemoinforma-
+tics. Weinheim: Wiley-VCH. ISBN: 978-3-527-31852-0.
+ОЦЕНКА ЭНЕРГИЙ, ОНСОВАННЫХ НА СТЕПЕНИ
+ВЕРШИН
+Иван Гутман
+Крагуевацкий университет, естественно-математический
+факультет, г. Крагуевац, Республика Сербия
+РУБРИКА ГРНТИ: 27.00.00 МАТЕМАТИКА:
+27.29.19 Краевые задачи и задачи на
+собственные значения для
+обыкновенных дифференциальных
+уравнений и систем уравнений
+ВИД СТАТЬИ: оригинальная научная статья
+Резюме:
+Введение / цель: В новейшей литературе изучаются де-
+сятки инвариантов графов, основанных на степени вер-
+шин (VDB). К каждомутакому инварианту может присоеди-
+ниться матрица. Энергия VDB - это энергия (= сумма аб-
+солютных значений собственных значений) соответству-
+ющей матрицы VDB. В данной статье исследуются неко-
+торые общие свойства VDB-энергии двудольных графов.
+Результаты: Получены оценки (нижней и верхней границы)
+по энергии VDB двудольных графов, не имеющих циклов ве-
+личины, кратной 4, в зависимости от обычной энергии гра-
+Выводы: Результаты статьи вносят вклад в спектраль-
+ную теорию матриц VDB, а особенно в общую теорию
+энергии VDB.
+Ключевые слова: инвариант графа основанный на степени
+вершины, матрица основанная на степени вершины, энер-
+гия основанная на степени вершины, энергия (графа).
+ПРОЦЕНА ЕНЕРГИЈА ЗАСНОВАНИХ НА СТЕПЕНИМА
+ЧВОРОВА
+Иван Гутман
+Универзитет у Крагујевцу, Природно-математички факултет,
+Крагујевац, Република Србија
+ОБЛАСТ: математика
+ВРСТА ЧЛАНКА: оригинални научни рад
+Сажетак:
+Увод/циљ: У новијој литератури проучавају се бројне
+графовске инваријанте засноване на степенима чворова
+(VDB). Свакој од ових инваријанти може се придружити
+матрица. VDB енергија је енергија (= збир апсолутних
+вредности сопствених вредности) одговарајуће VDB мат-
+рице. Рад истражује неке опште особине VDB енергије би-
+партитних графова.
+Резултати: Добијене су процене (доње и горње границе)
+за VDB енергију бипартитних графова који немају циколве
+величине дељиве са 4, а у зависности од обичне графовске
+енергије.
+Закључак: Резултати овог рада доприносе спектралној
+теорији VDM матрица, а посебно општој теорији VDB
+енергије.
+Кључне речи: инваријанта заснована на степенима чворо-
+ва, матрица заснована на степенима чворова, енергија за-
+снована на степенима чворова, енергија (графа).
+Paper received on / Дата получения работы / Датум пријема чланка: 27.12.2021.
+Manuscript corrections submitted on / Дата получения исправленной версии работы /
+Датум достављања исправки рукописа: 04.01.2022.
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум
+коначног прихватања чланка за објављивање: 05.01.2022.
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier
+(the terms and conditions of the Creative Commons Attribution license
+(© 2022 Авторы. Опубликовано в ”Военно-технический вестник / Vojnotehnički glasnik / Military
+Technical Courier” (и распространяется в соответствии с лицензией ”Creative Commons”
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier
+(у складу са Creative Commons лиценцом (23

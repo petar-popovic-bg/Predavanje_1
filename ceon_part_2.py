@@ -72,6 +72,7 @@ for link in cl_linkovi[0:10]:
         clanak_meta['pdf']['link'] = pdf_link
         r_pdf = get(pdf_link)
         lokacija_pdf_fajla = 'out/ceon/pdf/' + pdf_link.split('/')[-1]
+        # out/ceon/pdf/0042-84692201001Z.pdf
         with open(lokacija_pdf_fajla, "wb") as f:
             f.write(r_pdf.content)
         clanak_meta['pdf']['lokacija'] = lokacija_pdf_fajla

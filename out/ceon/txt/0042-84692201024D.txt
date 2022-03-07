@@ -1,0 +1,641 @@
+A DIFFERENT APPROACH TO
+b(αn,βn)-HYPERMETRIC SPACES
+Akbar Dehghan Nezhada, Nikola Mirkovb,
+Vesna Todorčevićc, Stojan Radenovićd
+a Iran University of Science and Technology,
+School of Mathematics,
+Narmak, Tehran, Islamic Republic of Iran,
+e-mail: dehghannezhad@iust.ac.ir,
+ORCID iD:b University of Belgrade, VINČA Institute of Nuclear Sciences -
+Institute of National Importance for the Republic of Serbia,
+Belgrade, Republic of Serbia,
+e-mail: nmirkov@vin.bg.ac.rs, corresponding author,
+ORCID iD:c University of Belgrade, Faculty of Organizational Sciences,
+Belgrade, Republic of Serbia,
+e-mail: vesna.todorcevic@fon.bg.ac.rs,
+ORCID iD:d University of Belgrade, Faculty of Mechanical Engineering,
+Belgrade, Republic of Serbia,
+e-mail: radens@beotel.rs,
+ORCID iD:DOI: 10.5937/vojtehg70-35303;FIELD: Mathematics
+ARTICLE TYPE: Original scientific paper
+Abstract:
+Introduction/purpose: The aim of this paper is to present the concept of
+b(αn,βn)-hypermetric spaces.
+Methods: Conventional theoretical methods of functional analysis.
+Results: This study presents the initial results on the topic of b(αn,βn)-
+hypermetric spaces. In the first part, we generalize an n-dimensional
+(n ≥ 2) hypermetric distance over an arbitrary non-empty set X. The
+b(αn,βn)-hyperdistance function is defined in any way we like, the only
+constraint being the simultaneous satisfaction of the three properties, viz,
+non-negativity and positive-definiteness, symmetry and (αn, βn)-triangle
+inequality. In the second part, we discuss the concept of (αn, βn)-
+completeness, with respect to this b(αn,βn)-hypermetric, and the fixed
+point theorem which plays an important role in applied mathematics in a
+variety of fields.
+Conclusion: With proper generalisations, it is possible to formulate
+well-known results of classical metric spaces to the case of b(αn,βn)-
+hypermetric spaces.
+Key words: b(αn,βn)-hypermetric spaces, G-metric, fixed point.
+Introduction
+In human effort to describe the surrounding world, the concept of dis-
+tance has long been fundamental. Our intuitive understanding of distance
+as an exact value may however differ from its mathematical definition and
+its properties. If one is to include the measurement error, encountered in
+real life attempt to measure the distance between two objects, the distance
+will be defined as an interval. This is, for example, where we may come
+across a set-valued distance function. This approach will in fact be our
+main motivation for presenting a generalized concept of the distance as a
+set-valued function in this paper.
+The notion of 2-metric spaces, as a possible generalization of metric
+spaces, was introduced by Gähler (Gähler, 1963). The 2-metric d(x, y, z)
+is a function of three variables, and Gähler geometrically interpreted it as
+an area of triangle with vertices at x , y and z respectively.
+B. C. Dhage, in his PhD thesis (1992), introduced the notion ofD-metric
+(Dhage et al, 2000) spaces that generalize metric spaces. However, most
+of the claims concerning the fundamental topological properties ofD-metric
+spaces are incorrect, as shown in 2003 by Mustafa and Sims (Mustafa &
+Sims, 2003). This led them to introduce the notion of G-metric spaces
+(Mustafa & Sims, 2006), as a generalization of the metric spaces. In this
+type of spaces, a non-negative real number is assigned to every triplet of
+elements.
+TheG-metric spaces were generalized to universal metrics by Dehghan
+Nezhad et al, in a series of papers (Dehghan Nezhad & Aral, 2011; De-
+hghan Nezhad & Khajuee, 2013; Dehghan Nezhad et al, 2017; Dehghan
+Nezhad et al, 2021; Dehghan Nezhad & Mazaheri, 2010). The interpre-
+tation of the perimeter of a triangle is applied, but this time on G-metric
+spaces. Since then, many authors have obtained fixed point results for G-
+metric spaces.
+In an attempt to generalize the notion of a G-metric space to more than
+three variables, Khan first introduced the notion of aK-metric, and later the
+notion of a generalized n-metric space( for any n ≥ 2) (Khan, 2012, 2014),
+in 1975. He also proved the common fixed point theorem for such spaces.
+Bakhtin (Bakhtin, 1989) and Czerwik (Czerwik, 1993) generalized the
+structure of metric space by weakening the triangle inequality and called it
+the b-metric space. In 2017, Kamran et al. (Kamran et al, 2017) introduced
+the concept of extended b-metric space by further weakening the triangle
+inequality. For more details also see (Agarwal et al, 2015; Debnath et al,
+2021; Kirk & Shahzad, 2014; Todorčević, 2019). Also, for a broader per-
+spective on extended b-metric spaces, dislocated b-metric spaces, rectan-
+gular b-metric spaces, b-metric like spaces, and applications see (Younis
+et al, 2021a,b,c; Younis & Singh, 2021).
+The main purpose of this paper is a generalization of universal metric
+spaces into b(αn,βn)-hypermetric spaces of the n-dimension.
+REMARK 1. An ordered ring is a (usually commutative) ring R with a total
+order ⪯ such that for all a, b, and c in R:
+i) if a ⪯ b, then a+ c ⪯ b+ c
+ii) if 0 ⪯ a and 0 ⪯ b, then 0 ⪯ a · b.
+We denote R+ a set of non-negative elements of R, namely R+ := {g ∈
+R : 0 ⪯ g}.
+The concept of a b-metric space is initiated by Bakhtin (Bakhtin, 1989)
+and later used by Czerwick (Czerwik, 1993).
+DEFINITION 1. (Czerwik, 1993) LetX be a non-empty set and db : X×X −→
+[0,+∞) be a function satisfying the following conditions:
+(b1) db(x, y) = 0 if and only if x = y,
+(b2) db(x, y) = db(y, x), for all x, y, z ∈ X,
+(b3) db(x, y) ≤ s(db(x, z) + db(z, y)) for all x, y, z ∈ X, where s ≧ 1.
+The function db is called a b-metric and the pair (X, db) is called a b-
+metric space.
+EXAMPLE 1. (Berinde, 1993) Let X = lp[0, 1] be the space of all real
+functions ϕ(t) with t ∈ [0, 1] such that
+|ϕ(t)|p < +∞ with 0 < p < 1.
+Define db : X ×X −→ [0,+∞) as:
+db(ϕ, ψ) =
+|ϕ(t)− ψ(t)|pdt
+Therefore, (X, db) is a b-metric space with s = 2
+REMARK 2. (Czerwik, 1993) The class of the b-metric space is larger than
+the class of the metric space. When s = 1, the concept of the b-metric
+space coincides with the concept of the metric space.
+In the following we recall the definition of the extended b-metric space.
+DEFINITION 2. (Kamran et al, 2017) Let X be a non-empty set and r : X ×
+X −→ [1,+∞). A function dr : X × X −→ [0,+∞) is called an extended
+b-metric if for all x, y, z ∈ X it satisfies the following conditions:
+(b1) dr(x, y) = 0 if and only if x = y,
+(b2) dr(x, y) = dr(y, x),
+(b3) dr(x, y) ≤ r(x, y)(dr(x, z) + dr(z, y)).
+The pair (X, dr) is called the extended b-metric space.
+Main results
+The goal of this section is to describe a few properties and the results
+of the b(αn,βn)-hypermetric spaces of the dimension n.
+b(αn,βn)-hypermetric spaces of the dimension n
+Now we first recall and introduce some notation. For n ≥ 2, let Xn
+denote the n-times Cartesian product X × . . .×X︸ ︷︷ ︸
+n−times
+and R be an ordered
+ring. Let P ∗(R) denote the family of all non-empty subsets of R. We begin
+with the following definition.
+DEFINITION 3. Let X be a non-empty set and αn, βn : Xn −→ [1,+∞).
+Let U(αn,βn) : X
+n −→ P ∗(R+) be a function that satisfies the following
+conditions:
+(U1) U(αn,βn)(x1, . . . , xn) = {0}, if x1 = . . . = xn,
+(U2) U(αn,βn)(x1, . . . , xn) ⊇ {0}, for all x1, ..., xn with xi ̸= xj , for some
+i, j ∈ {1, ..., n},
+(U3) U(αn,βn)(x1, . . . , xn) = U(αn,βn)(xπ1 , . . . , xπn), for every permuta-
+tion (π(1), ..., π(n)) of (1, 2, ..., n),
+(U4) U(αn,βn)(x1, x2, . . . , xn−1, xn−1) ⊆ U(αn,βn)(x1, x2, . . . , xn−1, xn), for
+all x1, . . . , xn ∈ X,
+(U5) U(αn,βn)(x1, x2, . . . , xn) ⊆ αn(x1, x2, . . . , xn) · U(αn,βn)(x1, a, ..., a)
++ βn(x1, x2, . . . , xn) · U(αn,βn)(a, x2, ..., xn), for all x1, . . . , xn, a ∈ X.
+Let Ai be the subsets of X, (i = 1, . . . , n), for any D,D′ ∈ P ∗(R+) and
+α ∈ R+. We define
+U(αn,βn)(A1, . . . , An) =
+Un(x1, . . . , xn) | xi ∈ Ai, i = 1, . . . , n
+D +D′ = {d+ d′ | d ∈ D, d′ ∈ D′} and α ·D = {α · d | d ∈ D,α ∈ R+}.
+We shall use the following abbreviated notation: The function Un is
+called an ordered b(αn,βn)-hypermetric ring of the dimension n, or more
+specifically a b(αn,βn)-hypermetric on X. The pair (X,Un) is called an
+b(αn,βn)-hypermetric space.
+For example, we can place R+ = Z0+ or R0+, where Z0+ := N ∪ {0} =
+{0, 1, 2, . . . } and R0+ := [0,+∞). In the sequel, for simplicity we assume
+that R+ = R0+. The following useful properties of a bn-hypermetric are
+easily derived from the axioms.
+REMARK 3. If αn(x1, x2, . . . , xn) = βn(x1, x2, . . . , xn) = c for c ≥ 1 and n =
+1, then we obtain the definition of a b-metric space (Czerwik, 1993). It is
+clear that for c = 1, this b-metric becomes a usual metric.
+PROPOSITION 1. (Example) Let X = [0, 1] and α2, β2 : X ×X −→ [1,+∞),
+with α2(x, y) = 1 + 1x+y , β2(x, y) = 1 +
+. Define
+Fα2,β2 : X ×X → P
+∗(R0+)
+with,
+F(α2,β2)(x, y) =
+[1, 1
+) ; x, y ∈ (0, 1], x ̸= y{
+; x, y ∈ [0, 1], x = y
+F(α2,β2)(y, x) = [1,
+) ; y = 0, x ∈ (0, 1]
+and also assume A+B = A ∪B, for all A,B ⊆ P (R0+). Then (X,F(α2,β2))
+is a b(α2,β2)-hypermetric space.
+Proof. It is sufficient to show that F(α2,β2) is satisfied in all properties
+(U1), (U2), . . . , (U5) . The proofs of (U1), . . . , (U4), follow immediately
+from the definition of F(α2,β2). We only need to show that F(α2,β2) is satisfied
+F(α2,β2)(x, y) ⊆ α2(x, y).F(α2,β2)(x, z) + β2(x, y).F(α2,β2)(z, y), ∀x, y, z ∈ X.
+We distinguish the following cases:
+(i) Let x, y ∈ (0, 1] For z ∈ (0, 1], we have
+F(α2,β2)(x, y) ⊆ α2(x, y).F(α2,β2)(x, z) + β2(x, y).F(α2,β2)(z, y) if and
+only if
+[1, 1
+) ⊆ (1 + 1
+)[0, 1
+) + (1 + 2
+)[0, 1
+) if and only if
+[1, 1
+) ⊆ (1 + 2
+)([0, 1
+) + [0, 1
+if and only if [1, 1
+) ⊆ (x+y+2
+) if and only if z ≤ 2 + x+ y.
+If z = 0, then F(α2,β2)(x, y) ⊆ α2(x, y).F(α2,β2)(x, 0) +
+β2(x, y).F(α2,β2)(0, y)
+if and only if [1, 1
+) ⊆ (1 + 1
+)[0, 1
+) + (1 + 2
+)[0, 1
+) if and only if
+[1, 1
+) ⊆ (1+ 2
+)([0, 1
+)+[0, 1
+)) if and only if [1, 1
+) ⊆ (x+y+2
+if and only if 2 ≤ 2 + x+ y.
+(ii) For x ∈ (0, 1] and y = 0, let z ∈ (0, 1],
+F(α2,β2)(x, 0) ⊆ α2(x, 0).F(α2,β2)(x, z)+β2(x, 0).F(α2,β2)(z, 0) if and only
+[1, 1
+) ⊆ (1+x
+)[0, 1
+) + (2+x
+)[0, 1
+) if and only if [1, 1
+) ⊆ (2+x
+)([0, 1
+[0, 1
+)) if and only if [1, 1
+) ⊆ (x+2
+)[0, x+1
+) if and only if xz ≤ (x+1)(x+
+(iii) Let x, y ∈ [0, 1], x = y. Obviously, F(α2,β2) is satisfied in (U5).
+Hence (X,F(α2,β2)) is a b(α2,β2)-hypermetric space.
+PROPOSITION 2. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, then for
+any x1, ..., xn, a ∈ X it follows that:
+(1) If U(αn,βn)(x1, ..., xn) = {0}, then x1 = ... = xn,
+(2) U(αn,βn)(x1, ..., xn) ⊆
+j=2U(αn,βn)(x1, ..., x1, xj),
+(3) U(αn,βn)(x1, ..., xn) ⊆
+j=1U(αn,βn)(xj , a, ..., a),
+(4) U(αn,βn)(x1, x2, ..., x2) ⊆ (n− 1)U(αn,βn)(x1, ..., x1, x2).
+PROPOSITION 3. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, then
+{0} ⊆ U(αn,βn)(x1, ..., xn) for all x1, ..., xn ∈ X.
+Proof. By condition (U4) of the definition of a b(αn,βn)-hypermetric space,
+we have
+{0} = U(αn,βn)(x1, ..., x1) ⊆ U(αn,βn)(x1, ..., xn).
+PROPOSITION 4. Every b(αn,βn)-hypermetric space (X,U(αn,βn)) defines a
+b(α2,β2)-hypermetric space (X,U(α2,β2)) as follows:
+U(α2,β2)(x, y) = U(αn,βn)(x, y, . . . , y) + U(αn,βn)(y, x, . . . , x); ∀x, y ∈ X.
+Proof. Note that (U1), . . . , (U4) trivially hold. We only need to show that
+U(α2,β2) is satisfied in
+U(α2,β2)(x, y) ⊆ α2(x, y).U(α2,β2)(x, z) + β2(x, y).U(α2,β2)(z, y), ∀x, y, z ∈ X.
+By setting
+α2(x, y) = max{αn(x, y, ..., y), αn(y, x, ..., x)}
+β2(x, y) = max{βn(x, y, ..., y), βn(y, x, ..., x)}.
+This completes the proof.
+PROPOSITION 5. Let e be an arbitrary positive real number, and (X, d) be a
+metric space. We define an induced b(α2,β2)-hypermetric
+Ue(α2,β2) : X ×X → P
+∗(R0+)
+Ue(α2,β2)(x, y) =
+d(x, y)− e, d(x, y) + e
+∪ {0}; x ̸= y, d(x, y) > e(
+d(x, y)− e, d(x, y) + e
+∩ R0+; x ̸= y, d(x, y) < e
+{0}; x = y or d(x, y) = e.
+Then (X,Ue
+(α2,β2)
+) is a b(α2,β2)-hypermetric space.
+Quotient b(αn,βn)-hypermetric space
+Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space and X̃ be a partition of
+X. For each point p ∈ X, we denote p̃ a point in X̃ containing p, and we
+denote the equivalent relation induced by the relation by ∼.
+DEFINITION 4. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space. Let
+p1, . . . , pn ∈ X, and consider p̃1, . . . , p̃n ∈ X̃. A quotient b(αn,βn)-
+hypermetric of points of X̃ induced by U(αn,βn) is the function
+Ũ(αn,βn) : X̃
+n −→ P ∗(R0+)
+given by
+Ũ(αn,βn)(p̃1, . . . , p̃n) =
+pi∈p̃i
+U(αn,βn)(p1, . . . . , pn).
+PROPOSITION 6. The quotient b(αn,βn)-hypermetric induced by U(αn,βn) is
+well defined and is a b(αn,βn)-hypermetric on X̃.
+Proof. Ũ(αn,βn) is satisfied in all properties (U1), till (U4),
+Ũ(αn,βn)(p̃1, . . . , p̃n) ⊆ Ũ(αn,βn)(p̃1, q̃, . . . , q̃) + U(αn,βn)(q̃, p̃2, . . . , p̃n)
+pi∈P̃i
+U(αn,βn)(p1, . . . , pn) ⊆
+pi∈P̃i
+U(αn,βn)(p1, q, . . . , q) + U(αn,βn)(q, p2, . . . , pn)
+pi∈P̃i
+U(αn,βn)(p1, q, . . . , q) +
+pi∈P̃i
+U(αn,βn)(q, p2, . . . , pn)
+pi∈P̃i
+U(αn,βn)(p1, q, . . . , q) + U(αn,βn)(q, p2, . . . , pn)
+Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space of a dimension n >
+2. For any arbitrary a in X, define the function U(αn−1,βn−1) on X
+n−1 by
+U(αn−1,βn−1)(x1, . . . , xn−1) := U(αn,βn)(x1, . . . , xn−1, a).
+Then we have the following result.
+PROPOSITION 7. The function U(αn−1,βn−1) define a b(αn−1,βn−1)-hypermetric
+on X.
+Proof. We will verify that U(αn−1,βn−1) satisfies the five properties of a
+b(αn−1,βn−1)-hypermetric.
+PROPOSITION 8. Let Π : X → Y be an injection from a set X to a set
+Y . If U(αn,βn) : Y
+n → P ∗(R0+) is a b(αn,βn)-hypermetric on the set Y .
+Then U(αn,βn) : X
+n → P ∗(R0+), given by the formula U(αn,βn)(x1, . . . , xn) =
+U(αn,βn)(Π(x1), . . . ,Π(xn)) for all x1, . . . , xn ∈ X, is a b(αn,βn)-hypermetric
+on the set X.
+PROPOSITION 9. Let (X,U(αn,βn)) be any b(αn,βn)-hypermetric space and
+λ ∈ R0+. Then (X,Uλ(αn,βn)) is also a b(αn,βn)-hypermetric space where
+(αn,βn)
+(x1, . . . , xn) := {A ∩ [0, λ)|A ∈ U(αn,βn)(x1, . . . , xn)}.
+So, on the same X many intances of the b(αn,βn)-hypermetric can be
+defined, as a result of which the same set X is endowed with different
+metric structures. Another structure in the next proposition is useful for
+scaling the b(αn,βn)-hypermetric, so we need the following explanation.
+For any non-empty subset A of R0+, and λ ∈ R+ we define a set λ ·A to
+be λ ·A :=
+λ · a | a ∈ A
+PROPOSITION 10. Let (X,U(αn,βn)) be any b(αn,βn)-hypermetric space.
+Let Λ be any positive real number. We define U̇Λ
+(αn,βn)
+(x1, . . . , xn) =
+λ.U(αn,βn)(x1, . . . , xn). Then (X, U̇
+(αn,βn)
+)is also a b(αn,βn)-hypermetric
+space.
+A sequence {xm} in a b(αn,βn)-hypermetric space (X,U(αn,βn)) is said to
+converge to a point s in X, if for any ϵ > 0 there exists a natural number N
+such that for every m1, . . . ,mn−1 ≥ N
+U(αn,βn)(xm1 , ..., xmn−1 , s) ⊆ [0, ϵ),
+then we shall write
+m1,...,mn−1−→+∞
+U(αn,βn)(xm1 , ..., xmn−1 , s) = {0}.
+We shall say that a sequence {xm} has a cluster point x if there exists
+a subsequence {xmk} of {xm} that converges to x.
+PROPOSITION 11. Let (X,U(αn,βn)) and (X
+(αn,βn)
+) be two b(αn,βn)-
+hypermetric spaces. Then a function T : X → X ′ is b(αn,βn)-continuous
+at a point x ∈ X, if and only if it is b(αn,βn)-sequentially continuous at x; that
+is, whenever sequence {xm} is b(αn,βn)-convergent to x one has {T (xm)}
+is U(αn,βn)-convergent to T (x).
+DEFINITION 5. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, andA ⊆ X.
+The setA is b(αn,βn)-compact if for every b(αn,βn)-sequence {xm} inA, there
+exists a subsequence {xmk} of {xm} such that b(αn,βn)-convergences to
+some x0 ∈ A.
+PROPOSITION 12. Let (X,U(αn,βn)) and (X
+(αn,βn)
+) be two b(αn,βn)-
+hypermetric spaces and T : X → X ′ a b(αn,βn)-continuous function on
+X. If X is b(αn,βn)-compact, then T (X) is b(αn,βn)-compact.
+DEFINITION 6. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, then for
+x0 ∈ X, r > 0, the b(αn,βn)-hyperball with the centre x0 and the radius r is
+BU(αn,βn)(x0, r) = {y ∈ X : U(αn,βn)(x0, y, ..., y) ⊆ [0, r)}.
+PROPOSITION 13. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, then for
+x0 ∈ X, r > 0,
+(i) If U(αn,βn)(x0, x2, ..., xn) ⊆ [0, r), then x2, ..., xn ∈ BU(αn,βn)(x0, r),
+(ii) If y ∈ BU(αn,βn)(x0, r), then there exists, δ > 0 such that BU(αn,βn)(y, δ) ⊆
+BU(αn,βn)(x0, r).
+PROPOSITION 14. The set of all U(αn,βn)-balls, Bn = {BU(αn,βn)(x, r) : x ∈
+X, r > 0}, forms a basis for a topology T (U(αn,βn)) on X.
+DEFINITION 7. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space. The se-
+quence {xn} ⊆ X is b(αn,βn)-convergent to x if it b(αn,βn)-converges to x in
+the b(αn,βn)-hypermetric topology, T (U(αn,βn)).
+PROPOSITION 15. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space. Then
+for a sequence {xm} ⊆ X, and a point x ∈ X the following are equivalent:
+(1) {xm} is U(αn,βn)-convergent to x,
+(2) U(αn,βn)(xm, ..., xm, x) → 0, and
+(3) U(αn,βn)(xm, x, ..., x) → 0.
+DEFINITION 8. Let (X,U(αn,βn)), (Y,V(αm,βm)) be universal hypermetric
+spaces of the dimensions n and m respectively; a function T : X −→ Y is
+b(αn,βn),(αm,βm)-continuous at the point x0 ∈ X, if T
+−1(BV(αm,βm)(T (x0), r)) ∈
+T (Un), for all r > 0.
+We say f is b(αn,βn),(αm,βm)-continuous if it is b(αn,βn),(αm,βm)-continuous
+at all points of X; that is, continuous as a function from X with the
+T (U(αn,βn))-topology to Y with the T (V(αm,βm))-topology.
+In the sequel, for simplicity we have assumed that n = m. Since b(αn,βn)-
+hypermetric topologies are metric topologies, we have:
+DEFINITION 9. Let (X,U(αn,βn)) and (Y,V(αn,βn)) be two b(αn,βn)-hypermetric
+spaces and T : (X,U(αn,βn)) → (Y,V(αn,βn)) be a function. The func-
+tion f is called b(αn,βn)-continuous at a point a ∈ X if and only if,
+for given ϵ > 0, there exists δ > 0 such that x1, . . . , xn−1 ∈ X
+and the subset relation U(αn,βn)(a, x1, . . . , xn−1) ⊆ [0, δ) implies that
+V(αn,βn)(T (a), T (x1), . . . , T (xn−1)) ⊆ [0, ϵ).
+A function f is b(αn,βn)-continuous on X if and only if it is b(αn,βn)-
+continuous at all a ∈ X
+PROPOSITION 16. Let (X,U(αn,βn)), (Y,V(αn,βn)) be b(αn,βn)-hypermetric
+spaces, a function T : X −→ Y is b(αn,βn)-continuous at point x ∈ X if
+and only if it is b(αn,βn)-sequentially continuous at x; that is, whenever the
+{xn} is b(αn,βn)-convergent to x we have (T (xn)) is b(αn,βn)-convergent to
+T (x).
+PROPOSITION 17. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space. Then
+the function
+U(αn,βn)(z1, z2, ..., zn) is jointly b(αn,βn)-continuous in all n of its variables.
+DEFINITION 10. A map T : X −→ Y between b(αn,βn)-hypermetric
+spaces (X,U(αn,βn)) and (Y,U
+(αn,βn)
+) is an iso-hypermetric when
+U(αn,βn)(x1, ..., xn) = U
+(αn,βn)
+(T (x1), ..., T (xn)) for all x1, . . . , xn ∈ X. If the
+iso-b(αn,βn)-hypermetric is injective, we call it iso-b(αn,βn)-hypermetric em-
+bedding. A bijective iso-b(αn,βn)-hypermetric is called a b(αn,βn)-hypermetric
+isomorphism.
+Fixed Point Theorem in b(αn,βn)-hypermetric spaces
+In a b(αn,βn)-hypermetric space, the concepts of basic topological no-
+tions, such as: b(αn,βn)-Cauchy sequence, b(αn,βn)-convergent sequence
+and b(αn,βn)-complete b(αn,βn)-hypermetric space can be easily adopted as
+shown below. We discuss about the concept of b(αn,βn)-completeness of
+b(αn,βn)-hypermetric spaces.
+DEFINITION 11. Let (X,U(αn,βn)) be a b(αn,βn)-hypermetric space, then a se-
+quence {xm} ⊆ X is called b(αn,βn)-Cauchy if for every ε > 0, there exists
+N ∈ N such that U(αn,βn)(xm1 , xm2 , ..., xmn) < ε for all m1,m2, ...,mn ≥ N .
+The next proposition follows directly from the definitions.
+PROPOSITION 18. In a b(αn,βn)-hypermetric space, (X,U(αn,βn)), the follow-
+ing are equivalent.
+(i) The sequence {xm} is b(αn,βn)-Cauchy.
+(ii) For every ε > 0, there existsN ∈ N such that U(αn,βn)(xl, xm, ..., xm) <
+ε, for all l,m ≥ N .
+(iii) {xm} is a Cauchy sequence in the metric space (X, dU(αn,βn)).
+COROLLARY 1. (i) Every b(αn,βn)-convergent sequence in a b(αn,βn)-
+hypermetric space is b(αn,βn)-Cauchy.
+(ii) If a b(αn,βn)-Cauchy sequence in a b(αn,βn)-hypermetric space
+(X,U(αn,βn)) contains a b(αn,βn)-convergent subsequence, then the se-
+quence itself is b(αn,βn)-convergent.
+DEFINITION 12. A b(αn,βn)-hypermetric space (X,U(αn,βn)) is called b(αn,βn)-
+complete if every b(αn,βn)-Cauchy sequence in (X,U(αn,βn)) is b(αn,βn)-
+convergent in (X,U(αn,βn)).
+PROPOSITION 19. A b(αn,βn)-hypermetric space (X,U(αn,βn)) is b(αn,βn)-
+complete if and only if (X, dU(αn,βn)) is a complete metric space.
+DEFINITION 13. Let (X,U(αn,βn)) and (Y,U
+(αn,βn)
+) be two b(αn,βn)-
+hypermetric spaces. A function f : X −→ Y is called a b(αn,βn)-contraction
+if there exists a constant k ∈ [0, 1) such that U
+(αn,βn)
+(f(x1), ..., f(xn)) =
+kU(αn,βn)(x1, ..., xn) for all x1, . . . , xn ∈ X.
+It follows that f is b(αn,βn)-continuous because; U(αn,βn)(x1, ..., xn) ⊆
+[0, δ) with k ̸= 0 and δ := ϵ/k implies U
+(αn,βn)
+(f(x1), ..., f(xn)) ⊆ [0, ϵ).
+THEOREM 1. Let (X,U(αn,βn)) be a b(αn,βn)-complete space and let T : X →
+X be a b(αn,βn)-contraction map. Then T has a unique fixed point T (x) = x.
+Proof. We consider xm+1 = T (xm), with x0 being any point in X. By re-
+peated use of the (αn, βn)-rectangle inequality and the application of the
+contraction property, we obtain
+U(αn,βn)(xm, xm+1, . . . , xm+1) ⊆ k
+mU(αn,βn)(x0, x1, . . . , x1)
+for all m, s1 ∈ N which m < s1 and k ∈ [0, 1). It follows from the above that
+U(αn,βn)(xm, xs1 , . . . , xs1) ⊆ Γ1U(αn,βn)(xm, xm+1, . . . , xm+1)
++Γ2U(αn,βn)(xm+1, xm+2, . . . , xm+2)
++Γ3U(αn,βn)(xm+2, xm+3, . . . , xm+3)
++...+ Γs1−mU(αn,βn)(xs1−1, xs1 , . . . , xs1)
+⊆ Γ(km + km+1 + . . .+ ks1−1)U(αn,βn)(x0, x1, . . . , x1)
+km(1− ks1−m)
+U(αn,βn)(x0, x1, . . . , x1)
+where Γ1 = αn(xm, xs1 , . . . , xs1),
+Γ2 = βn(xm, xs1 , . . . , xs1) · αn(xm, xm+1, . . . , xm+1), ...
+and Γ = max{Γ1,Γ2, ...,Γs1−m} for all xm, ..., xs1 ∈ BU(αn,βn)(x0, r).
+Then we have
+m, s1 →+∞
+U(αn,βn)(xm, xs1 , . . . , xs1) = {0}
+since
+m, s1 →+∞
+km(1− ks1−m)
+U(αn,βn)(x0, x1, . . . , x1) = {0}.
+For m ≤ s1 ≤ s2 ∈ N and (U5) it implies that
+U(αn,βn)(xm, xs1 , xs2 . . . , xs2) ⊆
+αn(xm, xs1 , xs2 . . . , xs2)U(αn,βn)(xm, xs1 , . . . , xs1)
++βn(xm, xs1 , xs2 . . . , xs2)U(αn,βn)(xs1 , xs2 , . . . , xs2),
+now taking a limit as m, s1, s2 → +∞, we get
+U(αn,βn)(xm, xs1 , xs2 . . . , xs2) → {0}.
+Now for m ≤ s1 ≤ s2 ≤ . . . ≤ sn−1 ∈ N, we will have
+U(αn,βn)(xm, xs1 , . . . , xsn) → {0}; whenever, m, s1, . . . , sn−1 → +∞,
+then {xm} is a Cauchy sequence. By completeness of (X,U(αn,βn)), there
+exists a ∈ X such that {xn} is b(αn,βn)-convergent to a. It follows that the
+limit xm is a fixed point of T following the b(αn,βn)-continuity of T , and
+Ta = T lim
+xm = lim
+Txm = lim
+xm+1 = a.
+Finally, if a and b are two fixed points, then
+{0} ⊆ U(αn,βn)(a, b, . . . , b) = U(αn,βn)
+T (a), T (b), . . . , T (b)
+⊆ kU(αn,βn)(a, b, . . . , b).
+We conclude from k < 1 that Un(a, b, . . . , b) = {0}. Consequently, a = b
+and the fixed point is unique.
+Conclusion
+The objective of this paper is to bring about the study of b(αn,βn)-
+hypermetric spaces and to introduce certain fixed point results of mappings
+in the setting of b(αn,βn)-hypermetric spaces. This study presents the ini-
+tial results in this topic and more refined results can be derived in the near
+future. Also in the future, we will consider engineering applications of the
+considered topic.
+References
+Agarwal, R.P., Karapinar, E, O’Regan, D. & Roldán-López-de-Hierro, A.F.
+2015. Fixed Point Theory in Metric Type Spaces. Springer International Publish-
+ing Switzerland. Available at: 978-3-319-24082-4.
+Bakhtin, I. 1989. The contraction mapping principle in quasimetric spaces.
+Func. An., Gos. Ped. Inst. Unianowsk, 30, pp.26-37.
+Berinde, V. 1993. Generalized contractions in quasimetric spaces. Seminar on
+Fixed Point Theory, 3(9), pp.3-9 [online]. Available at: .net/profile/Vasile-Berinde/publication/267016246_Generalized_contractions_i
+n_quasimetric_spaces/links/559a0dd908ae5d8f39364ab8/Generalized-contracti
+ons-in-quasimetric-spaces.pdf [Accessed: 1 December 2021].
+Czerwik, S. 1993. Contraction mappings in b-metric spaces. Acta Mathematica
+et Informatica Universitatis Ostraviensis, 1, pp.5-11 [online]. Available at:
+Debnath, P., Konwar, N. & Radenović, S. 2021. Metric Fixed Point Theory:
+Applications in Science, Engineering and Behavioural Sciences. Springer Verlag,
+Singapore. ISBN-13: 978-9811648953.
+Dehghan Nezhad, A. & Aral, Z. 2011. The topology of GB-metric spaces. Inter-
+national Scholarly Research Notices, art.ID:523453. Available at:
+Dehghan Nezhad, A., Forough, A., Mirkov, N. & Radenović, S. 2021. A new
+version of Un-hypermetric space results. Vojnotehnički glasnik/Military Technical
+Courier, 69(3), pp.562-577. Available at: Dehghan Nezhad, A. & Khajuee, N. 2013. Some new results on complete U∗n-
+metric space. Journal of Nonlinear Sciences and Applications, 6(3), pp.216-226.
+Available at: Dehghan Nezhad, A., Khajuee, N. & Mustafa, Z. 2017. Some new results on
+Universal metric spaces. Thai Journal of Mathematics, 15(2), pp.429-449 [online].
+Available at: [Accessed: 1 December 2021].
+Dehghan Nezhad, A. & Mazaheri, H. 2010. New results in G-best approxima-
+tion in G-metric spaces. Ukrainian Mathematical Journal, 62(4), pp.648-654.
+Available at: Dhage, B.C., Pathan, A.M. & Rhoades, B.E. 2000. A general existence prin-
+ciple for fixed point theorems in d-metric spaces. International Journal of Mathe-
+matics and Mathematical Sciences, 23(7), art.ID:695952, pp.441-448. Available
+at: Gähler, S. 1963. 2-metrische Räume und ihre topologische Struktur.Mathema-
+tische Nachrichten, 26(1-4), pp.115-148. Available at:
+Kamran, T., Samreen, M. & UL Ain, Q. 2017. A Generalization of b-Metric
+Space and Some Fixed Point Theorems. Mathematics, 5(2), art.number:19, pp.1-
+7. Available at: 38
+Khan, K.A. 2012. On the possibitity of n-topological spaces. International Jour-
+nal of Mathematical Archive, 3(7), pp.2520-2523 [online]. Available at:
+2021].
+Khan, K.A. 2014. Generalized n-metric spaces and fixed point theorems. Jour-
+nal of Nonlinear and Convex Analysis, 15(6), pp.1221-1229 [online]. Available at:
+2021].
+Kirk, W. & Shahzad, N. 2014. Fixed Point Theory in Distance Spaces. Springer
+International Publishing Switzerland. Available at:
+Mustafa, Z. & Sims, B. 2003. Some remarks concerning D-metric spaces. In:
+Proceeding of the International Conferences on Fixed Point Theory and Applica-
+tions, Valencia (Spain), pp.189-198, July 13-18. Available at: au/brailey/Research_papers/Some%20Remarks%20Concerning%20D%20-%20
+Metric%20Spaces.pdf [Accessed: 10 May 2021].
+Mustafa, Z. & Sims, B. 2006. A new approach to generalized metric spaces.
+Journal of Nonlinear Convex Analysis, 7(2), pp.289-297 [online]. Available at:
+20Generalized%20Metric%20Spaces.pdf [Accessed: 10 May 2021].
+Todorčević, V. 2019. Harmonic Quasiconformal Mappings and Hyperbolic Type
+Metrics. Springer Nature Switzerland AG. Available at:
+Younis, M., Singh, D., Altun, I. & Chauhan, V. 2021a. Graphical structure of ex-
+tended b-metric spaces: an application to the transverse oscillations of a homoge-
+neous bar. International Journal of Nonlinear Sciences and Numerical Simulation,
+2021, art.ID:000010151520200126. Available at:
+Younis, M., Singh, D. & Abdou, A.N.A. 2021b. A fixed point approach for tuning
+circuit problem in dislocated b-metric spaces.Mathematical Methods in the Applied
+Sciences, 2021, pp.1-20. Available at: Younis, M., Singh, D. & Shi, L. 2021c. Revisiting graphical rectangular b-metric
+spaces. Asian-European Journal of Mathematics, 2021, art.number:2250072.
+Available at: Younis, M. & Singh, D. 2021. On the existence of the solution of Hammerstein
+integral equations and fractional differential equations. Journal of Applied Mathe-
+matics and Computing, 2021. Available at:
+ИНОЙ ПОДХОД К b(αn,βn)-ГИПЕРМЕТРИЧЕСКИМ
+ПРОСТРАНСТВАМ
+Aкбар Дехгхан Незхадa, Никола Мирковб,
+Весна Тодорчевичв, Стоян Раденовичг
+a Иранский университет науки и технологий, математический
+факультет, Нармак, г. Тегеран, Исламская Республика Иран,
+корреспондент
+б Белградский университет, Институт ядерных исследований
+«Винча» - Институт национального значения для Республики
+Сербия, г. Белград, Республика Сербия
+в Белградский университет, факультет организационных наук,
+г. Белград, Республика Сербия
+г Белградский университет, машиностроительный факультет,
+г. Белград, Республика Сербия
+РУБРИКА ГРНТИ: 27.00.00 МАТЕМАТИКА;
+27.25.17 Метрическая теория функций,
+27.39.15 Линейные пространства,
+снабженные топологией, порядком
+и другими структурами
+ВИД СТАТЬИ: оригинальная научная статья
+Резюме:
+Введение/цель: Целью данной статьи является представ-
+ление концепции b(αn,βn)-гиперметрических пространств.
+Методы: В статье применены конвенциональные теоре-
+тические методы функционального анализа.
+Результаты: В статье представлены инициальные
+результаты в области b(αn,βn)-гиперметрических про-
+странств. В первой части обобщается n-мерное (n ≥ 2)
+гиперметрическое расстояние на произвольном непустом
+множестве X. Функцию b(αn,βn)-гиперрастояния можно
+определить произвольно при наличии трех свойств: не
+отрицательность, положительная определенность, сим-
+метрия и (αn, βn)- неравенство треугольника. Во вто-
+рой части статьи рассматривается концепция (αn, βn)-
+полноты по отношению к b(αn,βn)-гиперметрике итеореме
+о неподвижной точке, которая играет важную роль в при-
+кладной математике в нескольких областях.
+Выводы: С помощью соответствующих обобщений
+можно сформулировать известные результаты клас-
+сических метрических пространств в случае b(αn,βn)-
+гиперметрических пространств.
+Ключевые слова: b(αn,βn)-гиперметрические простран-
+ства, G-метрика, неподвижные точки.
+ДРУГАЧИЈИ ПРИСТУП ПРЕМА b(αn,βn)-ХИПЕРМЕТРИЧКИМ
+ПРОСТОРИМА
+Акбар Дегхан Незхадa, Никола Мирковб,
+Весна Тодорчевићв, Стојан Раденовићг
+a Ирански универзитет науке и технологије, Математички факултет,
+Нармак, Техеран, Исламска Република Иран
+б Универзитет у Београду, Институт за нуклеарне науке „Винча” –
+Институт од националног значаја за Републику Србију,
+Београд, Република Србија, аутор за преписку
+в Универзитет у Београду, Факултет организационих наука,
+Београд, Република Србија
+г Универзитет у Београду, Машински факултет,
+Београд, Република Србија
+ОБЛАСТ: математика
+ВРСТА ЧЛАНКА: оригинални научни рад
+Сажетак:
+Увод/циљ: Циљ овог рада јесте да се представи концепт
+b(αn,βn)-хиперметричких простора.
+Методе: Примењене су конвенционалне теоретске мето-
+де функционалне анализе.
+Резултати: У раду су представљени иницијални резулта-
+ти који се односе на b(αn,βn)-хиперметричке просторе. У
+првом делу генерализује се n-димензионално (n ≥ 2) хи-
+перметричко растојање на произвољном непразном скупу
+X. Функција b(αn,βn)-хиперрастојања може се дефинисати
+на произвољан начин докле год су задовољене три особи-
+не: ненегативност, позитивна дефинитност, симетрија
+и (αn, βn)-неједнакост троугла. У другом делу рада раз-
+матрани су концепт (αn, βn)-комплетности у односу на
+b(αn,βn))-хиперметрику и теорема фиксне тачке, која има
+значајну улогу у примењеној математици на више поља.
+Закључак: Одговарајућим генерализацијама могуће је фор-
+мулисати познате резултате класичних метричких про-
+стора на случај b(αn,βn)-хиперметричких простора.
+Кључне речи: b(αn,βn)-хиперметрички простори,
+G-метрика, фиксне тачке.
+Paper received on / Дата получения работы / Датум пријема чланка: 08.12.2021.
+Manuscript corrections submitted on / Дата получения исправленной версии работы /
+Датум достављања исправки рукописа: 04.01.2022.
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум
+коначног прихватања чланка за објављивање: 05.01.2022.
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier
+(the terms and conditions of the Creative Commons Attribution license
+(© 2022 Авторы. Опубликовано в ”Военно-технический вестник / Vojnotehnički glasnik / Military
+Technical Courier” (и распространяется в соответствии с лицензией ”Creative Commons”
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier
+(у складу са Creative Commons лиценцом (42

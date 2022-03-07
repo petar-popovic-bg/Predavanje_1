@@ -1,0 +1,363 @@
+ПРЕГЛЕДНИ РАДОВИ
+ОБЗОРНЫЕ СТАТЬИ
+REVIEW PAPERS
+BETA FUNCTIONS IN THE QUANTUM
+FIELD THEORY
+Nicola Fabiano
+University of Belgrade, “Vinča” Institute of Nuclear Sciences -
+Institute of National Importance for the Republic of Serbia,
+Belgrade, Republic of Serbia,
+e-mail: nicola.fabiano@gmail.com,
+ORCID iD:�DOI: 10.5937/vojtehg70-32131;FIELD: Mathematics
+ARTICLE TYPE: Review paper
+Abstract:
+Introduction/purpose: The running of the coupling constant in various
+Quantum Field Theories and a possible behaviour of the beta function
+are illustrated.
+Methods: The Callan–Symanzik equation is used for the study of the
+beta function evolution.
+Results: Different behaviours of the coupling constant for high energies
+are observed for different theories. The phenomenon of asymptotic free-
+dom is of particular interest.
+Conclusions: Quantum Electrodynamics (QED) and Quantum Chromo-
+dinamics (QCD) coupling constants have completely different be-
+haviours in the regime of high energies. While the first one diverges
+for finite energies, the latter one tends to zero as energy increases. This
+QCD phenomenon is called asymptotic freedom.
+Key words: Quantum Electrodynamics, Quantum Chromodynamics,
+Quantum Field Theory, renormalization group, beta function.
+Fixed points
+In (Fabiano, 2021) we have seen how a generic coupling constant be-
+haves at different renormalisation scales. It should be remarked that this
+result is valid also for different renormalisation schemes, not only for di-
+mensional regularisation. In this sense the coupling constant is a func-
+tion depending on the energy scale µ, and is often regarded to as running
+coupling constant. Just for the sake of simplicity define the new variable
+t = log µ (the t variable could be also thought of as a “time” parameter).
+With this position, the Callan–Symanzik equation (Callan, 1970; Symanzik,
+1970) could be rewritten in a nicer form as:
+= β(g) , (1)
+which is a differential equation governing the behaviour of the coupling con-
+stant g upon the energy scale considered. As such it also needs some initial
+conditions in order to be solved – a Cauchy problem. The points g for which
+β(g) = 0 (2)
+are called fixed points (Symanzik, 1971), and once the coupling g reaches
+one of these points, it does not evolve anymore. In Fig. (1) a possible
+scenario for the β function is shown. The origin 0, the points g1 and g2 are
+fixed points. If for the initial scale t = 0 the coupling constant g is at one of
+these points, then it will remain there for any energy scale considered (or
+“forever”, depending on the language one prefers).
+There are different kinds of fixed points. Consider the point g1 and its
+neighbourhood. From the Figure, for 0 < g < g1, β(g) > 0 then the coupling
+constant increases with the scale because of eq. (2) (i.e. dg/dt > 0), mo-
+ving towards g1 for t→ +∞. On the contrary, in the interval g1 < g < g2 the
+β function is negative, so the coupling constant decreases and approaches
+again g1 as t→ +∞. We conclude that g1 is a stable fixed point, as g tends
+to it from either side. It is called the ultraviolet stable fixed point - the term
+“ultraviolet” is present because g → g1 as t→ +∞.
+On the other hand, for the points 0 and g2 it is clear that the inverse of
+the previous argument holds true: the coupling g “escapes” from them as
+t → +∞, and approaches them as energy decreases, for t → 0. Such
+points are named the infrared stable fixed points.
+It is important to know that the fixed points of the β function are difficult to
+calculate because they are usually determined by nonperturbative effects,
+apart from the trivial zero at the origin, for g = 0.
+Behaviour of β function
+We shall consider some possible asymptotic behaviours of the β func-
+tion for energy scale µ → +∞. The exact problem we consider is given
+0 g1 g2
+Figure 1 – The Beta function with fixed points 0, g1 and g2. The arrows indicate
+the direction of the flow of g with increasing scale µ
+Рис. 1 − Бета-функция с фиксированными точками 0, g1 и g2. Стрелки
+указывают направление потока g с увеличением шкалы µ
+Слика 1 – Бета функција са фиксним тачкама 0, g1 и g2. Стрелице показују
+правац тока g са повећањем скале µ
+= β(g)
+g(µ0) = g0 , (3)
+whose formal solution is written as∫ g
+= log
+. (4)
+Different behaviours of the β function are shown in Fig. 2.
+For such functions, the running coupling constant g will, for different
+cases:
+(a) approach infinity for a finite value of g, with β(g) > 0
+Figure 2 – Beta functions with different asymptotic behaviour
+Рис. 2 − Бета-функции с различным асимптотическим поведением
+Слика 2 – Бета функције с различитим асимптотским понашањем
+(b) approach infinity as g → +∞
+(c) have a finite fixed point in g1, β(g1) = 0
+(d) approach −∞ for increasing g, with β(g) < 0 .
+Case (a)
+Suppose that β(g) grows sufficiently rapidly in such a manner that the
+integral of eq. (4) converges (for instance, any power of g larger than 1),
+namely ∫ +∞ dg
+< +∞ , (5)
+then it is clear that the scale µ has a finite upper bound µ+∞ corresponding
+to the coupling g = +∞ given by the relation
+µ+∞ = µ0 exp
+(∫ +∞
+. (6)
+We have already encountered such behaviour, for the QED coupling
+case as discussed in (Fabiano, 2021), where β(g) = g3/12π2 and µ+∞ is
+given by the Landau pole (Landau et al, 1954; Landau & Pomeranchuk,
+1955) of eq. (40) in (Fabiano, 2021).
+Another example is the scalar field theory with the interaction term
+gφ4/4! given by the Lagrangian
+(∂φ)2 −
+φ4 , (7)
+for which the β function is
+β(g) =
+(16π2)2
++O(g4) . (8)
+The Lagrangian (7) is almost the same of the Higgs field in the Stan-
+dard Model (Glashow, 1959; Salam & Ward, 1959; Weinberg, 1967). The
+only difference, yet an essential one, is that in the latter case the scalar
+field is coupled to fermion fields ψ via a term λψφψ, so called Yukawa cou-
+pling (Yukawa, 1935), where λ is another coupling constant different from
+Using only the first term of eq. (8), we arrive at the expression
+g0 log
+) , (9)
+which has the same form of eq. (39) in (Fabiano, 2021) as anticipated; it
+has also a pole for µ = µ0 exp(16π
+2/(3g0)).
+Case (b)
+The integral of eq. (5) diverges. It means that the coupling constant g
+becomes infinite only at an infinite energy scale, µ = +∞. For instance,
+assume that β(g) = agk, with a > 0 and k < 1 but k 6= −1 - then one
+obtains for eq. (3) the solution
+g1−k0 + a(1− k) log
+)]1/(1−k)
+. (10)
+The growth of g in µ is very slow, but in the very high energy limit the
+coupling becomes independent from the initial condition g0.
+Case (c)
+We encounter a fixed point like previously discussed in the section Fixed
+points for the ultraviolet fixed point g1, that is β(g1) = 0. The β function
+stays positive for 0 < g < g1 and turns negative afterwards. Either if the
+initial condition g0 is such that g0 < g1 or g0 > g1 the coupling constant g
+will evolve towards the fixed point, g → g1 as µ→ +∞.
+Assuming that the root of β in g1 is simple, then
+β(g) = a(g1 − g) for g → g1 (11)
+with a > 0. The solution to eq. (3) is then
+g1 − g ∼ µ−a (12)
+with the assumption that g0 < g, g0 < g1 and g < g1.
+It is worth noticing that we have already discussed a case in which, ap-
+parently, an ultraviolet fixed point is obtained. The φ4 scalar theory presents
+such a point. From eq. (8) one computes the fixed point g1 as
+g1 = 8π
+2 , (13)
+which, however, has a huge value of g1 ≈ 80 thus spoiling the perturbation
+theory as g � 1. As the β functions that have been encountered so far
+have been computed using only the perturbation theory, it is clear that the
+result obtained above is invalid. The discussion regarding eq. (8) proves
+the statement of the section Fixed points, for which a fixed point could be
+basically only computed by means of nonperturbative techniques.
+Case (d)
+So far, all β functions discussed were positive at least for small positive
+g, so the renormalisation group flow drives away g(µ) from the origin g = 0.
+Now suppose that β(g) < 0 for small positive g, like
+β(g) = −agn , (14)
+where a > 0, n > 1 and an integer. The solution to eq. (3) is then written
+1 + gn−10 (n− 1)a log
+)]1/(n−1) . (15)
+A dramatic difference between this and the previous cases is that, for
+large energy scales, the coupling constant vanishes, i.e.
+g = 0 for µ→ +∞ . (16)
+This phenomenon is called asymptotic freedom (Gross &Wilczek, 1973;
+Politzer, 1973). With growing energy, the theory has a weaker coupling
+constant, approximating a free theory, i.e. one without interactions. So at
+larger energy scales, the perturbation theory gives better results. Remem-
+ber actually that corrections C of any kind (propagator, coupling, etc.) are
+computed as series of powers of g,
+n (17)
+and this formal series is supposed to converge for small g.
+A toy model that exhibits asymptotic freedom could be obtained from
+the Lagrangian (7) with a negative potential1 −gφ4/4!. Its β function has
+the form
+β(g) = −
+g2 (18)
+for which
+for µ→ +∞ . (19)
+i.e. g goes to zero at logarithmic speed.
+A very important class of theories that have the property of asymptotic
+freedom is theYang–Mills theory (Yang &Mills, 1954), with the gauge group
+SU(N). Of particular relevance is one of them, quantum chromodynamics
+– QCD – that is the theory of strong interactions embedded in the Standard
+Model, whose gauge group is SU(3).
+The QCD Lagrangian is written as
+L = ψj [i(γ
+µDµ)jk −mδjk]ψk −
+GaµνG
+a (20)
+where ψj(x) is the j–th quark field, indexed by j, k; A
+µ are the gluon fields,
+a = 1 . . . 8. γµ are the usual Dirac matrices, the covariant derivative is given
+1We neglect the fact that this theory is ill–defined and that the perturbation theory cannot be applied.
+by Dµ = ∂µ − igAaµT a. Gaµν is the gluon field strength tensor, similar to the
+Fµν electromagnetic tensor, defined by
+Gaµν = ∂µA
+ν − ∂νA
+µ + gf
+abcAbµA
+ν (21)
+where fabc are the structure constants of SU(3), [T a, T b] = ifabcT c, with T a
+being generators of the group.
+For a generic SU(N) the Yang–Mills theory coupled to fermions the β
+function at one–loop level is given by
+β(g) = −
++O(g5) , (22)
+and for the QCD case C2 = nf/2,
+β(g) = −
++O(g5) , (23)
+where nf is the number of quark flavours with masses much lower than the
+energy scale considered µ, which can be considered massless.
+Defining the QCD strong coupling constant αs = g
+2/4π2 in an analogous
+fashion to QED, where α = e2/4π, we obtain from eq. (49) in (Fabiano,
+2021)
+αs(µ) =
+(33− 2nf ) log(µ/Λ)
+which exhibits asymptotic freedom as far as the number of quark flavours is
+nf < 17. Another property due to the presence of (approximately) massless
+particles is that a dimensionless coupling g0 is exchanged for a dimension-
+ful parameterΛ, which is an integration constant with dimensions of energy.
+This phenomenon is referred to as dimensional transmutation (Coleman &
+Weinberg, 1973; Weinberg, 1973). The β function eq. (24) is known today
+to four–loop orderO(α4s), with three and four–loop coefficients being renor-
+malisation scheme dependent. The measured value of a strong coupling
+constant at the Z peak is
+αs(mZ) = 0.1197± 0.0016 , (25)
+while the corresponding value of Λ is about 0.2 GeV.
+A few remarks are in order. In the 1950s, Landau argued that in QED
+the increasing powers of logarithmic terms, that we already encountered at
+one–loop level in (Fabiano, 2021), of the form log(E/M), would coalesce
+and give raise to singularities for finite values of the energy E. This is the
+(a) case, with the Landau poles, also known as the Landau ghosts or the
+Moscow zero (because e0/e(µ) = 0), discovered by himself (Landau et al,
+1954; Landau & Pomeranchuk, 1955). This argument does not rule out the
+cases (b) or (c), though. This possible inconsistency in the renormalisation
+procedure has not yet been proved but it is believed to actually exist.
+Today, there is a broad agreement on the fact that the interacting field
+theories like QED or scalar φ4 we have discussed (which are not asympto-
+tically free) are not mathematically consistent. About QED, there is some
+evidence against the case (c) with a finite fixed point that would be only
+possible in the presence of yet unknown nonperturbative effects. However,
+even if (c) is ruled out, there still remains the possibility (b) with a fixed point
+at infinity.
+There is an electromagnetic analogy for different behaviours of QED
+and QCD couplings. In QED, the charge is stronger at shorter distances,
+i.e. is the vacuum acts like a dielectric medium with a dielectric constant
+ε > 1 , (26)
+shielding the charge. Remembering the relation of the relative magnetic
+permeability µ to the dielectric constant to the speed of light, which in our
+units is 1,
+εµ = 1 , (27)
+we have a duality relation. The QED case corresponds to µ < 1, also
+known as Landau diamagnetism, where charged particles in the medium in
+response to an external magnetic field generate an opposedmagnetic field,
+a phenomenon seen in superconductors, water, copper, and gold. In QCD,
+the opposite behaviour is observed: the chromoelectric charge is weaker at
+shorter distances, so its vacuum is anti screening, with a dielectric constant
+ε < 1 . (28)
+The equivalent magnetic permeability is µ > 1, known as Pauli para-
+magnetism, where the particles tend to align with the external field, as in
+tungsten, aluminium, or lithium. It has to be stressed that the electromag-
+netic terminology used for QCD is just an analogy to the QED case: by “the
+charge” we mean the colour charge, by “the magnetic moment” the colour
+magnetic moment.
+References
+Callan, C.G. 1970. Broken Scale Invariance in Scalar Field Theory. Physical
+Review D, 2(8), pp.1541-1547. Available at:
+Coleman, S. &Weinberg, E. 1973. Radiative Corrections as the Origin of Spon-
+taneous Symmetry Breaking. Physical Review D, 7(6), pp.1888-1910.Available at:
+Fabiano, N. 2021. Quantum electrodynamics divergencies. Vojnotehnički glas-
+nik/Military Technical Courier, 69(3), pp.656-675. Available at:
+Glashow, S. 1959. The renormalizability of vector meson interactions. Nuclear
+Physics, 10(February–May), pp.107-117. Available at:
+Gross, D.J. &Wilczek F. 1973. Asymptotically Free Gauge Theories. I. Physical
+Review D, 8(10), pp.3633-3652. Available at:
+Landau, L.D., Abrikosov, A.A. & Khalatnikov, I.M. 1954. Dokl. Akad. Nauk
+SSSR, 95, 497, 773, 1177 (in Russian).
+Landau, L.D. & Pomeranchuk, I.Ya. 1955. Dokl. Akad. Nauk SSSR, 102, 489
+(in Russian).
+Politzer, H.D. 1973. Reliable Perturbative Results for Strong Interactions?
+Physical Review Letters, 30(26) pp.1346-1349. Available at:
+Salam, A. & Ward, J.C. 1959. Weak and electromagnetic interactions. Il Nuovo
+Cimento, 11(4), pp.568-577. Available at: Symanzik, K. 1970. Small distance behaviour in field theory and power count-
+ing. Communications in Mathematical Physics, 18(3), pp.227-246. Available at:
+Symanzik, K. 1971. Small-distance-behaviour analysis andWilson expansions.
+Communications in Mathematical Physics, 23(1), pp.49-86. Available at:
+Weinberg, S. 1967. A Model of Leptons. Physical Review Letters, 19(21),
+pp.1264-1266. Available at: Weinberg, S. 1973. NewApproach to the Renormalization Group. Physical Re-
+view D, 8(10), pp.3497-3509. Available at:
+Yang, C.N. & Mills, R. 1954. Conservation of Isotopic Spin and Isotopic Gauge
+Invariance. Physical Review, 96(1), pp.191-195. Available at:
+Yukawa, H. 1935. On the interaction of elementary particles. Proceedings of
+the Physico-Mathematical Society of Japan. 3rd Series, 17, pp.48-75. Available
+at: 166
+БЕТА-ФУНКЦИИ В КВАНТОВОЙ ТЕОРИИ ПОЛЯ
+Никола Фабиано
+Белградский университет, Институт ядерных исследований
+«Винча» − Институт государственного значения для Республики
+Сербия, г. Белград, Республика Сербия
+РУБРИКА ГРНТИ: 29.05.03 Математические методы
+теоретической физики,
+29.05.23 Релятивистская квантовая теория.
+Квантовая теория поля
+29.05.33 Электромагнитное взаимодействие
+ВИД СТАТЬИ: обзорная статья
+Резюме:
+Введение / цель: В данной статье представлено, как ра-
+ботает константа связи в различных квантовых теориях
+поля и возможные модели поведения бета-функции.
+Методы: Уравнение Каллана–Симанзика используется для
+изучения эволюции бета-функции.
+Результаты: Наблюдается различное поведение констан-
+ты связи при высоких энергиях в различных теориях.
+Особый интерес представляет явление асимптотической
+свободы.
+Выводы: Константы связи квантовой электродинамики
+(КЭД) и квантовой хромодинамики (КХД) ведут себя совер-
+шенно по-разному в режиме высоких энергий. Первая от-
+личается конечной энергией, в то время как вторая стре-
+мится к нулю, когда энергия увеличивается. Данное явле-
+ние КХД называется асимптотической свободой.
+Ключевые слова: квантовая электродинамика, квантовая
+хромодинамика, квантовая теория поля, ренормализаци-
+онная группа, бета-функция.
+БЕТА ФУНКЦИЈЕ У КВАНТНОЈ ТЕОРИЈИ ПОЉА
+Никола Фабиано
+Универзитет у Београду, Институт за нуклеарне науке ”Винча”-
+Институт од националног значаја за Републику Србију,
+Београд, Република Србија
+ОБЛАСТ: математика
+ВРСТА ЧЛАНКА: прегледни рад
+Сажетак:
+Увод / циљ: Илустровани су рад константе спреге у разним
+квантним теоријaмa поља кao и могуће понашање бета
+функције.
+Методе: Калан-Шиманзикова једначина користи се за про-
+учавање еволуције бета функције.
+Резултати: Примећено је различито понашање констан-
+те спреге за високе енергије за различите теорије. Од по-
+себног интереса је феномен асимптотске слободе.
+Закључак: Константе спреге квантне електродинамике
+(QED) и квантне хромодинамике (QCD) имају потпуно ра
+зличито понашање у режиму високих енергија. Док се прва
+разилази за коначне енергије, другатежи нули како се енер-
+гија повећава. Овај феномен QCD назива се асимптотска
+слобода.
+Кључне речи: квантна електродинамика, квантна хромо-
+динамика, квантна теорија поља, ренормализациона гру-
+па, бета функција.
+Paper received on / Дата получения работы / Датум пријема чланка: 05.03.2021.
+Manuscript corrections submitted on / Дата получения исправленной версии работы /
+Датум достављања исправки рукописа: 30.12.2021.
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум
+коначног прихватања чланка за објављивање: 31.12.2021.
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier
+(the terms and conditions of the Creative Commons Attribution license
+(© 2022 Авторы. Опубликовано в ”Военно-технический вестник / Vojnotehnički glasnik / Military
+Technical Courier” (и распространяется в соответствии с лицензией ”Creative Commons”
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier
+(у складу са Creative Commons лиценцом (168

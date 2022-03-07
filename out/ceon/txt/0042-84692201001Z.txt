@@ -1,0 +1,483 @@
+ХЛКХКЛЈХКХКЈХКЈХКЈХКЛХЈКЛХЈКЛХЛКЈ
+APPLICATION OF PROBABILITY-BASED 
+MULTI–OBJECTIVE OPTIMIZATION IN 
+MATERIAL ENGINEERING  
+Maosheng Zheng 
+Northwest University, School of Chemical Engineering,  
+Xi’an, People's Republic of China, 
+e-mail: mszhengok@aliyun.com,  
+ORCID iD: DOI: 10.5937/vojtehg70-35366; FIELD: Mathematics, Materials 
+ARTICLE TYPE: Original scientific paper 
+Abstract: 
+Introduction/purpose: Althought many methods have been proposed to 
+deal with the problem of  material selection, there are inherent defects of 
+additive algorithms and subjective factors in such algorithms. Recently, a 
+probability-based multi–objective optimization was developed to solve the 
+inherent shortcomings of the previous methods, which introduces a novel 
+concept of preferable probability to reflect the preference degree of the 
+candidate in the optimization. In this paper, the new method is utilized to 
+conduct an optimal scheme of the switching material of the RF-MEMS 
+shunt capacitive switch, the sintering parameters of natural hydroxyapatite 
+and the optimal design of the connecting claw jig. 
+Methods: All performance utility indicators of candidate materials are 
+divided into two groups, i.e., beneficial or unbeneficial types for the 
+selection process; each performance utility indicator contributes 
+quantitatively to a partial preferable probability and the product of all partial 
+preferable probabilities makes the total preferable probability of a 
+candidate, which transfers a multi–objective optimization problem into a 
+single–objective optimization one and represents a uniquely decisive 
+index in the competitive selection process. 
+Results: Cu is the appropriate material in the material selection for RF - 
+MEMS shunt capacitive switches; the optimal sintering parameters of 
+natural hydroxyapatite are at 1100C and 0 compaction pressure; and the 
+optimal scheme is scheme No 1 for the optimal design of a connecting 
+claw jig. 
+ОРИГИНАЛНИ НАУЧНИ РАДОВИ 
+ОРИГИНАЛЬНЫЕ НАУЧНЫЕ СТАТЬИ 
+ORIGINAL SCIENTIFIC PAPERS 
+Conclusion: The probability-based multi-objective optimization can be 
+easily used to deal with an optimal problem objectively in material 
+engineering. 
+Key words: multi-objective optimization, probability theory, preferable 
+probability, material engineering, scheme selection. 
+Introduction  
+It has been more than 40 years (Ashby, 2000) since early works in 
+material selection appeared; many methods have been proposed to 
+analyze a big amount of data involved in the material selection process 
+so as to obtain an appropriate result.  
+Various algorithms (techniques) have been developed, including 
+Ashby’s method (Ashby, 2000; Ashby et al, 2004), Technique for Order 
+Preference by Similarity to Ideal Solution (TOPSIS), Vlse Kriterijumska 
+Optimizacija Kompromisno Resenje (VIKOR), Multi Attribute Decision 
+Making (MADM), Analytical Hierarchy Process (AHP), Simple Additive 
+Weighted (SAW) method and Multi–Objective Optimization on the basis 
+of Ratio Analysis (MOORA), etc (Zheng et al, 2021). Ashby’s method is 
+difficult to be applied in cases which involve multiple criteria of selection 
+(Ashby, 2000; Ashby et al, 2004; Zheng et al, 2021). Deshmukh et al 
+employed the multi–objective optimization (MOO) techniques of TOPSIS 
+and VIKOR to perform the material selection of the switching structure 
+for RE-MEMS shunt capacitive switches (Deshmukh & Angira, 2019). 
+However, there exist inherent problems of additive algorithms and 
+subjective factors in the MADM, AHP, MOORA, TOPSIS and VIKOR due 
+to their fatal scaling or normalization processes (Zheng et al, 2021). 
+Recently, a new probability-based multi-objective optimization 
+method was developed (Zheng et al, 2021), attempting to solve the 
+inherent problems of personal and subjective factors in the previous 
+multi–objective optimization methods. The novel concept of preferable 
+probability was introduced to reflect the preference degree of a candidate 
+in the optimization where all performance utility indicators of candidates 
+are divided into beneficial or unbeneficial types for the selection. Each 
+performance utility indicator of a candidate contributes to a partial 
+preferable probability quantitatively, and the total preferable probability of 
+a candidate is the product of all partial preferable probabilities from the 
+viewpoint of the probability theory, which is the overall and unique 
+decisive index in the competitive selection process. The new multi-
+objective optimization method was also extended with the application of 
+the multi-objective orthogonal test design method (OTDM) and the 
+uniform test design method (UTDM), which results in appropriate 
+achievements (Zheng et al, 2021). 
+In this paper, the new probability-based multi–objective optimization 
+method is used to perform the optimal scheme in material engineering, 
+which includes the selection of switching material of the RF-MEMS shunt 
+capacitive switch, the optimization of the sintering parameters of natural 
+hydroxyapatite and the optimal design of a connecting claw jig. 
+Brief introduction to the new multi–objective 
+optimization method 
+In the new probability-based multi–objective optimization method 
+(Zheng et al, 2021), a beneficial utility index of material performance 
+indicator contributes to a partial preferable probability in a positively 
+linear manner, i.e., 
+Pij = ijXij, i = 1, 2,...,n; j = 1, 2,..m.   (1)
+In Eq. (1), Xij is the j
+th beneficial utility index of the material 
+performance indicator of the ith candidate material; Pij represents the 
+partial preferable probability of the beneficial utility index Xij; n is the total 
+number of candidate materials in the material group involved; m is the 
+total number of the utility indices of each candidate material in the group; 
+j is the normalized factor of the j
+th utility index of the material 
+performance indicator, )/(1
+Xn= , and 
+X  is the arithmetic mean 
+value of the utility index of the material performance indicator in the 
+material group involved.  
+Equivalently, the unbeneficial utility index of the material 
+performance indicator contributes to a partial preferable probability in a 
+negatively linear manner, i.e., 
+Pij = ij(Xjmax + Xjmin - Xi), i = 1, 2,...,n; j = 1, 2,..m.   (2)
+In Eq. (3), Xjmax and Xjmin represent the maximum and minimum 
+values of the utility indices Xj of the material performance indicator in the 
+material group, respectively, and j is the normalized factor of the j
+th utility 
+indices of the material performance indicator, ])(/[1
+maxmin jjjij
+XnXXn −+= . 
+Moreover,  the total / comprehensive preferable probability of the ith 
+candidate material is the product of its partial preferable probability Pij of 
+each utility index of the material performance indicator in the overall 
+selection due to the “simultaneous optimization” of the multi-objects in 
+the viewpoint of probability theory (Zheng et al, 2021), i.e.,  
+i i i im ij
+P P P P P
+=   = .    (3) 
+The total preferable probability of a candidate is the uniquely 
+decisive index in the overall selection process competitively, which 
+transfers a multi–objective optimization problem (MOOP) into a single – 
+objective optimization one. The main characteristic of the new probability-
+based multi–objective optimization is that the treatment for both 
+beneficial utility index and unbeneficial utility index is equivalent and 
+conformable, which is without any artificial or subjective scaling factors 
+involved in the process. 
+Application of probability-based multi–objective 
+optimization in material engineering 
+1) Multi–objective optimization in the material selection of 
+RF-MEMS shunt capacitive switches 
+Radio Frequency Micro Electro Mechanical Systems (RF-MEMS) is 
+a promising technology for implementing passive devices in future 
+wireless communication systems (Deshmukh & Angira, 2019). Switches 
+have drawn more attention due to their frequent use in many cases in 
+wireless communication systems. An RF-MEMS technology-based 
+switch has low insertion loss, high isolation, high linearity and less power 
+consumption (Deshmukh & Angira, 2019). Its shunt capacitive switch has 
+two stable states i.e., up-state and down-state (Deshmukh & Angira, 
+2019). Power can flow from the input port to the output port in the switch 
+upstate, while it stands at the off-state in its down-state (Deshmukh & 
+Angira, 2019; Angira & Rangra, 2015a; Angira & Rangra, 2015b).  
+The optimization of the performance of the switching structure 
+involves many parameters (criteria), such as pull-in voltage, RF response 
+(insertion loss and isolation), maximum displacement, thermal 
+conductivity, etc (Deshmukh & Angira, 2019; Angira & Rangra, 2015a; 
+Angira & Rangra, 2015b). Since many parameters are involved, it can be 
+seen as a MOOP in the performance optimization of the switching 
+material selection. Therefore, a MOOP can be used to decrease human 
+effort since a large number of materials are available in practice, forming 
+a material bank together with many manufacturing processes and 
+selection attributes (Zheng et al, 2021).  
+Yang et al pointed out that if different normalization methods are 
+applied, significant different results may be produced (Yang et al, 2021). 
+Podviezko et al also stressed that different normalization of data applying 
+to popular MCDM methods such as SAW or TOPSIS could lead to 
+significant differences in the assessment (Podviezko & Podvezko, 2015). 
+As a consequence, many researchers paid a lot of attention to the choice 
+of the normalization type. However, it is still puzzling which normalization 
+method is better and how to determine final results of material selection 
+from different normalization algorithms.  
+A) Utility indices of the material performance indicators in the material 
+selection of RF - MEMS shunt capacitive switches 
+In the study of Deshmukh & Angira (2019), the optimal objectives for 
+this purpose are low pull–in voltage, low RF loss, high thermal 
+conductivity and maximum displacement of the beam structure. As a 
+result, the square root of Young’s modulus of the material E0.5, the 
+electrical resistive coefficient e, the thermal conductivity of the material , 
+the ratio of the fracture strength f to Young’s modulus E of the material, 
+f/E, are taken as the optimal utility indices of the material attribute 
+indicators (Deshmukh & Angira, 2019).  
+B) Divisions of the utility indices in the material selection of RF - MEMS 
+shunt capacitive switches 
+From analyzing the requirements of the optimizations of the bridge 
+of RF-MEMS shunt capacitive switches, i.e., higher pull-in voltage (Vp), 
+lower RF loss, higher thermal conductivity and the higher maximum 
+displacement of the switch beam (Deshmukh & Angira, 2019), the utility 
+indices of the square root of Young’s modulus of the material, E0.5, the 
+thermal conductivity of the material, , the ratio of the fracture strength f 
+to Young’s modulus E of the material, f/E, belong to the beneficial type 
+of the material performance index, while the electrical resistive coefficient, 
+e, belongs to the unbeneficial type of the material performance index in 
+the assessment. 
+C) Assessment results  
+The values of the conventional material performance indicators for 
+various materials are given in Table 1 (Deshmukh & Angira, 2019).  
+The partial preferable probabilities of the utility indices of E0.5,  and 
+e and f /E and the total preferable probabilities are assessed according 
+to Equations (1) through (5), respectively, shown in Table 2. In addition, 
+the ranking here by using the new probability-based multi–objective 
+optimization method is given in Table 2 together with those of Vikor and 
+Topsis from Ref. (Deshmukh & Angira, 2019) for comparison. 
+Table 1 – Conventional material performance indicators for various materials (Deshmukh 
+& Angira, 2019) 
+Таблица 1 – Стандартные показатели эффективности материалов для 
+различных материалов (Deshmukh & Angira, 2019) 
+Табела 1 – Индикатори уобичајених перформанси материјала за различите 
+материјале (Deshmukh & Angira, 2019) 
+Mat. 
+Young’s 
+modulus  
+E (GPa) 
+Electrical 
+resistive 
+coefficient 
+e (Ω m) 10−8 
+Thermal 
+conductivity 
+ (W/m∙K) 
+Fracture 
+strength 
+f (MPa) 
+(f/E) 
+103 
+Ni 193 6.99 90 345 1.7876 
+Au 70 2.44 315 220 3.1429 
+Al 70 2.82 204 47 0.6714 
+Ag 83 1.59 407 110 1.3253 
+Pt 168 10.5 73 125 0.7440 
+Cu 117 1.68 386 314 2.6838 
+Cr 279 12.9 90 370 1.3262 
+W 411 5.28 163 1725 4.1971 
+Co 209 6.24 69 675 3.2297 
+Fe 211 9.61 73 540 2.5592 
+Table 2 –  Partial preferable probabilities and total preferable probabilities for various 
+materials for shunt capacitive switch optimization 
+Таблица 2 – Частичные предпочтительные вероятности и общие 
+предпочтительные вероятности для различных материалов при оптимизации 
+емкостного шунтирующего переключателя 
+Табела 2 – Делимичне пожељне вероватноће и укупне пожељне вероватноће за 
+различите материјале у оптимизацији капацитивног прекидача шанта  
+ Mat. PE^0.5 Pe P Pf /E Pt104 
+Rank 
+here 
+Rank 
+Vikor 
+Rank 
+Topsis 
+Ni 0.1073 0.0884 0.0481 0.0825 0.3766 6 6 6 
+Au 0.0646 0.1420 0.1684 0.1451 2.2423 3 1 1 
+Al 0.0646 0.1375 0.1091 0.0310 0.3005 7 4 4 
+Ag 0.0704 0.1520 0.2176 0.0612 1.4242 4 3 3 
+Pt 0.1001 0.0470 0.0390 0.0343 0.0631 10 8 9 
+Cu 0.0835 0.1510 0.2064 0.1239 3.2248 1 2 2 
+Cr 0.1290 0.0187 0.0481 0.0612 0.0712 9 10 10 
+W 0.1566 0.1085 0.0872 0.1937 2.8697 2 9 7 
+Co 0.1117 0.0972 0.0369 0.1490 0.5971 5 5 5 
+Fe 0.1122 0.0575 0.0390 0.1181 0.2975 8 7 8 
+It can be seen from Table 2 that the appropriate material from the 
+new multi–objective optimization method is Cu, which is different from 
+those of Vikor and Topsis from (Deshmukh & Angira, 2019); this is 
+because of the inherent defects of personal and subjective factors in 
+Vikor and Topsis (Deshmukh & Angira, 2019).  
+In fact, the evaluation result of the new probability-based method for 
+multi–objective optimization in material selection is no need to equal to 
+those of other previous approaches exactly due to their involvements of 
+personal or other subjective coefficients. 
+2) Optimization of sintering parameters of natural hydroxyapatite  
+Abifarin conducted the optimization of hydroxyapatite (HAp) 
+mechanical characteristics using Taguchi grey relational analysis design 
+which includes hardness and compressive strength (Abifarin, 2021). 
+Three levels of sintering temperature and two levels of compaction 
+pressure are employed during sintering (Abifarin, 2021). The design and 
+the results are shown in Table 3. Again, the probability-based multi-
+objective optimization is used to conduct the assessment with hardness 
+and compressive strength as the beneficial type index. The evaluation 
+results are shown in Table 4. 
+Table 3 – Design and the results of HAp 
+Таблица 3 – Разработка и результаты гидроксиапатита 
+Табела 3 – Пројектовање и резултати хидроксиапатита 
+No Pressure 
+Temperature 
+Hardness 
+Compressive 
+Strength 
+1 0 900 0.54 0.39 
+2 0 1000 0.838 0.58 
+3 0 1100 0.940 0.84 
+4 5 900 0.656 0.34 
+5 5 1000 0.929 0.5 
+6 5 1100 1.103 0.69 
+Table 4 – Evaluation results of HАp 
+Таблица 4 – Результаты оценки гидроксиапатита 
+Табела 4 – Резултати оцене хидроксиапатита 
+ Partial preferable probability Total 
+No Hardness Strength Pt*102 Rank 
+1 0.1079 0.1168 1.2596 6 
+2 0.1674 0.1737 2.9069 3 
+3 0.1878 0.2515 4.7225 1 
+4 0.1311 0.1018 1.3340 5 
+5 0.1856 0.1497 2.7781 4 
+6 0.2203 0.2066 4.5518 2 
+Table 4 indicates that the optimal sintering parameters of natural 
+hydroxyapatite are at 1100C and 0 compaction pressure. 
+3) Optimal design of a connecting claw jig 
+Yan et al conducted the multi-objective optimal design of a 
+connecting claw jig with ANSYS Workbench finite element analysis 
+software (Yan et al, 2021). The maximum equivalent stress (MPa) Y1, the 
+weight (kg) Y2, the minimum safety factor Y3 and the maximum 
+deformation (mm) Y4 of the claw jig are taken as the optimization 
+objectives, while the thickness of the substrate FD1 (mm) x1, the angle of 
+the connecting claw A1 (°) x2, the thickness of the connecting claw FD2 
+(mm) x3, and the outside diameter of the jig base R1 (mm) x4 are taken as 
+the input variables.  
+After the simulation and the analysis, three candidate schemes with 
+good objective functions are selected by the system, as shown in Table 5. 
+The object Y3 is a beneficial type index, while Y1, Y2 and Y4 are all 
+unbeneficial type indexes. The evaluation results are shown in Table 6. 
+Table 6 shows that the optimal scheme is scheme No 1. 
+Table 5 – Three candidate schemes of the connecting claw jig 
+Таблица 5 – Три возможные схемы кулачковой муфты 
+Табела 5 – Шеме три кандидата за канџасту спојницу 
+Original 
+scheme 
+(mm) 
+x2 (°) 
+(mm) 
+(mm) 
+(MPa) 
+(kg) 
+(mm) 
+56 79 38 32.5 151.22 6.176 1.6532 1.171 
+1 54.125 73.13 35.414 31.051 128.42 5.615 1.9467 0.923 
+2 48.125 73.77 37.982 32.395 143.31 5.577 1.7444 1.043 
+3 46.625 76.38 39.908 30.715 161.48 5.620 1.5482 1.375 
+Table 6 – Evaluation results of the connecting claw jig 
+Таблица 6 – Результаты оценки кулачковой муфты 
+Табела 6 – Резултати оцена канџасте спојнице 
+Partial preferable probability Total 
+Y1  Y2 Y3 Y4  Pt*100 Rank 
+1 0.3700 0.3327 0.3716 0.3870 1.7697 1 
+2 0.3358 0.3349 0.3329 0.3532 1.3229 2 
+3 0.2942 0.3324 0.2955 0.2598 0.7507 3 
+Conclusion 
+The application of the new probability-based multi–objective 
+optimization method in dealing with three optimal problems of material 
+engineering has shown that: the appropriate material (Cu) is successfully 
+selected, which meets the requirements of the optimizations of the bridge 
+of RF - MEMS shunt capacitive switches; the optimal sintering 
+parameters of natural hydroxyapatite are at 1100C and 0 compaction 
+pressure; and the optimal scheme of the connecting claw jig is scheme 
+No 1. The main feature of the new probability-based multi–objective 
+optimization method is that the treatment is equivalent and conformable 
+for both the beneficial utility index and the unbeneficial utility index, 
+without any artificial or subjective scaling factors involved in the process. 
+References  
+Abifarin, J.K. 2021 Taguchi grey relational analysis on the mechanical 
+properties of natural hydroxyapatite: effect of sintering parameters. The 
+International Journal of Advanced Manufacturing Technology, 117, pp.49-57. 
+Available at: Angira, M. & Rangra, K. 2015a. Design and investigation of a low 
+insertion loss, broadband, enhanced self and hold down power RF-MEMS 
+switch. Microsystem Technologies, 21(6), pp.1173-1178. Available at: 
+Angira, M. & Rangra, K. 2015b. Performance improvement of RF-MEMS 
+capacitive switch via asymmetric structure design. Microsystem Technologies, 
+21(7), pp.1447-1452. Available at: Ashby, M.F. 2000. Multi-Objective optimization in material design and 
+selection. Acta Materialia, 48(1), pp.359-369. Available at: 
+Ashby, M.F., Bréchet, Y.J.M., Cebon, D. & Salvo, L. 2004. Selection 
+strategies for materials and processes. Materials & Design, 25(1), pp.51-67. 
+Available at: Deshmukh, D. & Angira, M. 2019. Investigation on Switching Structure 
+Material Selection for RF-MEMS Shunt Capacitive Switches Using Ashby, 
+TOPSIS and VIKOR. Transactions on Electrical and Electronic Materials, 20, 
+pp.181-188. Available at: Podviezko, A. & Podvezko, V. 2015. Influence of data transformation on 
+multicriteria evaluation result. Procedia Engineering, 122, pp.151-157. Available 
+at: Yan, Y., Fu, N., Zhang, X., Wang, C., Sun, J. & Lu, L. 2021. Research on 
+the Multi-Objective Optimization Design of Connecting Claw Jig. International 
+Journal of Steel Structures, 21(6), pp.1911-1920. Available at: 
+Yang, W-C., Chon, S-K., Choe, C-M. & Yang, J-Y. 2021. Materials 
+selection method using TOPSIS with some popular normalization methods. 
+Engineering Research Express, 3(1), art.number: 015020. Available at: 
+Zheng, M., Wang, Y. & Teng, H. 2021. A New "Intersection" Method for 
+Multi-Objective Optimization in Material Selection. Tehnički glasnik, 15(4), 
+pp.562-568. Available at:  
+ПРИМЕНЕНИЕ МНОГОЦЕЛЕВОЙ ОПТИМИЗАЦИИ, 
+ОСНОВАННОЙ НА  ВЕРОЯТНОСТИ В МАТЕРИАЛОВЕДЕНИИ 
+Maoшенг Чжэн  
+Северо-западный политехнический университет,  
+факультет химической инженерии, 
+г. Сиань, Народная Республика Китай 
+РУБРИКА ГРНТИ: 27.00.00 МАТЕМАТИКА: 
+                               27.47.00 Математическая кибернетика;  
+                               27.47.19 Исследование операций, 
+  45.00.00 ЭЛЕКТРОТЕХНИКА: 
+                               45.09.00 Электротехнические материалы 
+ВИД СТАТЬИ: оригинальная научная статья 
+Резюме: 
+Введение/цель: Несмотря на то, что существует множество 
+методов решения проблемы выбора материала на основе 
+аддитивных алгоритмов, такие алгоритмы по своей сути 
+содержат недостатки и субъективные факторы. С целью 
+преодоления недостатков этих методов, недавно была 
+разработана многокритериальная вероятностная 
+оптимизация, которая вводит новую концепцию 
+предпочтительной вероятности, показывающую степень 
+предпочтительности кандидата в процессе оптимизации. В 
+данной статье используется новый метод в разработке 
+оптимальной схемы материала для емкостного шунтирующего 
+переключателя в радиочастотных микроэлектромеханических 
+системах (РЧ МЭМС), параметрах спекания природного 
+гидроксиапатита, а также для оптимальной разработки 
+кулачковой муфты. 
+Методы: Все показатели полезности материалов–кандидатов 
+делятся на две группы, полезные или невыгодные для процесса 
+отбора; каждый показатель полезности вносит 
+количественный вклад в частичную предпочтительную 
+вероятность, а произведение всех частичных 
+предпочтительных вероятностей составляет общую 
+предпочтительную вероятность кандидата, что переводит 
+проблему многокритериальной оптимизации в проблему 
+оптимизации с одним критерием и представляет собой 
+уникальный индекс в процессе конкурсного отбора. 
+Результаты: Медь оказалась подходящим материалом при 
+выборе материалов для емкостных шунтирующих 
+переключателей в радиочастотных микроэлектромеханических 
+системах (РЧ МЭМС); оптимальные параметры спекания 
+природного гидроксиапатита − 1100 C при нулевом давлении 
+сжатия, а оптимальной схемой проектирования кулачковой 
+муфты является схема №1. 
+Выводы: Многокритериальная оптимизация на основе 
+вероятностей может широко применяться при принятии 
+объективных решений оптимальных проблем в 
+матереаловедении. 
+Ключевые слова: многокритериальная оптимизация, теория 
+вероятностей, предпочтительная вероятность, 
+материаловедение, выбор схемы. 
+ПРИМЕНА ВИШЕКРИТЕРИЈУМСКЕ ОПТИМИЗАЦИЈЕ 
+ЗАСНОВАНА НА ВЕРОВАТНОЋИ У ТЕХНОЛОГИЈИ МАТЕРИЈАЛА 
+Maoшенг Џенг 
+Универзитет Северозапад, Факултет хемијског инжењерства, 
+Сијан, Народна Република Кина 
+ОБЛАСТ: математика, материјали 
+ВРСТА ЧЛАНКА: оригинални научни рад 
+Сажетак:  
+Увод/циљ: Иако постоји много метода за решавање проблема 
+селекције материјала заснованих на адитивним алгоритмима, 
+такви алгоритми инхерентно садрже недостатке и субјективне 
+факторе. Ради превазилажења слабости поменутих метода, 
+недавно је развијена вишекритеријумска оптимизација заснована 
+на вероватноћи која уводи нови концепт пожељне вероватноће 
+који показује степен пожељности кандидата при оптимизацији. У 
+овом раду користи се нов метод за извођење оптималне шеме за 
+материјал за капацитивну склопку шанта у радиофреквенцијским 
+микроелектромеханичким системима (РФ МЕМС), за параметре 
+синтеровања природног хидроксиапатита, као и за оптимално 
+пројектовање канџасте спојнице. 
+Методе: Сви показатељи перформанси корисности материјала – 
+кандидата деле се на корисне и некорисне за селекцију. Сваки 
+показатељ перформанси корисности квантитативно доприноси 
+делимичној пожељној вероватноћи, док производ свих делимичних 
+пожељних вероватноћа чини укупну пожељну вероватноћу 
+кандидата, чиме се проблем вишекритеријумске оптимизације 
+преводи у проблем једнокритеријумске оптимизације и 
+представља јединствени одлучујући индекс у компетитивном 
+процесу селекције. 
+Резултати: Бакар се показао као одговарајући материјал при 
+селекцији материјала за капацитивне склопке шанта у 
+радиофреквенцијским микроелектромеханичким системима (РФ 
+МЕМС). Оптимални параметри синтеровања природног 
+хидроксиапатита су 1100C и нулти притисак сабијања, а 
+оптимална шема за пројектовање канџасте спојнице јесте шема 
+број 1. 
+Закључак: Вишекритеријумска оптимизација на бази вероватноће 
+може се једноставно применити за објективно решавање 
+оптималног проблема у технологији материјала. 
+Кључне речи: вишекритеријумска оптимизација, теорија 
+вероватноће, пожељна вероватноћа, технологија материјала, 
+селекција шеме. 
+Paper received on / Дата получения работы / Датум пријема чланка: 12.12.2021.  
+Manuscript corrections submitted on / Дата получения исправленной версии работы / 
+Датум достављања исправки рукописа: 29.12.2021. 
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум 
+коначног прихватања чланка за објављивање: 31.12.2021. 
+© 2022 The Author. Published by Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). This article is an open access article distributed under the 
+terms and conditions of the Creative Commons Attribution license 
+(© 2022 Автор. Опубликовано в «Военно-технический вестник / Vojnotehnički glasnik / Military 
+Technical Courier» (www.vtg.mod.gov.rs, втг.мо.упр.срб). Данная статья в открытом доступе и 
+распространяется в соответствии с лицензией «Creative Commons» 
+(© 2022 Аутор. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). Ово је чланак отвореног приступа и дистрибуира се у 
+складу са  Creative Commons licencom ( 

@@ -1,0 +1,793 @@
+ХЛКХКЛЈХКХКЈХКЈХКЈХКЛХЈКЛХЈКЛХЛКЈ
+PICTURE-WISE JUST NOTICEABLE 
+DIFFERENCE PREDICTION MODEL FOR 
+JPEG IMAGE QUALITY ASSESSMENT 
+Boban P. Bondžulića, Boban Z. Pavlovićb,  
+Nenad M. Stojanovićc, Vladimir S. Petrovićd 
+а University of Defence in Belgrade, Military Academy, Department of 
+  Telecommunications and Informatics, Belgrade, Republic of Serbia, 
+  e-mail: bondzulici@yahoo.com, 
+  ORCID iD: b University of Defence in Belgrade, Military Academy, Department of 
+  Telecommunications and Informatics, Belgrade, Republic of Serbia, 
+  e-mail: bobanpav@yahoo.com, corresponding author, 
+  ORCID iD: c University of Defence in Belgrade, Military Academy, Department of 
+  Telecommunications and Informatics, Belgrade, Republic of Serbia, 
+  e-mail: nivzvk@hotmail.com, 
+  ORCID iD: d University of Novi Sad, Faculty of Technical Sciences, 
+  Novi Sad, Republic of Serbia, 
+  e-mail: vpetrovic@visaris.com, 
+  ORCID iD: DOI: 10.5937/vojtehg70-34739; FIELD: Telecommunications 
+ARTICLE TYPE: Original scientific paper 
+Summary: 
+Introduction/purpose: The paper presents interesting research related to 
+the performance analysis of the picture-wise just noticeable difference 
+(JND) prediction model and its application in the quality assessment of 
+images with JPEG compression. 
+Methods: The performance analysis of the JND model was conducted in 
+an indirect way by using the publicly available results of subject-rated 
+image datasets with the separation of images into two classes (above and 
+below the threshold of visible differences). In the performance analysis of 
+the JND prediction model and image quality assessment, five image 
+datasets were used, four of which come from the visible wavelength 
+range, and one dataset is intended for remote sensing and surveillance 
+with images from the infrared part of the electromagnetic spectrum. 
+ACKNOWLEDGMENT: 
+This research has been a part of Project No. VA-TT/3/20-22 supported by the Ministry of 
+Defence, Republic of Serbia. 
+mailto:bondzulici@yahoo.com
+mailto:bobanpav@yahoo.com
+Results: The paper shows that using a picture-wise JND model, 
+subjective image quality assessment scores can be estimated with 
+better accuracy, leading to significant performance improvements of 
+the traditional peak signal-to-noise ratio (PSNR). The gain achieved by 
+introducing the picture-wise JND model in the objective assessment 
+depends on the chosen dataset and the results of the initial simple to 
+compute PSNR measure, and it was obtained on all five datasets. The 
+mean linear correlation coefficient (for five datasets) between 
+subjective and PSNR objective quality estimates increased from 74% 
+(traditional PSNR) to 90% (picture-wise JND PSNR). 
+Conclusion: Further improvement of the JND-based objective measure 
+can be obtained by improving the picture-wise model of JND 
+prediction. 
+Key words: just noticeable difference, JPEG compression, peak signal-
+to-noise ratio, subjective and objective image quality assessment. 
+Introduction 
+With the rapid development of systems for digital processing, 
+transmission and display of images and videos, there has been a 
+growing interest in efficient image/video compression techniques (Lu et 
+al, 2021). Among the techniques intended for image compression, the 
+JPEG technique (Wallace, 1992), (Pennebaker & Mitchell, 1993) has 
+been the most widely accepted for more than 25 years. The original 
+JPEG development team members emphasize that the longevity of this 
+technique is a consequence of well-defined mandatory conditions that it 
+had to meet and fundamental components such as fast discrete cosine 
+transform, psychovisual quantization, modeling, encoding, a royalty-free 
+baseline, progressive modes, lossless compression support and real-
+time implementation (Hudson et al, 2017), (Hudson et al, 2018). The 
+JPEG technique still meets the average user demand, so it is to be 
+expected that it will be present in the coming decades. 
+Image compression techniques, along with the elimination of coding 
+and spatial redundancy, use some of the characteristics of the human 
+visual system (HVS), i.e. use visual redundancy. One of the 
+characteristics is related to the just noticeable difference (JND) threshold. 
+JND, as a perceptual threshold in image processing, is used in 
+perceptual image compression (Tian et al, 2020), (Wang et al, 2019), and 
+can also be used in objective image quality assessment (Toprak & 
+Yalman, 2017), (Seo et al, 2021). The first and most significant JND 
+threshold/point refers to the transition between a pristine and an image 
+with visible distortions, or rather the transition from perceptually lossless 
+to perceptually lossy encoding (Huang et al, 2018). Research on JND 
+has intensified in recent years thanks to publicly available image and 
+video datasets with the results of subjective tests, among which there are 
+three JND-based image datasets with JPEG compression (Jin et al, 
+2016), (Liu et al, 2018), (Ahar et al, 2018). These three datasets are 
+intended for different purposes – compression of natural images (Jin et 
+al, 2016), compression of panoramic images (Liu et al, 2018) and 
+compression of high dynamic range images (Ahar et al, 2018). JND-
+based subjective quality analyses also have been conducted on JPEG 
+2000, H.265 and VVC compressed images, and on H.264 and H.265 
+compressed videos (Bondžulić et al, 2021). 
+The MCL-JCI dataset described in (Jin et al, 2016), as a dataset of 
+natural scene images, contains information on the JND points of JPEG 
+compressed images and was used to predict JND points in (Fan et al, 
+2019), (Lin et al, 2020), (Liu et al, 2020), (Bondžulić et al, 2021). The 
+mean absolute error (MAE) of the PSNR between the predicted and 
+ground truth JND distributions was used as a prediction accuracy 
+measure. The deep learning approaches (Fan et al, 2019), (Lin et al, 
+2020), (Liu et al, 2020) yielded the MAE for the first JND point of 0.69 dB, 
+0.58 dB and 0.79 dB, respectively. Recent research published in 
+(Bondžulić et al, 2021) has shown that based on only one feature derived 
+from a source non-compressed image (mean gradient magnitude, MGM), 
+the PSNR of the first JND point of an image with JPEG compression can 
+be reliably predicted (linear correlation coefficient between PSNR of the 
+predicted and ground truth first JND points is greater than 92%, while the 
+MAE between them is 1.21 dB). The proposed approach does not require 
+complex vision or masking models and determines the optimal JPEG 
+quality factor through a simple rate-distortion function using the 
+computationally efficient PSNR metric for objective quality assessment. 
+The high degree of correlation can be explained by a good prediction of 
+image complexity using MGM, which is essential in determining the 
+degree of compression and bandwidth allocation (Yu & Winkler, 2013). 
+The research in this paper aims to further confirm the success of the 
+prediction of the first JND points for a given image using a simple and 
+fast approach (Bondžulić et al, 2021) and to show that the information of 
+position of the first JND points can be used to reliably evaluate quality of 
+images with JPEG compression. Prediction success and reliable 
+evaluation were confirmed on five subject-rated image datasets 
+containing images with JPEG compression. 
+Prediction of the first JND point for JPEG compressed 
+images 
+The quality factor (QF), whose values range from 0 to 100, has been 
+used to control the quality of JPEG compressed images. Higher QF 
+values correspond to better quality images. Although one can choose a 
+QF from 0 to 100, with an increment equal to one, recent research has 
+shown that observers can distinguish a finite number of image quality 
+levels (four to eight), and that the relationship between perceptual 
+distortions and a bit-rate/distortion level is not a continuous but a step 
+function (Jin et al, 2016). The steps of this function represent the JND 
+points. The first among them, and at the same time the most important 
+JND point, refers to the maximum difference between the original and the 
+test image that the HVS will not notice (Li et al, 2020), (Bondžulić et al, 
+2017). This transition point between the original image and the images 
+with visible degradations also represents the transition from perceptually 
+lossless to perceptually lossy encoding. The second JND point is 
+obtained by detecting noticeable differences from the first JND point 
+(anchor), i.e. lower JND points are used as anchors to determine higher 
+JND points. 
+Figure 1 shows the original uncompressed image from the MCL-JCI 
+dataset (Jin et al, 2016), its stepwise distribution of JND points and the 
+regions of the original image and images corresponding to JND points. 
+The results of subjective tests were given through the stair quality 
+function (SQF), which represents the normalized cumulative sum of the 
+JND function, and was obtained by analysing and post-processing raw 
+JND data. The height of the SQF function for a boundary point with 
+QF=100 is equal to one and defines the maximum possible quality. The 
+first drop in quality corresponds to the first JND point (JND #1), and its 
+height corresponds to subjective quality. This point corresponds to the 
+image with QF=35, and its subjective quality is SQF=0.92. The position 
+of the first JND point depends on the image content and for 50 source 
+images from the MCL-JCI dataset these positions were obtained for a 
+wide range of QF values, from 25 to 70 (Jin et al, 2016). 
+The regions in Figure 1 show visible differences between the images 
+corresponding to the higher JND points (JND #2 and JND #3) and the 
+region of the original image. 
+Prediction of the first JND point for JPEG compressed images can 
+be achieved in the PSNR, QF, and bits per pixel (bpp) domains, but 
+researchers suggested using the PSNR domain to predict the first JND 
+point (Liu et al, 2020), (Bondžulić et al, 2021). 
+The procedure for determining the estimation of the ground truth 
+PSNR value (PSNR JND #1) proposed in (Bondžulić et al, 2021) is 
+carried out in several steps. In the first step, if it is a color image, the 
+conversion from the RGB color format to a grayscale image is performed 
+(Gonzalez & Woods, 2018): 
+ ( ), 0.299 ( , ) 0.587 ( , ) 0.114 ( , )f n m R n m G n m B n m= + + . (1) 
+ (a) (b) 
+ (c) original (d) JND #1 (QF=35, SQF=0.92) 
+ (e) JND #2 (QF=21, SQF=0.65) (f) JND #3 (QF=14, SQF=0.54) 
+Figure 1 – (a) (b) original image rich in detail and its SQF function, (c) (d) (e) and (f) 
+regions of the original image and compressed images corresponding to the JND points 
+Рис. 1 – (a) (b) исходное изображение, богатое деталями, и его функция SQF, (c) 
+(d) (e) и (f) области исходного изображения и сжатых изображений, 
+соответствующие точкам JND 
+Слика 1 – (a), (b) – оригинална слика богата детаљима и њена SQF функција, (c), 
+(d), (e) и (f) – региони оригиналне слике и компримованих слика који одговарају JND 
+тачкама 
+In the second step, the responses gx and gy of the grayscale image 
+to the 2D Sobel filters are determined: 
+( , ) ( 1, 1) 2 ( 1, ) ( 1, 1)
+[ ( 1, 1) 2 ( 1, ) ( 1, 1)]
+g n m f n m f n m f n m
+f n m f n m f n m
+= + − + + + + +
+− − − + − + − +
+, (2) 
+( , ) ( 1, 1) 2 ( , 1) ( 1, 1)
+[ ( 1, 1) 2 ( , 1) ( 1, 1)]
+g n m f n m f n m f n m
+f n m f n m f n m
+= − + + + + + +
+− − − + − + + −
+. (3) 
+From the resulting gx and gy oriented gradient components, the MGM 
+information is easily obtained according to: 
+( , ) ( , )
+x yn m
+MGM g n m g n m
+NM g
+= + , (4) 
+where gmax is the experimentally determined maximum magnitude value, 
+taken as gmax=4.472 for grayscale images with a dynamic range 0 to 1 
+(image f which is an 8-bit unsigned integer array with a range of 0 to 255 
+is linearly scaled to a dynamic range of 0 to 1 with a double-precision 64-
+bit format) (Bondžulić et al, 2021). 
+The PSNR JND #1 prediction is determined based on the MGM 
+information as: 
+2115.5 377 46.4, 0.0896
+29.58, 0.0896
+MGM MGM MGM
+PSNR MGM
+ − + 
+, (5) 
+and this mapping function is shown in Figure 2. 
+The optimal values of the coefficients in Eq. (5) were determined 
+based on the results of subjective tests on the MCL-JCI dataset 
+(Bondžulić et al, 2021). 
+Figure 2 shows that, with increasing MGM, the value of PSNR 
+prediction decreases, where for MGM=0.0896 the mapping function 
+reaches its minimum value (PSNRmin=29.58 dB). This can be explained 
+by the influence of contrast and texture that are important for visibility 
+masking estimation because in the regions that contain more non-
+uniform contents more distortion can be tolerated than in the regions with 
+homogeneous content. Furthermore, block-based JPEG coding 
+suppresses high-frequency components. In the homogeneous regions 
+with gradual color/intensity change, the blocking artifact is visible to 
+observers. In contrast, the distortion is less obvious in the textured 
+regions (Jin et al, 2016). 
+Figure 2 – PSNR prediction of the first JND point based on the mean gradient magnitude 
+Рис. 2 – Прогноз PSNR первой точки JND на основании средней величины 
+градиента 
+Слика 2 – PSNR предикција прве JND тачке на основу средње вредности 
+амплитуде градијента 
+JND prediction and image quality analysis 
+The described model (Bondžulić et al, 2021) was used without any 
+additional adjustments to determine the PSNR estimates of the first JND 
+points of the reference images from the four datasets. For example, the 
+adopted JND model is trained on high spatial resolution images 
+(1280x1920 pixels), and will be tested on images that are of significantly 
+lower resolution. 
+Figure 3 shows the scatter plots of subjective (mean opinion score – 
+MOS/difference MOS – DMOS) and objective (PSNR) quality scores. 
+Each point on the scatter plots corresponds to one test image with JPEG 
+compression. Scatter plots are shown for four image datasets, three of 
+which are publicly available – LIVE (Sheikh et al, 2006) (with 29 original 
+images), CSIQ (Larson & Chandler, 2010) (with 30 original images) and 
+VCL@FER (Zarić et al, 2012) (with 23 reference images). The fourth 
+image dataset, marked with LWIR, will be publicly available soon, and 
+can be obtained by sending an inquiry to the authors who created it 
+(Merrouche et al, 2018). A subset of 100 images with JPEG compression 
+was taken from the LWIR dataset containing images from the infrared 
+part of the electromagnetic spectrum. The LWIR dataset test images 
+were created from 20 original images, and their quality was reduced 
+using five degradation levels (five quality factors). In subjective tests, the 
+scores of 31 observers were collected. 
+On the scatter plots, JPEG images are represented by two symbols, 
+where the first symbol (o) corresponds to the images in which the PSNR 
+of the test image is above the PSNR JND #1 (this is the first class of 
+images, which should consist of high quality images, and in which there 
+is no loss of visual information). The second symbol () corresponds to 
+the images for which the PSNR of the test image is below the PSNR JND 
+#1 (this is the second class of images that should consist of lower quality 
+images). A similar idea of dividing images into two classes was used in 
+(Ponomarenko et al, 2015). 
+(a) (b) 
+ (c) (d) 
+Figure 3 – Scatter plots of subjective and PSNR objective image quality scores for JPEG 
+images from four datasets: (a) LIVE (175 images), (b) CSIQ (150 images), (c) VCL@FER 
+(138 images) and (d) LWIR (100 images) 
+Рис. 3 – Диаграммы разброса субъективных оценок качества изображений и 
+объективных оценок PSNR для изображений JPEG из четырех наборов данных: 
+(a) LIVE (175 изображений), (b) CSIQ (150 изображений), (c) VCL@FER (138 
+изображений) и (d) LWIR (100 изображений) 
+Слика 3 – Дијаграми расипања субјективних и PSNR објективних скорова 
+квалитета JPEG слика из четири базе: (a) LIVE (175 слика), (b) CSIQ (150 слика), 
+(c) VCL@FER (138 слика) и (d) LWIR (100 слика) 
+Figure 3 shows that the proposed approach for the first JND point 
+estimation proved to be excellent on the LIVE and CSIQ datasets. By 
+applying the PSNR of the first JND point, images of excellent visual quality 
+were detected – they correspond to lower values of subjective DMOS 
+scores. Slightly worse results of the proposed first JND point estimation 
+model can be seen for the images from the VCL@FER dataset.  
+The surprising result of the proposed approach can be seen on the 
+LWIR image dataset. Although it is a dataset of images from the invisible 
+(infrared) part of the electromagnetic spectrum, the proposed approach of 
+the first JND point estimation has proven to be very successful in detecting 
+JPEG compressed images with high quality – they correspond to higher 
+values of subjective MOS scores. In this way, the validity of the proposed 
+PSNR estimation of the first JND point was indirectly confirmed, using the 
+results of subjective quality tests of available image datasets. 
+Figure 4 shows two source images from the LWIR dataset and their 
+JPEG compressed versions for which the PSNR value is above the PSNR 
+JND #1. The test images are of excellent and good visual quality, i.e. there 
+is no visual difference between the pair of images shown in Figures 4(a) and 
+4(b) (MOS=5), while the observers noticed slight differences between the 
+pair shown in Figures 4(c) and 4(d) (MOS=4). 
+For the two selected examples, the degrees of image compression are 
+approximately equal and are 21.7 (Figure 4a) and 23.3 (Figure 4b). 
+(a) (b) 
+ (c) (d) 
+Figure 4 – (a) original image (image size is 608 kB), (b) test image with JPEG 
+compression (PSNR=42.47, PSNR JND #1=39.92, MOS=5, image size is 28 kB), (c) 
+original image (image size is 256 kB) and (d) test image with JPEG compression 
+(PSNR=40.03, PSNR JND #1=38.18, MOS=4, image size is 11 kB) 
+Рис. 4 – (а) исходное изображение (размер изображения 608 kB), (б) 
+тестовое изображение со сжатием JPEG (PSNR=42.47, PSNR JND #1=39.92, 
+MOS=5, размер изображения 28 kB), (в) исходное изображение (размер 
+изображения 256 kB) и (d) тестовое изображение со сжатием JPEG (PSNR=40.03, 
+PSNR JND #1=38.18, MOS=4, размер изображения 11 kB) 
+Слика 4 – (a) оригинална слика (величине 608 kB), (b) тест-слика са JPEG 
+компресијом (PSNR=42,47, PSNR JND #1=39,92, MOS=5, величина слике је 28 kB), 
+(c) оригинална слика (величине 256 kB) и (d) тест-слика са JPEG компресијом 
+(PSNR=40,03, PSNR JND #1=38,18, MOS=4, величина слике је 11 kB) 
+     Impact of JND prediction on image quality assessment 
+The described approach of the PSNR estimation of the first JND 
+point is derived from the results of subjective tests of the MCL-JCI 
+dataset (Jin et al, 2016) in which 50 original images are used. The 
+degree of agreement between SQF subjective and objective quality 
+scores on this JPEG image dataset is worse than the degree of 
+agreement between subjective and objective quality scores on publicly 
+available image datasets such as LIVE, CSIQ, VCL@FER and similar 
+(Bondžulić et al, 2020). A very low degree of agreement between the 
+SQF subjective and PSNR objective quality scores on this image dataset 
+can be observed through the large spreading on the scatter plots shown 
+in Figure 5. The scatter plots are shown for PSNR objective quality 
+scores. The degraded images originating from the same original image 
+are on the scatter plot in Figure 5(a) connected by lines of different 
+colors. On the scatter plot in Figure 5(b), the images corresponding to the 
+JND points derived from subjective tests are marked with different 
+symbols (from JND #1 to JND #7). 
+Additionally, in Figure 5(a), it can be seen that the slope of the lines 
+corresponding to the images originating from the same original image is 
+approximately the same. The spreading in the space of subjective and 
+objective quality scores is a consequence of the different content of the 
+original images. Similar conclusions related to the PSNR performance in 
+video quality assessment were reached by the authors in (Huynh-Thu & 
+Ghanbari, 2008), (Bondzulic et al, 2016). The goal of designing objective 
+quality assessment measures is that the results of the assessment, 
+among other things, do not depend on the content of the original images. 
+ (a) (b) 
+Figure 5 – Scatter plots of subjective and PSNR objective quality scores of MCL-JCI 
+JPEG compressed images: (a) the scatter plot is shown regarding the images originating 
+from the same original image and (b) the  scatter plot with marked JND points 
+Рис. 5 – Диаграммы разброса субъективных оценок качества и объективных 
+оценок PSNR сжатых изображений MCL-JCI JPEG: (a) график разброса показан в 
+соответствии с изображениями, происходящими из одного и того же исходного 
+изображения, и (b) график разброса с отмеченными точками JND 
+Слика 5 – Дијаграми расипања субјективних и PSNR објективних скорова 
+квалитета JPEG компримованих слика MCL-JCI базе: (a) дијаграм расипања је 
+приказан према сликама које потичу од исте оригиналне слике и (b) дијаграм 
+расипања са обележеним JND тачкама 
+Figure 6(a) shows the curves of the JND points from the two 
+source images, between which are the other JND points of the scatter 
+plot between the SQF and PSNR scores on the MCL-JCI image 
+dataset. 
+Figures 6(b) and 6(c) show the original images corresponding to 
+the curves of Figure 6(a), i.e. the left and right boundaries on the 
+scatter plot. It can be concluded that the points on the scatter plot are 
+located between the JND points of the image with uniform regions and 
+visible boundaries between them (right scatter border), and the image 
+with a pronounced uniform region in the upper third of the image (with 
+intensity saturation), and rich in details in the rest (left scatter border).  
+From Figure 5 it can be seen that the vertices of the curves start 
+from the images corresponding to the first JND points. In order to 
+make the result of the PSNR objective quality evaluation independent 
+of the content of the original images, it is reasonable to define the 
+differential PSNR as the difference between the PSNR and the 
+estimation of the PSNR JND #1: 
+ #1DPSNR PSNR PSNR JND= − . (6) 
+DPSNR values can be both positive and negative. Positive values 
+correspond to good quality images (PSNR>PSNR JND #1), while 
+negative values correspond to lower quality images. Also, DPSNR is a 
+picture-wise JND measure of objective image quality assessment. 
+ (a) 
+ (b) (c) 
+Figure 6 – (a) the relationship between SQF and PSNR for the two source images of the 
+MCL-JCI dataset, (b) the original image corresponding to the left boundary of the JND 
+points and (c) the original image corresponding to the right boundary of the JND points of 
+the MCL-JCI image dataset 
+Рис. 6 – (a) взаимосвязь между SQF и PSNR для двух исходных изображений 
+набора данных MCL-JCI, (b) исходное изображение, соответствующее левой 
+границе точек JND, и (c) исходное изображение, соответствующее правой 
+границе JND-точки набора данных изображения MCL-JCI 
+Слика 6 – (a) веза између SQF и PSNR за две изворне слике из MCL-JCI базе, (b) 
+оригинална слика која одговара левој граници JND тачака и (c) оригинална слика 
+која одговара десној граници JND тачака MCL-JCI базе слика 
+The scatter plots of subjective and DPSNR objective quality scores 
+on the four analyzed image datasets are shown in Figure 7. Significantly 
+less spreading of scores is observed in relation to the spreading of the 
+scores of the PSNR objective measure (Figure 3). 
+ (a) (b) 
+ (c) (d) 
+Figure 7 – Scatter plots of subjective and DPSNR objective quality scores of images with 
+JPEG compression on four datasets: (a) LIVE, (b) CSIQ, (c) VCL@FER and (d) LWIR 
+Рис. 7 – Диаграммы разброса субъективных и объективных оценок качества 
+DPSNR изображений со сжатием JPEG для четырех наборов данных: (a) LIVE, (b) 
+CSIQ, (c) VCL@FER и (d) LWIR 
+Figure 7 – Дијаграми расипања субјективних и DPSNR објективних скорова 
+квалитета слика са JPEG компресијом за четири базе: (a) LIVE, (b) CSIQ, (c) 
+VCL@FER и (d) LWIR 
+Table 1 provides the quantitative indicators of the degree of 
+agreement between the subjective and PSNR/DPSNR objective quality 
+scores for the four analyzed image datasets. The linear correlation 
+coefficient (LCC), Spearman’s rank-order correlation (SROCC), mean 
+absolute error (MAE), root mean square error (RMSE) and outlier ratio 
+(OR) between the subjective and objective quality scores after nonlinear 
+regression using a logistic function with four parameters were used as 
+quantitative indicators (ITU-T, 2004), (Bondžulić et al, 2018). In addition 
+to the performance of these two objective measures, the performance of 
+the HVS-based objective measures is given: PSNR-HVS (Egiazarian et 
+al, 2006), PSNR-HVS-M (Ponomarenko et al, 2007) and WNMAE 
+(Huang et al, 2018). PSNR-HVS and PSNR-HVS-M measures are sub-
+band models that take into account the contrast sensitivity function. 
+Additionally, PSNR-HVS-M takes into account the between-coefficient 
+contrast masking of the discrete cosine transform basis functions 
+(Ponomarenko et al, 2007). WNMAE is a traditional pixel-wise model 
+based on JND. Through this measure, HVS’s physiological (color and 
+light sensitivity) and psycho-physiological (texture and edge sensitivity) 
+characteristics were implemented. The two best results for each dataset 
+and for each quantitative indicator are in Table 1 marked in bold. 
+Table 1 – Performance comparison of objective measures on four datasets 
+Таблица 1 – Сравнение эффективности объективных показателей по четырем 
+наборам данных 
+Табела 1 – Поређење перформанси објективних мера на четири базе 
+Dataset Measure LCC SROCC MAE RMSE OR [%] 
+LIVE 
+PSNR 0.8879 0.8809 11.3594 14.6532 12.5714 
+DPSNR 0.9649 0.9565 6.5225 8.3637 1.1429 
+PSNR-HVS 0.9585 0.9478 7.1802 9.0760 1.1429 
+PSNR-HVS-M 0.9752 0.9650 5.5549 7.0493 0.0000 
+WNMAE 0.9143 0.9113 9.9537 12.9013 5.7143 
+CSIQ 
+PSNR 0.8906 0.8879 0.0964 0.1391 31.3333 
+DPSNR 0.9707 0.9510 0.0547 0.0735 19.3333 
+PSNR-HVS 0.9577 0.9400 0.0603 0.0880 22.6667 
+PSNR-HVS-M 0.9733 0.9512 0.0501 0.0702 20.0000 
+WNMAE 0.8971 0.8962 0.0946 0.1352 34.0000 
+VCL@FER 
+PSNR 0.6041 0.6040 13.6027 16.7039 69.5652 
+DPSNR 0.8269 0.8262 9.2646 11.7856 52.1739 
+PSNR-HVS 0.8741 0.8775 7.8178 10.1823 48.5507 
+PSNR-HVS-M 0.9408 0.9388 5.5695 7.1051 33.3333 
+WNMAE 0.6252 0.6279 13.2803 16.3580 71.7391 
+LWIR 
+PSNR 0.8377 0.8146 0.4362 0.5650 59.0000 
+DPSNR 0.9481 0.9238 0.2596 0.3290 45.0000 
+PSNR-HVS 0.8238 0.8018 0.4573 0.5865 63.0000 
+PSNR-HVS-M 0.8389 0.8135 0.4492 0.5631 65.0000 
+WNMAE Not applicable 
+The performance of the DPSNR objective measure is significantly 
+better than the performance of the PSNR, for all five quantitative 
+indicators and on four datasets. It can be noticed that the performance of 
+the DPSNR is the worst on the VCL@FER image dataset, where the 
+original PSNR has the worst results. 
+The DPSNR performance is at the top on the LIVE and CSIQ 
+datasets, along with the PSNR-HVS-M measure. Two sub-band models 
+provide the best results on the VCL@FER image dataset, while the 
+performance of the proposed DPSNR approach is best on the LWIR 
+dataset of images from the infrared part of the electromagnetic spectrum. 
+The performance of the WNMAE objective measure is slightly better than 
+the performance of the worst ranked PSNR objective measure. 
+A careful reader may notice that in comparing the results of objective 
+measures between different datasets (Table 1) one should be careful 
+because different grading scales in subjective experiments have been 
+used on different datasets (see Figures 3 and 5). The dynamic range of 
+the grading scale affects the MAE and the RMSE. In this case, the LCC 
+and SROCC values are relevant for comparing the results between the 
+datasets. 
+The performance of objective measures was additionally analyzed 
+on the MCL-JCI image dataset, which was used to train the estimation 
+algorithms of the first JND point. Figure 8 shows the scatter plots of the 
+SQF subjective and PSNR objective quality scores with image division 
+into two classes, using PSNR JND #1 values estimated using the 
+approaches described in (Bondžulić et al, 2021) and (Lin et al, 2020). 
+ (a) (b) 
+Figure 8 – Scatter plots of SQF subjective and PSNR objective scores on the MCL-JCI 
+image dataset with division of images into two classes, where the estimates of PSNR 
+JND #1 were determined based on: (a) approach (Bondžulić et al, 2021) and (b) 
+approach (Lin et al, 2020) 
+Рис. 8 – Диаграммы разброса субъективных оценок SQF и объективных 
+оценок PSNR в наборе данных изображений MCL-JCI с разделением изображений 
+на два класса, где оценки PSNR JND #1 были определены на основании: (a) 
+подхода (Bondžulić et al, 2021) и (б) подхода (Lin et al, 2020) 
+Слика 8 – Дијаграми расипања SQF субјективних и PSNR објективних скорова на 
+MCL-JCI бази са поделом на две класе слика, где се за одређивање PSNR JND #1 
+користи: (a) приступ из (Bondžulić et al, 2021) и (b) приступ из (Lin et al, 2020) 
+From Figure 8 it can be concluded that, by applying the approach 
+(Lin et al, 2020), more JND #1 points are detected than by applying the 
+approach (Bondžulić et al, 2021) (additionally, see Figure 5(b)). It can 
+also be observed that using this approach, several other (higher) JND 
+points that are above the threshold of visible differences (PSNR JND #1) 
+were detected. 
+The values of the DPSNR objective measure were determined on 
+the basis of two estimates of PSNR JND #1 – the approaches described 
+in (Bondžulić et al, 2021) and (Lin et al, 2020). The scatter plots of the 
+SQF and DPSNR scores on the MCL-JCI dataset and the corresponding 
+logistic functions are shown in Figure 9, while the quantitative indicators 
+of the degree of their agreement are given in Table 2. 
+(a) (b) 
+Figure 9 – Scatter plots of subjective and DPSNR objective scores on the MCL-JCI image 
+dataset where the estimates of PSNR JND #1 were determined based on: (a) approach 
+(Bondžulić et al, 2021) and (b) approach (Lin et al, 2020) 
+Рис. 9 – Диаграммы разброса субъективных оценок и объективных оценок 
+DPSNR в наборе данных изображений MCL-JCI, где оценки PSNR JND #1 были 
+определены на основании: (a) подхода (Bondžulić et al, 2021) и (b) подхода (Lin et al, 
+2020) 
+Слика 9 – Дијаграми расипања субјективних и DPSNR објективних скорова MCL-
+JCI базе слика, где се за одређивање PSNR JND #1 користи: (a) приступ из 
+(Bondžulić et al, 2021) и (b) приступ из (Lin et al, 2020) 
+From Figure 9 and from Table 2, it can be noticed that there is a 
+significantly higher degree of agreement between the SQF and DPSNR 
+objective quality scores determined using the PSNR JND #1 estimates 
+based on the approach from (Lin et al, 2020). This result could be 
+expected because this approach has a mean absolute PSNR JND #1 
+estimation error of 0.58 dB on the MCL-JCI image dataset, while the 
+approach described in (Bondžulić et al, 2021) has a higher estimation 
+error (1.21 dB). In this case, although the poor performance of the 
+baseline PSNR measure (LCC=0.4721), using PSNR JND #1 the 
+performance of DPSNR was significantly increased and exceeded the 
+performance of other measures (LCC=0.9194). 
+Table 2 – Performance comparison of the objective measures on the MCL-JCI 
+dataset 
+Таблица 2 – Сравнение производительности объективных показателей в наборе 
+данных MCL-JCI 
+Табела 2 – Поређење перформанси објективних мера на MCL-JCI бази слика 
+Dataset Measure LCC SROCC MAE RMSE 
+MCL-JCI 
+PSNR 0.4721 0.4486 0.1907 0.2288 
+DPSNR (Bondžulić et al, 2021) 0.7973 0.7930 0.1222 0.1566 
+DPSNR (Lin et al, 2020) 0.9194 0.9144 0.0779 0.1021 
+PSNR-HVS 0.7679 0.7506 0.1328 0.1662 
+PSNR-HVS-M 0.8584 0.8456 0.1026 0.1331 
+WNMAE 0.4783 0.4665 0.1899 0.2279 
+Although the introduction of the objective measure DPSNR has 
+significantly improved the degree of agreement between subjective and 
+PSNR objective quality scores, there is still room for improvement, and 
+the degree of improvement will depend on the accuracy of PSNR JND #1 
+estimation. 
+The position of the threshold of visible differences introduced in the 
+quality assessment through PSNR JND #1, in this paper improved the 
+performance of PSNR on the class of images with JPEG compression. 
+This is a consequence of reducing the dependence of objective 
+estimates on the content of the source signal. We expect that with 
+reliable estimation of the position of PSNR JND #1 for other image 
+classes (types of degradation), the performance of PSNR of individual 
+classes will be improved, as well as the performance on a global level 
+(reducing the dependence of estimates on the type of degradation). 
+Conclusion 
+The paper analyzes the reliability of one approach/model for the 
+peak signal-to-noise ratio estimation of the visible differences (JND #1 
+point) of images with JPEG compression. Reliability was confirmed in an 
+indirect way by using the results of subjective tests of five available 
+image datasets, i.e. it has been shown that by applying a peak signal-to-
+noise ratio of the first JND point, high quality images can be detected. As 
+the proposed approach was derived on one of the analyzed image 
+datasets, and the success was confirmed on the four remaining ones, it 
+can be concluded that the findings derived from subjective tests on one 
+dataset can be successfully used on other related datasets. 
+The paper additionally shows that the performance of the peak 
+signal-to-noise ratio as a measure of objective quality assessment can be 
+improved by taking into account the PSNR values of the first JND point. 
+Improvement was achieved on image datasets with JPEG compression, 
+through a significant increase in the degree of agreement between 
+subjective and objective quality scores. Also, it has been shown that 
+improving the accuracy of the estimation of the first JND point has a 
+positive effect on the degree of agreement between subjective and 
+objective assessments. Therefore, future work will be focused on 
+improving the accuracy of the PSNR estimation of the threshold of visible 
+differences, both for images with JPEG compression and for images with 
+other types of degradation. 
+To the best of our knowledge, this is the first attempt to use JND 
+information in quality assessment at the picture-wise level. Previous 
+models have used pixel-based or sub-band JND visibility thresholds. The 
+additional significance of the paper is reflected in the idea to indirectly 
+analyze the success of the JND model through two-class image 
+separation without conducting subjective tests, i.e. using already 
+available subject-rated image datasets. Finally, the results are presented 
+on JPEG compressed images originating from the visible and from the 
+infrared part of the electromagnetic spectrum, which is of interest for 
+remote sensing and surveillance applications. 
+References 
+Ahar, A., Mahmaoudpour, S., Van Wallendael, G., Paridaens, T., Lambert, 
+P. & Schelkens, P. 2018. A just noticeable difference subjective test for high 
+dynamic range images. In: Proceedings of Tenth International Conference on 
+Quality of Multimedia Experience (QoMEX), Cagliari, Italy, pp.1-6, May 29-June 
+1. Available at: Bondžulić, B.P., Pavlović, B.Z., Andrić, M.S. & Petrović, V.S. 2017. 
+Comments on objective quality assessment of JPEG images with visible 
+differences. In: Proceedings of 13th International Conference on Advanced 
+Technologies, Systems and Services in Telecommunications (TELSIKS), Niš, 
+Serbia, pp.455-458, October 18-20. Available at: 
+Bondžulić, B., Pavlović, B. & Petrović, V. 2018. Performance analysis of 
+full-reference objective image and video quality assessment metrics. 
+Vojnotehnički glasnik/Military Technical Courier, 66(2), pp.322-350. Available at: 
+Bondzulic, B., Pavlovic, B., Petrovic, V. & Andric, M. 2016. Performance of 
+peak signal-to-noise ratio quality assessment in video streaming with packet 
+losses. Electronics Letters, 52(6), pp.454-456. Available at: 
+Bondžulić, B., Stojanović, N., Petrović, V. & Zelmati, O. 2020. Using 
+objective image quality assessment metrics in detection just noticeable 
+differences of JPEG images. In: Proceedings of XXVI Conference and Exhibition 
+YU INFO 2020, Kopaonik, Serbia, pp.203-208, March 8-11 [online]. Available at: 
+November 2021]. 
+Bondžulić, B., Stojanović, N., Petrović, V., Pavlović, B. & Miličević, Z. 2021. 
+Efficient prediction of the first just noticeable difference point for JPEG 
+compressed images. Acta Polytechnica Hungarica, 18(8), pp.201-220. Available 
+at: Egiazarian, K., Astola, J., Ponomarenko, N., Lukin, V., Battisti, F. & Carli, 
+M. 2006. Two new full-reference quality metrics based on HVS. In: Proceedings 
+of 2nd International Workshop on Video Processing and Quality Metrics for 
+Consumer Electronics – VPQM, Scottsdale, Arizona, USA, pp.1-4, January 22-
+Fan, C., Lin, H., Hosu, V., Zhang, Y., Jiang, Q., Hamzaoui, R. & Saupe, D. 
+2019. SUR-Net: Predicting the satisfied user ratio curve for image compression 
+with deep learning. In: Proceedings of 11th International Conference on Quality 
+of Multimedia Experience, Berlin, Germany, pp.1-6, June 5-7. Available at: 
+Gonzalez, R.C. & Woods, R.E. 2018. Digital image processing, 4th Edition. 
+London: Pearson Education, Inc. ISBN-13: 9780133356724. 
+Huang, J., Feng, H., Xu, Z., Li, Q. & Chen, Y. 2018. A robust deblurring 
+algorithm for noisy images with just noticeable blur. Optik – International Journal 
+for Light and Electron Optics, 168, pp.577-589. Available at: 
+Hudson, G., Leger, A., Niss, B. & Sebestyen, I. 2017. JPEG at 25: Still 
+going strong. IEEE MultiMedia, 24(2), pp.96-103. Available at: 
+Hudson, G., Leger, A., Niss, B., Sebestyen, I. & Vaaben, J. 2018. JPEG-1 
+standard 25 years: Past, present, and future reasons for a success. Journal of 
+Electronic Imaging, 27(4), art.number:040901. Available at: 
+Huynh-Thu, Q. & Ghanbari, M. 2008. Scope of validity of PSNR in 
+image/video quality assessment. Electronics Letters, 44(13), pp.800-801. 
+Available at: -ITU-T (Telecommunication Standardization Sector of ITU). 2004. Objective 
+perceptual assessment of video quality: Full reference television. [online]. 
+Available at: T/studygroups/com09/docs/tutorial_opavc.pdf [Accessed: 1 November 2021]. 
+Jin, L., Lin, J.Y., Hu, S., Wang, H., Wang, P., Katsavounidis, I., Aaron, A. & 
+Kuo, C.-C. J. 2016. Statistical study on perceived JPEG image quality via MCL-
+JCI dataset construction and analysis. In: Proceedings of IS&T International 
+Symposium on Electronic Imaging – Image Quality and System Performance 
+XIII, San Francisco, CA, USA, art.number:IQSP-222, February 14-18. Available 
+at: Larson, E.C. & Chandler, D.M. 2010. Most apparent distortion: Full-
+reference image quality assessment and the role of strategy. Journal of 
+Electronic Imaging, 19(1), art.number:011006. Available at: 
+Li, H., Jenadeleh, M., Chen, G., Reips, U-D., Hamzaoui, R. & Saupe, D. 
+2020. Subjective assessment of global picture-wise just noticeable difference. In: 
+Proceedings of IEEE International Conference on Multimedia & Expo 
+Workshops, London, UK, pp.1-6, July 6-10. Available at: 
+Lin, H., Hosu, V., Fan, C., Zhang, Y., Mu, Y., Hamzaoui, R. & Saupe, D. 
+2020. SUR-FeatNet: Predicting the satisfied user ratio curve for image 
+compression with deep feature learning. Quality and User Experience, 5(5), 
+pp.1-23. Available at: Liu, X., Chen, Z., Wang, X., Jiang, J. & Kwong, S. 2018. JND-Pano: 
+database for just noticeable difference of JPEG compressed panoramic images. 
+In: Hong, R., Cheng, W.H., Yamasaki, T., Wang, M. & Ngo, C.W. (Eds.) 
+Advances in Multimedia Information Processing. PCM 2018. Lecture Notes in 
+Computer Science, 11164, pp.458-468. Springer, Cham. Available at: 
+Liu, H., Zhang, Y., Zhang, H., Fan, C., Kwong, S., Kuo, C-C.J. & Fan, X. 
+2020. Deep learning based picture-wise just noticeable prediction model for 
+image compression. IEEE Transactions on Image Processing, 29, pp.641-656. 
+Available at: Lu, G., Zhang, X., Ouyang, W., Chen, L., Gao, Z. & Xu, G. 2021. An end-
+to-end learning framework for video compression. IEEE Transactions on Pattern 
+Analysis and Machine Intelligence, 43(10), pp.3292-3308. Available at: 
+Merrouche, S., Bondžulić, B., Andrić, M. & Bujaković, D. 2018. Description 
+and analysis of infrared image database – Subjective and objective image 
+quality assessment. In: Proceedings of 8th International Scientific Conference on 
+Defensive Technologies – OTEH, Belgrade, Serbia, pp.307-313, October 11-12 
+[online]. Available at: [Accessed: 1 November 2021]. 
+Pennebaker, W.B. & Mitchell, J.L. 1993. JPEG: Still image data 
+compression standard. New York: Van Nostrand Reinhold Publishers. ISBN: 0-
+442-01272-1. 
+Ponomarenko, N., Lukin, V., Astola, J. & Egiazarian, K. 2015. Analysis of 
+HVS-metrics’ properties using color image database TID2013. In: Battiato, S., 
+Blanc-Talon, J., Gallo, G., Philips, W., Popescu, D. & Scheunders, P. (Eds.) 
+Advanced Concepts for Intelligent Vision Systems. ACIVS 2015. Lecture Notes 
+in Computer Science, 9386, pp.613-624. Springer, Cham. Available at: 
+Ponomarenko, N., Silvestri, F., Egiazarian, K., Carli, M., Astola, J. & Lukin, 
+V. 2007. On between-coefficient contrast masking of DCT basis functions. In: 
+Proceedings of 3rd International Workshop on Video Processing and Quality 
+Metrics for Consumer Electronics – VPQM, Scottsdale, Arizona, USA, pp.1-4, 
+January 25-26 [online]. Available at: [Accessed: 1 November 2021].   
+Seo, S., Ki, S. & Kim, M. 2021. A novel just-noticeable-difference-based 
+saliency-channnel attention residual network for full-reference image quality 
+predictions. IEEE Transactions on Circuits and Systems for Video Technology, 
+31(7), pp.2602-2616. Available at: 
+Sheikh, H.R., Sabir M.F. & Bovik, A.C. 2006. A statistical evaluation of 
+recent full reference image quality assessment algorithms. IEEE Transactions 
+on Image Processing, 15(11), pp.3440-3451. Available at: 
+Tian, T., Wang, H., Zuo, L., Kuo, C-C.J. & Kwong, S. 2020. Just noticeable 
+difference level prediction for perceptual image compression. IEEE Transactions 
+on Broadcasting, 66(3), pp.690-700. Available at: 
+Toprak, S. & Yalman, Y. 2017. A new full-reference image quality metric 
+based on just noticeable difference. Computer Standards & Interfaces, 50, 
+pp.18-25. Available at: Wallace, G.K. 1992. The JPEG still picture compression standard. IEEE 
+Transactions on Consumer Electronics, 38(1), pp.18-34. Available at: 
+Wang, Z., Tran, T-H., Muthappa, P.K. & Simon, S. 2019. A JND-based 
+pixel-domain algorithm and hardware architecture for perceptual image coding. 
+Journal of Imaging, 5(50), pp.1-29. Available at: 
+Yu, H. & Winkler, S. 2013. Image complexity and spatial information. In: 
+Proceedings of 5th International Workshop on Quality of Multimedia Experience 
+– QoMEX, Klagenfurt am Worthersee, Austria, pp.12-17, July 3-5. Available at: 
+Zarić, A., Tatalović, N., Brajković, N., Hlevnjak, H., Lončarić, M., Dumić, E. 
+& Grgić, S. 2012. VCL@FER image quality assessment database. Automatika, 
+53(4), pp.344-354. Available at:  
+ПРИМЕНЕНИЕ ПОРОГОВОЙ МОДЕЛИ ПРОГНОЗИРОВАНИЯ 
+ЗАМЕТНЫХ РАЗЛИЧИЙ ПРИ ОЦЕНКЕ КАЧЕСТВА СЖАТЫХ 
+ИЗОБРАЖЕНИЙ В ФОРМАТЕ JPEG 
+Бобан П. Бонджулича, Бобан З. Павловича, корреспондент,  
+Ненад М. Стояновича, Владимир С. Петровичб 
+а Университет обороны в г. Белград, Военная академия, кафедра      
+  телекоммуникаций и информатики, г. Белград, Республика Сербия 
+б Нови-Садский университет, факультет технических наук,  
+  г. Нови-Сад, Республика Сербия 
+РУБРИКА ГРНТИ: 49.00.00 СВЯЗЬ: 
+                               49.40.00 Системы передачи движущихся изображений; 
+                               49.40.37 Техника кодирования и передачи изображения 
+ВИД СТАТЬИ: оригинальная научная статья 
+Резюме: 
+Введение/цель: В данной статье представлено интересное 
+исследование, связанное с анализом пороговой модели 
+прогнозирования заметных различий (JND) на изображениях и ее 
+применением для оценки качества изображений со сжатием 
+JPEG. 
+Методы: Анализ производительности модели JND был проведен 
+косвенным способом с использованием общедоступных баз 
+изображений с результатами субъективных тестов, при 
+разделении изображений по двум категориям (выше и ниже 
+порога заметных различий). При анализе производительности 
+модели прогнозирования JND и оценке качества изображения 
+использовались пять баз изображений, четыре из которых 
+относятся к видимому диапазону длин волн, а одна база 
+изображений, предназначенная для дистанционного наблюдения, 
+была из инфракрасной части электромагнитного спектра. 
+Результаты: В данной статье показано, что применение 
+моделей JND может использоваться для оценки субъективных 
+показателей качества с большей точностью, что приводит к 
+значительному улучшению характеристик традиционного 
+соотношения пикового сигнала к шуму (PSNR). Среднее 
+значение коэффициента линейной корреляции (по пяти базам) 
+между субъективными и объективными оценками качества 
+PSNR увеличилось с 74% (традиционный PSNR) до 90% (PSNR с 
+моделью JND на уровне изображения). Выигрышный результат, 
+достигаемый за счет внедрения модели JND на уровне 
+изображения в объективной оценке, зависит от выбранной базы 
+и результатов исходной простой меры PSNR, был получен по 
+всем пяти базам.  
+Выводы: Дополнительное улучшение объективной меры, 
+основанной на JND, может быть достигнуто за счет улучшения 
+наглядной модели прогнозирования JND. 
+Ключевые слова: порог заметных различий, сжатие JPEG, 
+пиковое соотношение сигнал/шум, субъективная и объективная 
+оценка качества изображения. 
+ПРИМЕНА МОДЕЛА ПРЕДИКЦИЈЕ ПРАГА УОЧЉИВИХ РАЗЛИКА 
+У ПРОЦЕНИ КВАЛИТЕТА СЛИКА СА JPEG КОМПРЕСИЈОМ 
+Бобан П. Бонџулића, Бобан З. Павловића, аутор за преписку,  
+Ненад М. Стојановића, Владимир С. Петровићб 
+а Универзитет одбране у Београду, Војна академија, Катедра      
+  телекомуникација и информатике, Београд, Република Србија 
+б Универзитет у Новом Саду, Факултет техничких наука,  
+     Нови Сад, Република Србија 
+ОБЛАСТ: телекомуникације 
+ВРСТА ЧЛАНКА: оригинални научни рад 
+Сажетак: 
+Увод/циљ: У раду су представљена интересантна истраживања 
+која се односе на анализу перформанси модела предикције прага 
+уочљивих разлика (JND) на нивоу слике и његову примену у процени 
+квалитета слика са JPEG компресијом. 
+Методе: Анализа перформанси JND модела спроведена је на 
+индиректан начин кроз занимљиву идеју да се користе јавно 
+доступне базе слика са резултатима субјективних тестова, са 
+поделом слика на две класе (изнад и испод прага уочљивих разлика). 
+У анализи перформанси предикције JND модела и при процени 
+квалитета коришћено је пет база слика, од којих четири потичу из 
+видљивог опсега таласних дужина, док је једна база са сликама из 
+инфрацрвеног дела електромагнетног спектра намењених 
+даљинском осматрању и надзору. 
+Резултати: У раду је показано да се применом JND модела са 
+већом прецизношћу могу естимирати субјективни скорови 
+квалитета, што води значајном побољшању перформанси 
+традиционалног вршног односа сигнал/шум (PSNR). Добитак 
+остварен увођењем JND модела на нивоу слике у објективну 
+процену зависи од изабране базе и резултата полазне једноставне 
+PSNR мере, а остварен је на свих пет база. Средња вредност 
+коефицијента линеарне корелације (за пет база) између 
+субјективних и PSNR објективних естимација квалитета је са 74% 
+(традиционални PSNR) порасла на 90% (PSNR са JND моделом на 
+нивоу слике). 
+Закључак: Додатно унапређење JND засноване објективне мере 
+може се добити унапређењем модела предикције JND. 
+Кључне речи: праг уочљивих разлика, JPEG компресија, вршни 
+однос сигнал/шум, субјективна и објективна процена квалитета 
+слике. 
+Paper received on / Дата получения работы / Датум пријема чланка: 02.11.2021.  
+Manuscript corrections submitted on / Дата получения исправленной версии работы / 
+Датум достављања исправки рукописа: 03.01.2022. 
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум 
+коначног прихватања чланка за објављивање: 04.01.2022. 
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). This article is an open access article distributed under the 
+terms and conditions of the Creative Commons Attribution license 
+(© 2022 Авторы. Опубликовано в «Военно-технический вестник / Vojnotehnički glasnik / Military 
+Technical Courier» (www.vtg.mod.gov.rs, втг.мо.упр.срб). Данная статья в открытом доступе и 
+распространяется в соответствии с лицензией «Creative Commons» 
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). Ово је чланак отвореног приступа и дистрибуира се у 
+складу са  Creative Commons licencom ( 

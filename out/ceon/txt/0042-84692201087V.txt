@@ -1,0 +1,748 @@
+ХЛКХКЛЈХКХКЈХКЈХКЈХКЛХЈКЛХЈКЛХЛКЈ
+IMPLEMENTATION OF THE DIGITAL 
+TRAINING CONCEPT IN THE BASIC 
+FLIGHT TRAINING IN THE SERBIAN 
+MILITARY ACADEMY   
+Slaviša I. Vlačića, Aleksandar Z. Kneževićb,  
+Vladimir M. Grbovićc, Panos A. Vitsasd,  
+Mihajlo (Mike) S. Mihajlovice 
+a University of Defence in Belgrade, Military Academy, 
+  Air Force Department, Belgrade, Republic of Serbia, 
+  e-mail:  slavisa.vlacic@va.mod.gov.rs, corresponding author, 
+  ORCID iD: b University of Defence in Belgrade, Military Academy, 
+  Air Force Department, Belgrade, Republic of Serbia, 
+  e-mail: aleksandar.knezevic@va.mod.gov.rs, 
+  ORCID iD: c Serbian Armed Forces, Air Force and Air Defence Command,  
+  Belgrade, Republic of Serbia, 
+  e-mail: grba74@yahoo.com,  
+  ORCID iD: d International Test Pilots School, London ON, Canada,  
+   e-mail: pavitsas@gmail.com, 
+   ORCID iD: e Government of Ontario, Toronto ON, Canada; 
+   MRTD Defense Eng, Toronto ON, Canada,   
+   e-mail: mmihajlovic@rogers.com, 
+   ORCID iD: DOI: 10.5937/vojtehg70-34610; FIELD: Air traffic, Information technologies 
+ARTICLE TYPE: Original scientific paper 
+Abstract: 
+Introduction/purpose: The paper provides a review of recent research in 
+the field of digital training applied in the Serbian Military Academy flight 
+training. Flight training represents the foundation of successful education 
+of military pilots. Its division is based on the environment and a phase of 
+realization. The main part and the core of successful flight training is basic 
+flight training. This training phase has experienced significant changes 
+with the introduction of the Technically Advanced aircraft (TAA) which is 
+characterized by a high degree of digitalization not only of the cockpit but 
+also of other aircraft systems. Consequently, a different methodological 
+approach to training is needed, including a digital training concept. The 
+paper shows the achievements and certain solutions based on some 
+mailto:slavisa.vlacic@va.mod.gov.rs
+elements of digital training concepts used in the basic flight training at the 
+Serbian Military Academy.  
+Methods: The scientific approach is used in the evaluation of aircraft 
+cockpit digitalization and in the implementation of a new training concept 
+in the basic flight training in the Serbian Military Academy. 
+Results: Based on the methodological analysis used, the importance and 
+the values of the digital training concept in basic flight training are shown. 
+Conclusion: Although the digital training concept is not mandatory in the 
+existing flight training model in the Serbian Military Academy, it proves to 
+be a valuable asset. Its potential is significant and, to a certain extent, it 
+can change the nature of basic flight training. Due to digital training, 
+cadets can fly more safely and their flying skills are acquired faster. In 
+accordance with new modern aircraft acquisition in the Serbian Air Force, 
+every aspect of the digital training concept has to be carefully considered, 
+especially in the basic flight training phase, including conversion to new 
+aircraft types.    
+Key words: flight training, glass cockpit, digital training, training 
+devices. 
+Introduction 
+Flight training represents the foundation of successful education of 
+military pilots. Its division is based on the environment and a phase of 
+realization. Regarding the environment, it can be realized on the ground 
+or in the air. Military flight training consists of four phases: primary, basic, 
+advanced, and combat flight training. The main part and the core of 
+successful flight training is basic flight training. This phase is usually 
+completed on a piston-engine or turboprop trainer. Acquisitions of new 
+types of planes in this phase involve many changes and bring new 
+challenges. It is necessary to adapt the methodological manuals, the 
+study curriculum and the syllabus based on the Lasta airplane as well as 
+many other elements of the flight training system. In recent years, the 
+biggest challenge has been the introduction of a digital glass cockpit from 
+the very beginning of flight training. It demands a new approach, even 
+using a variety of commercially available tools and devices to make the 
+digital concept effective for a new era of basic flight training. 
+Basic flight training in the Military Academy    
+In the Military Academy, the study in military aviation is divided in 
+two main parts. The first one, lasting five semesters, is realized in the 
+Military Academy headquarters situated in Belgrade. The main goal of 
+this phase is theoretical preparation for the upcoming flight training in an 
+airbase near Belgrade. This phase is also considered as a preparation 
+phase in terms of core activities (flying) during studying. The second 
+phase is flight training on airplanes and helicopters and it is crucial for the 
+cadets - pilots. Having in mind that the first (preparation) phase has a 
+very important role regarding the quality of flight training as a crown of 
+the education process, there is a permanent task to improve this process 
+and make it more effective and safer (Vlacic et al, 2014). 
+Flight training represents the foundation of successful education of 
+military pilots. The main constituents of flight training are the environment 
+and a phase of realization. Regarding the environment, it can be realized 
+on the ground or in the air. Military flight training consists of four phases: 
+primary, basic, advanced, and combat flight training.  
+Basic flight training is considered to be the most important phase of 
+flight training and the core of the successful process of making future 
+pilots. It is aimed at mastering the necessary aircraft handling skills. The 
+curriculum contains basic flying, aerobatic flying, navigation flying, 
+instrument flying, formation flying, and night flying. The flight training 
+duration is between 80 and 130 flight hours, and it depends on the 
+airplane or helicopter types. These can be piston engine or turboprop 
+airplanes, even simple jet trainers or helicopters.   
+The first step for each of these phases is the ground (theoretical) 
+preparation, which is an integral part of flight training. The division by the 
+phases has not been changed for almost half a century and it would not 
+be changed in the near future. The main teaching methods in the air 
+have not been changed, either. However, the main changes have 
+emerged because of the introduction of new training aircraft, regardless 
+of airplane or helicopter types (Vlačić et al, 2015). 
+Recognizing the importance of the basic type of training, the Serbian 
+Air Force very carefully approached the design of a new type of piston 
+engined aircraft, named Lasta. This type of aircraft has been included in 
+the Military Academy’s flight training syllabus since 2017. The syllabus is 
+based on two aircraft types during the training in the Academy: the basic 
+flight training on the Lasta (Swallow) aircraft precedes the training on the 
+advanced jet trainer G-4 (Figure 1) followed by the basic combat training 
+and the introduction to fighter fundamentals (IFF).  
+Figure 1 – Basic flight training on the Lasta precedes the training on the G-4 
+Рис. 1 – Основная летная подготовка на самолете „Ласта“, предшествующая 
+учениям на „Г-4“. 
+Слика 1 – Основна летачка обука на авиону„ласта” претходи обуци на Г-4 
+The Lasta training aircraft, as a new type in the Serbian Air Force 
+service, brings a lot of technical improvements compared to older training 
+aircraft. One of the biggest improvements is the implementation of a 
+digital glass cockpit (Figure 2).  
+Figure 2 – Digital cockpit of the Lasta aircraft  
+Рис. 2 – Стеклянная кабина самолета „Ласта“ 
+Слика 2 – Дигитални кабински простор авиона „ласта” 
+Lasta’s glass cockpit includes the most modern navigation and 
+communications equipment currently available on the market for this 
+category of aircraft. Although the flight characteristics of the Lasta aircraft 
+are adapted to beginners, the technical level of the aircraft equipment 
+mentioned above requires a great effort towards achieving the required 
+level of confidence and safe operating. It was necessary to make 
+adaptations of the methodological manuals, the study curriculum and the 
+syllabus concerning the Lasta airplane, as well as many other elements 
+of the flight training system.  
+Digital glass cockpit 
+A glass cockpit is an aircraft cockpit that features electronic (digital) 
+instrument displays, typically large LCD screens, rather than the 
+traditional style of analog dials and gauges. While a traditional cockpit is 
+based on numerous mechanical gauges to display information, a glass 
+cockpit uses several displays driven by flight management systems that 
+can be adjusted to display flight information as needed. This simplifies 
+aircraft operation and navigation and allows pilots to focus only on the 
+most pertinent information (Ison, 2016). A glass cockpit is the core of the 
+Technologically Advanced Aircraft (TAA) which is a modern term used to 
+describe light aircraft with advanced equipment on board, specifically 
+advanced avionics like GPS and glass panel displays. 
+Glass cockpit displays rely on computerized systems that integrate 
+multiple data inputs and controls. Glass cockpit displays can present 
+more information in the space required for conventional instrument 
+panels, but the increase in information places greater demands on pilot's 
+attention and creates a risk of overloading pilots with more information 
+than they can effectively monitor and process. The complexity of the 
+integrated computerized systems that drive glass cockpit displays may 
+also limit pilots’ understanding of the functionality of the underlying 
+systems (National Transportation Safety Board, 2010). 
+The analysis of both the cockpit layouts and their benefits and 
+disadvantages points out to a few facts (Vlacic et al, 2014): 
+− The information in a digital glass cockpit is more precise and, due 
+to computer screens, can be displayed much more ergonomically; 
+− Glass cockpits have a tremendous amount of information available 
+to pilots, which is not available from cockpits with analog gauges; 
+− Disadvantages of traditional analog instrumentation are the 
+multitudes of mechanical components so glass cockpits also provide an 
+element of maintenance simplicity; 
+− Analog gauges can be more easily interpreted during rapid 
+changes in airspeed and altitude; 
+− Pilots with glass panels may also be spending more time looking 
+at the displays instead of looking outside; 
+− In case of turbulence and emergencies, pilots using glass cockpits 
+may touch and activate wrong buttons because there are so many of 
+them in a small area; 
+− Flying a glass cockpit aircraft requires a different cognitive style of 
+thinking. 
+It can be concluded that if we want to attain a desired level for safe 
+flying with a glass cockpit, ground training with the use of synthetic 
+devices is also necessary. The process of re-training pilots trained in 
+traditional analog cockpits will not be so easy and fast and it takes time 
+which has to be determined in the next phase of acquiring the Lasta fleet. 
+Because of the cockpit complexity and our study program curriculum 
+timeline, it will be impossible to use the Lasta in the process of selecting 
+future pilots in the primary flight training phase.  
+In today’s fully integrated cockpit, learning how to use these new 
+tools effectively, while still maintaining the control of the aircraft, is 
+something that will keep the training squadron busy for years to come. 
+For pilots who are going to be converted to a glass cockpit and want to 
+gain numerous advantages of modern avionics, there are a number of 
+training options. Many suppliers provide Internet-downloaded trainers 
+free of charge, and there are free online interactive courses. Commercial 
+DVDs and training simulators are extremely useful, too. However, 
+realistic flight training using the specific system in busy airspace during 
+less-than-ideal weather with an experienced flight instructor is a must. 
+(Decker, 2013) 
+Also, manufacturers of the before mentioned equipment provide only 
+a small part of educational software (for each device separately), but 
+such educational software is not tailored to the specific layout of Lasta’s 
+cockpit (Vlačić, 2011). 
+Digital training  
+It is important to understand the difference between learning and 
+training. Тhey are inextricably linked, but they are unique aspects of any 
+educational process. Training is the giving of information and knowledge, 
+through speech, the written word or other methods of demonstration in a 
+manner that instructs the trainee. Learning is the process of absorbing 
+that information in order to increase skills and abilities and make use of it 
+under a variety of contexts. 
+The quality of learning will rely largely on the quality of training.  
+Training focuses more on the development of new skills or skill sets 
+that will be used. Training is the process each new trainee (cadet) goes 
+through when joining a flight squadron to learn how to carry out day-to-
+day operations, know how their airplane works and how job-specific tools 
+operate in order to carry out their responsibilities. In essence, through 
+training, the goal is not to reshape the behavior of an individual rather the 
+point is to teach the cadet how things are done so that they can then 
+carry out a process on their own.  
+Digitalization is today an inevitable part of any learning or training 
+proccess, especially in modern aviation. There are many definitions of 
+what digital learning is, but a clear definition of digital training is lacking.  
+Digital learning is "learning facilitated by technology that gives 
+students some element of control over time, place, path and/or pace" 
+(GOSA, 2021). Also, digital learning is any type of learning that is 
+accompanied by technology or by instructional practice that makes 
+effective use of technology. Digital technologies are electronic tools, 
+systems, devices and resources that generate, store or process data 
+(Victoria State Government, 2021). Digital learning is sometimes 
+confused with online learning or e-learning; digital learning encompasses 
+the aforementioned concepts. Digital learning requires a combination of 
+technology, digital content, and instruction.  
+Technology is the mechanism that delivers content. It facilitates how 
+students receive content. It includes Internet access and hardware, which 
+can be any Internet access device – from a desktop to a laptop to an 
+iPad to a smartphone. Technology is the tool, not the instruction. 
+Digital content is the high-quality academic material delivered 
+through technology. It is what students learn. It ranges from new 
+engaging, interactive and adaptive software to classic literature, from 
+video lectures to games. It is not simply a PDF file of a text or a 
+PowerPoint presentation. 
+However, there is no distinctive definition of digital training. Some 
+sources indicate that it is an evolution of e-learning that uses the Internet 
+to make online training courses. Computers, tablets, mobiles or even 
+connected objects, are all means to easily access this type of training. 
+Nevertheless, digital training has much broader contest.  
+For the purpose of this paper, we consider digital training to be 
+training which includes a variety of digital devices in order to improve the 
+quality of flight training, having in mind the previously mentioned 
+differences between learning and training.  
+Implementation of the digital training concept  
+Aircraft manufacturers usually deliver training aircraft to the end user 
+with a wide spectrum of additional training devices (Vlačić et al, 2015), 
+but the developer of the Lasta has not provided training devices and 
+simulators yet. The Military Academy staff had to develop or procure the 
+whole spectrum of training devices in order to make the training process 
+more effective. These devices are part of the set that makes up the 
+concept of digital training on the Lasta airplane. In the meantime, cockpit 
+digitalization has become reality in a few new acquisitions, including the 
+Airbus H-145M utility helicopter or the Mi-35M combat helicopter. In this 
+way, acquisition and equipment with adequate devices for pilot training 
+become a necessity and one of the priorities in aviation modernization 
+(Vlačić et al, 2015). 
+The main changes in the flight training process occured due to new 
+airplanes equipped with modern hardware and software in different 
+domains. This is most obvious in the aircraft cockpit layout. The main 
+goal of their incorporation was a higher level of flight safety, better 
+efficiency of training and, most importantly, higher combat efficiency of 
+the airplane as a platform. Higher demands placed in front of trainees 
+were somewhat compensated with a wide use of flight trainers/simulators 
+and other digital training devices. Their use in modern training is 
+inevitable. For many years, training devices were developed and 
+produced exclusively by original manufacturers. This led to high prices, 
+caused by industrial monopoly and the application of rigid industrial and 
+military standards. Remarkable development of hardware and software 
+has made these items more affordable than ever if price and 
+performances are considered. This fact opened the door for less 
+specialized personnel to create and develop some training devices. The 
+great change was also made by wide recognition and involvement of 
+Commercial off-the-shelf (COTS) components in the process of creating 
+systems for military use. These facts enabled less experienced staff to 
+create their own digital devices and their own approach to the creation of 
+the digital training concept. 
+The focus of the use of digital devices has been placed on basic 
+training. The nature of basic flight training requires not only acquiring 
+basic knowledge and skills but a student in training also has to "to learn 
+how to learn". "Inserting" a student-pilot in a real cockpit without 
+introduction and adaptation to digital devices reduces the effectiveness of 
+training in many ways.  
+In creating the concept, the ways of training by which the greatest 
+success is achieved are taken into account. Regardless of different 
+scientific views (Kåre & Sigbjørn, 2018), it is undeniable that a high level 
+of adaptation of knowledge and skills is achieved through one's own 
+practice and repetition of actions and procedures, instead of simply 
+listening and watching.  
+Digital training has to be divided in several levels in accordance with 
+training objectives i.e. what specific and useful knowledge, skills, and 
+techniques have to be developed in certain phases of training.  
+The digital concept in basic flight training contains several levels 
+including: 
+Interactive learning materials; 
+Flight Simulator based on commercial software; 
+Virtual reality (VR) devices; 
+Learning Management System (LMS);and 
+Other training hardware and software. 
+Interactive learning materials 
+Today there is a broad range of interactive learning materials which 
+provide cadets - pilots with the aviation knowledge they require to 
+prepare for theoretical examinations and to become safe and competent 
+pilots. After evaluation, the Military Academy opted for the CAE Oxford 
+Aviation Academy interactive materials in compliance with the EASA1 
+standards. These materials have the form of full color textbooks and 
+multimedia computer-based training (CBT), both comprehensively 
+covering the theory but delivering it in a different way. 
+Within CBT, each lesson is accompanied by clear precise narration 
+which leads students through each essential teaching point. The lessons 
+are built with an effective combination of graphics, animations, audio 
+voice-overs, textual key-points and revision questions, providing a unique 
+and effective way of mastering difficult concepts in an engaging way.  
+During the six years of CBT application, cadets demonstrated better 
+results2 in subjects in which CBT were used. The comprehensible 
+manner gave cadets a lot of good examples and advice on how to deal 
+with problems in future flight training. 
+1 EASA – European Aviation Safety Agency 
+2 according to the Military Academy evaluation process   
+Also, embedding new cockpit instruments imposed new training 
+approaches. Because of the Garmin origin, the Military Academy 
+introduced the dedicated Garmin software and hardware simulator for its 
+complex devices such as Garmin G500/600. The basic variants of this 
+simulator can be viewed and downloaded at the Garmin support pages 
+(Garmin, 2021). This simulator allows cadets to perform basic functions 
+within the Garmin system. It is possible to learn how to input data and 
+frequencies using tips and tricks for “best practices”. Cadets learn to 
+navigate using flight plans and GPS direct courses. They are able to 
+navigate pages and page groups of the Flight Management System, 
+while recognizing the most important functions using tips and tricks. The 
+first generation of cadet pilots who started their flight training after 
+practicing on this simulator shows better performance in the basic stages 
+of the flight syllabus. 
+LMS in the flight training preparation phase 
+The Military Academy staff has decided to implement MOODLE e-
+learning platform in the Military Aviation study program 
+(Dynamic Learning Environment) is a free source e-learning system shell 
+(LMS), written in PHP. It is an important tool for e-learning and blended 
+learning which provides a framework for preparing courses and for 
+learning over it. Various content is provided over this system shell (texts, 
+pictures, optional files, links, multimedia etc.), but the tasks related to 
+them that can be scored are also important (assigning tasks in the form 
+of online texts, file, varied types of tests, offline tasks, etc.). This system 
+unifies and presents, in a single surface, all the services that are 
+otherwise applied by teachers on parallel surfaces, often offline (sharing 
+documents and information, sending messages, evaluation, etc.) 
+(Namestovski & Arsovic, 2013).  
+Microsoft Flight Simulators 
+Microsoft Flight Simulator X, also known as FSX, is a 2006 flight 
+simulation computer game originally developed and published by 
+Microsoft for Microsoft Windows. It is the next in the sequence after 
+Microsoft Flight Simulator 2004. This software can be classified as virtual 
+modeling on a computer workstation. One of the enduring problems with 
+any flight simulator is a restricted field of view (FOV) imposed by the 
+computer display screen. This restriction severely limits peripheral vision, 
+which in turn detracts from perceived realism. 
+The external graphic card Matrox TripleHead2Go expanded Flight 
+Simulator X across three displays (Figure 3), providing a panoramic view 
+that enables users to see more of their virtual cockpit and improves flight 
+visibility at the same time. This extended view provides a more realistic 
+flight experience by fully engaging peripheral vision on the side displays.  
+As a further level, Microsoft Flight Simulator 2020 was introduced in 
+order to support FSX.  Microsoft Flight Simulator 2020 was released in 
+2020, for Microsoft Windows, with a virtual reality (VR) version. Flight 
+Simulator simulates the topography of the entire Earth using data from 
+Bing Maps. Artificial intelligence (AI) generates three-dimensional 
+representations of Earth's features, using its cloud computing to render 
+and enhance visuals, and real-world data to generate real-time weather 
+and its effects. Flight Simulator has a physics engine to provide realistic 
+flight control surfaces, with over 1,000 simulated surfaces, as well as 
+realistic wind modelled over hills and mountains. Some places are 
+handcrafted, introduced in region-specific updates. To augment its 
+realism, AI also incorporates real-time elements like natural weather and 
+real-world air traffic. The gameplay includes new features such as 
+landing challenges and helpers.  
+Figure 3 – Expanding FSX across three displays  
+Рис. 3 –  Расширение изображения программы авиасимулятора на трех дисплеях 
+Слика 3 – Проширење приказа програма симулатора летења на три приказивача 
+The developer scanned the interiors and exteriors of aircraft with a 
+3D scanner to create their realistic looks, polished with modeling and 
+printing (Aysha, 2020). There are also realistic physics and weather 
+systems, and utilization of real-world weather data. For instance, if it is 
+raining somewhere in real life, it can rain in-game. Individual clouds have 
+their own behaviors and will impact aircraft performance depending on its 
+location within the system. Flight Simulator is the first flight simulator to 
+enable worldwide visual flight rules (VFR), a feature not seen in 
+contemporary flight simulators used by airlines to train and test pilots.  
+Through cloud-based technology, Flight Simulator sends data to the 
+computer in real time, with AI being utilized to extrapolate geometry from 
+a blend of satellite and flyover imagery (Jensen, 2020). Other sources of 
+data include terrain data for landscaping, data for foliage density, real-
+time meteorological data, and air traffic updates. Cloud technology is 
+used to calculate, among other things, the way air flows around natural 
+structures such as mountains to cause pockets of turbulence, or streams 
+in the world's real-time air traffic, and time of day and weather. 
+Microsoft simulators are mainly used to demonstrate cockpit views 
+and basic systems characteristics in the aircraft used in real flight 
+training. To simulate domestic airplanes (UTVA-75, Lasta, Supergaleb G-
+4) which are not involved in the FSX package, the specific add-ons have 
+been created as a long-term process. Developing one’s own add-ons 
+was the first step in creating a basic flight simulator. However, it is 
+important to stress that during the flight-training phase in military jets (G-
+4 Supergaleb in our case) a full-scale flight simulator is used. The use of 
+a full flight simulator is expensive and impracticable in the basic training 
+phase, which is our point of consideration.  
+When speaking about the assessment and worthiness of the kind of 
+software such as Microsoft simulators, we have to mention what kinds of 
+simulators and simulations exist on the market. Simulations can consist 
+of virtual modeling on a computer workstation, part task devices with 
+actual system hardware and software, or full-mission man-in-the-loop 
+simulators with visual systems and motion. All have their place in the 
+process, and all play a role in shortening development time and cost 
+(Vlačić, 2011). 
+Both versions of Microsoft Flight Simulators have been procured for 
+the training process in the Military Academy. The main advantages are 
+not only visual simulation but the possibility to connect many modern 
+peripherals such as virtual reality and eye tracking devices.  
+VR devices  
+Virtual reality (VR) has been developed to facilitate human 
+immersion into new computer-generated synthetic environments that 
+block out the real world. Recent advancements in VR technologies 
+enable users to interact with high resolution three-dimensional graphics 
+without any significant video delay. This technological advancement for 
+VR systems has reinforced its professional training applications, 
+including those for aircraft pilots. Conventional flight simulator systems 
+can generate realistic situational conditions, installing out-the-window 
+scenery screens in front of their mockup cockpits with motion platforms, 
+but the setting at such a level, which is costly and requires a 360° angle 
+of-scenery screen, is still hard to implement. VR has the advantage of 
+implementing the 360° angle-of horizontal - and vertical-scenery view for 
+a lower cost. 
+Pilots are exposed to a lot of safety-critical situations, and they have 
+to practice recovery skills against all potentially dangerous situations. VR 
+can show a better performance for this kind of dangerous situation 
+training than conventional simulators due to its higher realism. Pilots also 
+have to develop skills to manipulate modern electronic cockpit systems, 
+including setting the objective heading direction on the electronic 
+compass, magnifying/demagnifying the electronic map display, and 
+switching communication radio frequencies with other channels. The 
+high-cost conventional mockup simulators install the actual electronic 
+cockpit hardware, for which all functionalities can be manipulated by 
+manual controls (Chang-Geun, 2020). 
+The main benefit of virtual reality in flight training is the immersive 
+representation of the flight experience, providing some important learning 
+advantages over traditional flight simulators. The key benefits for flight 
+schools include reduced training costs, cost savings on aircraft 
+familiarization training, and faster training of students. 
+Virtual Reality (VR) is the concept of being immersed into a 
+computer-generated environment with a visual, audible and optionally 
+haptical representation of the environment. This environment, e.g. a 
+room, landscape or a cockpit, may be presented to the user through a 
+screen or a head mounted display (headset). The user may be able to 
+interact with the environment, e.g. through gestures or physical buttons 
+or levers. 
+VR offers new opportunities for significant improvement of teaching 
+and learning as subjects can be taught/learnt in a very different way 
+instead of reading a textbook or listening to a lecturer. 
+One of the most important aspects of learning is knowledge 
+retention – the ability to remember what has been learnt. This is 
+especially true for flight crews who must memorize dozens of checklists, 
+rules, and procedures. Studies have shown that VR-assisted learning 
+has the potential of improving knowledge retention by up to 400%, 
+adding value to the time spent studying. Better knowledge retention 
+means less retraining and, in the end, better pilots who remember the 
+emergency checklist better thanks to VR-assisted learning. 
+VR engages the student much more in the learning process, thus 
+making the student remember more of what he or she learns. This is an 
+obvious advantage when performing tasks as a flight crew where 
+complex procedures must be memorized. 
+Studies have shown a dramatic reduction in training time when using 
+VR simulations – for flight training application as much as one year down 
+to four months. Some benefits that provide training time reduction are 
+depth perception, 360° vision, scalability, and modularity (VRpilot, 2021). 
+The Military Academy uses the Oculus Rift VR device which is one 
+of typical representatives in this device category (Figure 4). 
+Figure 4 – Oculus Rift VR in basic flight training 
+Рис. 4 – Oculus Rift VR в основной летной подготовке 
+Слика 4 – Oculus Rift VR у основној летачкој обуци 
+The Oculus Rift VR headset uses gaze tracking and IR LED sensors 
+to identify the user's position and, at the same time, to interact with the 
+virtual environment. Users can move freely within their physical 
+environment - sit, stand, walk, turn, duck, and dodge as they desire. 
+Similarly, it is possible to simulate the aerial environment as well as the 
+image of the aircraft cockpit. A VR headset enables a stereo image of the 
+pilots' workspace and gaze sweeping inside and outside the cockpit. The 
+headset has an OLED display with 2060 X 1200 resolution and a 90Hz 
+refresh rate. The field of view (FOV) is 110 º and the tracking area is 12.7 
+by 27.94 cm'. The sensors include accelerometers, gyroscopes, and 
+magnetometers. The system enables full 360-degree positional tracking.  
+Other training hardware and software 
+The commercial flight simulator created in the Military Academy 
+provides connection for many other devices that can be used in cadets' 
+training and evaluation. The most important is the GP3 Desktop Eye 
+Tracker device.  
+In nearly all human-computer interactions, the most basic point of 
+connection between an interface and its user is the eye. Eye tracking has 
+been an important source of information about perception and cognition 
+for more than 50 years. It has been utilized to study a diverse number of 
+topics such as the patterns of fixations and saccades while reading a 
+text, the workload of pilots during different phases of flight, the 
+application of different scan patterns in flight training, the role of pilots' 
+monitoring strategies in flight performance and the effectiveness of visual 
+advertisements among many others. In the Military Academy case, pilot’s 
+eye movement patterns are recorded by using the GP3 Desktop Eye 
+Tracker. The GP3 Desktop Eye Tracker is a complete eye tracking 
+system used as a device for measuring eye positions and eye 
+movement.  
+The role of the GP3 Desktop Eye Tracker is to make assessment 
+during flight simulation. The assessment is done regarding the senses 
+and skills necessary for flying as well as piloting skills in the air. The 
+Piloting techniques are assessed in the air according to standard 
+practices for monitoring, assessment, and evaluation.   
+Assessment helps cadets to improve their ability to successfully 
+cope with the flight syllabus and develop the required pilot aptitudes.  
+The biggest contribution of this kind of equipment is in improving the 
+pilot selection process using eye tracking tools (Vlačić et al, 2019). 
+The Sky Demon is one of numerous electronic flight bag software 
+programs available on the market. It enables flight planning as well as 
+GPS navigation in the air. Its special features include real-time updates 
+of aeronautical information. For navigation training purposes only, the 
+internal simulation software, called the X-plane, enables the simulation of 
+the flight along the planned route. Furthermore, it is possible to connect 
+the Sky Demon in the simulation mode with Microsoft Flight Simulator via 
+the FSX2SkyDemon application available on the Google Play Store. This 
+small application receives the data from the FSX software and presents 
+the information about the aircraft performance and position in the form of 
+a track plot on top of the Google Earth maps. At the same time, it 
+forwards the data to the Sky Demon software and makes it look like the 
+user is flying a real airplane. Real-time aeronautical information from the 
+Sky Demon, especially the information about the wind has a feedback 
+impact on the aircraft performance in FSX. 
+For navigation training, the Sky Demon software installed on a tablet 
+is connected with Microsoft Flight Simulators (Figure 5). 
+Figure 5 – Connection of the Sky Demon tablet with Microsoft Flight Simulators 
+Рис. 5 – Подсоединение планшета с программой Sky Demon к авиасимулятору 
+Microsoft Flight Simulators 
+Слика 5 – Повезивање таблета који поседује програм Sky Demon са програмом 
+Microsoft Flight Simulator 
+Diversity and fine balance of devices used in the showed digital 
+concept provided a step forward into better basic flight training. 
+According to internal documents, there were no failures in basic flight 
+training after the implementation of the digital training concept. 
+Conclusion 
+Basic flight training is considered as the most important phase of 
+flight training and a core of a successful process of making future military 
+pilots. This training phase has experienced significant changes with the 
+introduction of the Lasta piston engine trainer which belongs to the 
+Technically Advanced Aircraft category. This aircraft is characterized by 
+a high degree of cockpit digitalization and aircraft systems as a whole. 
+The technical level of the Lasta aircraft equipment requires a great effort 
+towards achieving a required level of confidence and safe operation. In 
+order to attain a desired level of safe flying with a glass cockpit, ground 
+training with the use of digital synthetic devices is also necessary. 
+The developer of the Lasta has not provided training devices and 
+simulators yet. The Military Academy staff developed and procured a 
+whole spectrum of training devices in order to make the training process 
+more effective. Digital training as a type of training includes a variety of 
+digital devices in order to improve the quality of flight training. In the case 
+of basic flight training in the Military Academy, the digital concept of 
+training consists of: 
+Interactive learning materials; 
+Flight Simulator based on commercial software; 
+VR devices; 
+LMS; and 
+Other training hardware and software. 
+The first generation of cadets - pilots who started their flight training 
+after practicing on this simulator shows a better performance in the basic 
+stages of the flight syllabus. The COTS based simulator was the core for 
+other peripherals. 
+VR offered new opportunities to significantly enhance the flight 
+training process. Cadets learn faster and more efficiently while 
+remembering the lessons taught better. 
+The GP3 Desktop Eye Tracker has proved to be an assessment tool 
+during the simulated flight training. Assessment is done regarding the 
+senses and skills necessary for flying and piloting skills in the air. The 
+biggest contribution of this kind of equipment is in the improvement of the 
+pilot selection process using eye tracking tools. 
+Despite the fact that the digital training concept is not mandatory in 
+the existing flight training model in the Serbian Military Academy, it 
+proves valuable. Its potential is considerable, and, to a certain extent, it 
+can change the nature of basic flight training. Due to the digital training 
+concept, cadets can fly more safely and their flying skills are acquired 
+faster. 
+References 
+Aysha, M. 2020. Microsoft Flight Simulator made more realistic thanks to 
+3D scanning. 3Dnatives, 27 October [online]. Available at: 
+[Accessed: 20 October 2021]. 
+Chang-Geun, O. 2020. Pros and Cons of A VR-based Flight Training 
+Simulator; Empirical Evaluations by Student and Instructor Pilots. Proceedings 
+of the Human Factors and Ergonomics Society Annual Meeting, 64(1), pp.193-
+197. Available at: Decker, T. 2013. Glass Cockpit Flight Training. Aviator college's Blog, 10 April  
+[online]. Available at: flight-training/  [Accessed: 7 July 2021]. 
+-Garmin. 2021. G500/G600 Series Trainer Base Install software version 1.2.0 
+[online]. Available at:  [Accessed 15 October 2021]. 
+-GOSA (The Governor's Office of Student Achievement). 2021. What is 
+Digital Learning? [online]. Available at: digital-learning [Accesed 28 September 2021]. 
+Ison, D. 2016. Is Glass Safer? Plane & Pilot, 6 February [online]. Available 
+at: October 2021].  
+Jensen, K.T. 2020. Why Microsoft Flight Simulator 2020 Is This Year's Most 
+Ambitious Game. PCMag, 18 August [online]. Available at: 
+simulator-2020-is-this-years-most-ambitious-game [Accessed: 20 October 2021]. 
+Kåre, L. & Sigbjørn, H. 2018. Excavating the origins of the learning pyramid 
+myths. Cogent Education, (5)1, pp.1-17. Available at: 
+Namestovski, Z. & Arsovic, B. 2013. Possibilities of implementing web 2.0 
+tools in education. In: International Conference on Information Technology and 
+Development of Education – ITRO 2013, Proceedings, Zrenjanin, pp.43-45, 
+June [online]. Available at: October 2021]. 
+-National Transportation Safety Board. 2010. Introduction of Glass Cockpit 
+Avionics into Light Aircraft, Safety Study [online]. Available at: 
+20 October 2021]. 
+-Victoria State Government. 2021. Teach with digital technologies [online]. 
+Available at:  
+es/teach.aspx#:~:text=Digital%20technologies%20are%20electronic%20tools,ac
+ross%20all%20curriculum%20learning%20areas [Accesed: 28 September 
+2021]. 
+Vlacic, S., Rodjenkov-Milinkovic, S., Knezević, A. & Vlacic, I. 2014. Use of 
+the commercial software tools in the preparation phase of military pilot education 
+and training. In: International Conference on Information Technology and 
+Development of Education – ITRO 2014, Proceedings, Zrenjanin, pp.346-350, 
+June [online]. Available at: [Accessed: 20 October 2021].  
+Vlačić, S. 2011. Training devices and flight simulators variants of 
+application in pilots training on the aircraft Lasta. In: 4th International scientific 
+conference on defensive technologies OTEH 2011, Belgrade, pp.143-146, 
+October 6-7 [online]. Available at: [Accessed: 20 October 2021]. 
+Vlačić, S.I., Knežević, A.Z., Mandal, S., Rođenkov, S. & Vitsas, P. 2019. 
+Improving the pilot selection process by using eye-tracking tools. Journal of Eye 
+Movement Research, 12(3). Available at: Vlačić, S., Knežević, A. & Milutinović, M. 2015. Application of commercial 
+available hardware in the making of flight trainer International Conference on 
+Information Technology and Development of Education – ITRO 2015, 
+Proceedings, Zrenjanin,  pp.284-289, June [online]. Available at: 
+2021].    
+-VRpilot. 2021. Virtual Reality & Flight Training [online]. Available at: 
+ВНЕДРЕНИЕ КОНЦЕПЦИИ ЭЛЕКТРОННОГО ОБУЧЕНИЯ В 
+ПРОГРАММУ ОСНОВНОЙ ЛЕТНОЙ ПОДГОТОВКИ В ВОЕННОЙ 
+АКАДЕМИИ РЕСПУБЛИКИ СЕРБИЯ 
+Славиша И. Влачича, корреспондент, Александар З. Кнежевича,  
+Владимир М. Грбовичб, Панос A. Витсасв, Михайло (Майк) С. Михайловичг 
+а Университет обороны в г. Белград, Военная академия, 
+  Кафедра военной авиации, г. Белград, Республика Сербия 
+б Вооружённые Силы Республики Сербия, Военно-воздушные силы и   
+  Противовоздушная оборона (ВВС и ПВО),  
+  г. Белград, Республика Сербия 
+в Международная школа летчиков-испытателей,  
+   г. Лондон (Онтарио), Канада 
+г Правительство Онтарио, г. Торонто, Канада; 
+  MRTD Defense Eng, г. Торонто, Канада 
+РУБРИКА ГРНТИ:  78.00.00 ВОЕННОЕ ДЕЛО:  
+                                78.25.13 Военная авиационная техника и вооружение, 
+                                78.21.49 Военная электроника и кибернетика 
+ВИД СТАТЬИ: оригинальная научная статья  
+Резюме: 
+Введение/цель: В статье представлен обзор последних 
+исследований в области концепции электронного обучения, 
+применяемой в летной подготовке в Военной академии Республики 
+Сербия. Летная подготовка является залогом успешного обучения 
+военных летчиков. Она подразделяется на этап освоения 
+окружения и этап реализации. Главной частью и ядром успешной 
+летной подготовки является основная летная подготовка. Этот 
+этап обучения потерпел значительные изменения, вследствие 
+внедрения технически усовершенствованных самолетов (TAA), 
+для которых характерна высокая степень цифровизации не 
+только стеклянной кабины, но и системы самолета в целом. В 
+данной связи, необходим иной методологический подход к 
+обучению, включающий концепцию электронного обучения. В 
+статье представлен ряд достижений и решений, используемых в 
+основной летной подготовке в Военной академии Республики 
+Сербия, с применением элементов концепции электронного 
+обучения. 
+Методы: Используя научный подход, был проведен анализ 
+цифровизации стеклянной кабины самолета и результатов 
+внедрения новой концепции обучения в основную летную 
+подготовку в Военной академии Республики Сербия. 
+Результаты: На основании проведенного методологического 
+анализа выявлены значение и ценность концепции электронного 
+обучения в рамках основной летной подготовки. 
+Выводы: Вопреки тому, что концепция электронной подготовки не 
+является обязательной частью существующей модели летной 
+подготовки в Военной академии Республики Сербия, она является 
+весьма значительной и ценной. Ее потенциал настолько 
+значителен, что в определенной степени, может изменить 
+характер основной летной подготовки. Концепция электронного 
+обучения способствует безопасности курсантов в будущих 
+полетах, а также ускорению процесса приобретения летных 
+навыков. В связи с приобретением новых современных самолетов  
+ВВС и ПВО Республики Сербия, каждый аспект концепции 
+электронной подготовки должен быть тщательно рассмотрен, 
+особенно на этапе основной летной подготовки, включая этап 
+перехода к новым типам самолетов. 
+Ключевые слова: летная подготовка, стеклянная кабина, 
+электронное обучение, учебные средства. 
+ПРИМЕНА КОНЦЕПТА ДИГИТАЛНЕ ОБУКЕ У ОСНОВНОЈ 
+ЛЕТАЧКОЈ ОБУЦИ НА ВОЈНОЈ АКАДЕМИЈИ 
+Славиша И. Влачића, аутор за преписку, Александар З. Кнежевића,  
+Владимир М. Грбовићб, Панос А. Витсасв, Михајло (Мајк) С. Михајловићг 
+а Универзитет одбране у Београду, Војна академија, 
+  Катедра војног ваздухопловства, Београд, Република Србија  
+б Војска Србије, Ратно ваздухопловство и противваздухопловна одбрана,  
+  Београд, Република Србија  
+в Међународна школа за опитне пилоте, Лондон (Онтарио), Канада 
+г Влада Онтарија, Торонто (Онтарио), Канада; 
+  MRTD Defense Eng, Торонто (Онтарио), Канада 
+ОБЛАСТ: ваздухопловство, информационе технологије 
+ВРСТА ЧЛАНКА: оригинални научни рад 
+Сажетак:  
+Увод/циљ: У раду су представљена недавна истраживања у 
+области концепта дигиталне обуке примењеног у летачкој обуци 
+на Војној академији Републике Србије, која чини основу успешног 
+образовања војних пилота. Њена подела заснована је на окружењу 
+и фази реализације. Главни део и основу успешне летачке обуке 
+представља основна летачка обука. Ова фаза обуке доживела је 
+значајне промене увођењем технички напредних авиона (ТАА) који 
+се одликују високим степеном дигитализације кабинског простора 
+и система авиона у целини. Сходно томе, потребан је другачији 
+методолошки приступ обуци, укључујући концепт дигиталне 
+обуке. Приказана су достигнућа и поједина решења која се користе 
+у основној летачкој обуци на Војној академији, уз примену 
+елемената дигиталних концепата обуке. 
+Методе: Користећи научни приступ извршен је увид у 
+дигитализацију пилотских кабинских простора и имплементације 
+новог концепта у основну летачку обуку на Војној академији 
+Републике Србије. 
+Резултати: На основу примењене методe анализе приказани су 
+значај и вредности концепта дигиталне обуке у основној летачкој 
+обуци. 
+Закључак: Иако концепт дигиталне обуке није обавезан у 
+постојећем моделу летачке обуке на Војној академији Србије, 
+показало се да је веома значајан. Његов потенцијал је велики и, до 
+одређеног нивоа, може променити карактер основне летачке 
+обуке. Захваљујући концепту дигиталне обуке, кадети касније 
+могу безбедније управљати летелицама и брже стицати летачке 
+вештине. У складу са набавком нових савремених авиона у Ратном 
+ваздухопловству и противваздухопловној одбрани Војске Србије, 
+сваки аспект концепта дигиталне обуке мора се пажљиво 
+размотрити, посебно у фази основне летачке обуке, укључујући и 
+фазе преласка на нове типове авиона. 
+Кључне речи: летачка обука, стаклени кабински простор, 
+дигитална обука, средства за обуку. 
+Paper received on / Дата получения работы / Датум пријема чланка: 26.10.2021.  
+Manuscript corrections submitted on / Дата получения исправленной версии работы / 
+Датум достављања исправки рукописа: 03.01.2022. 
+Paper accepted for publishing on / Дата окончательного согласования работы / Датум 
+коначног прихватања чланка за објављивање: 04.01.2022. 
+© 2022 The Authors. Published by Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). This article is an open access article distributed under the 
+terms and conditions of the Creative Commons Attribution license 
+(© 2022 Авторы. Опубликовано в «Военно-технический вестник / Vojnotehnički glasnik / Military 
+Technical Courier» (www.vtg.mod.gov.rs, втг.мо.упр.срб). Данная статья в открытом доступе и 
+распространяется в соответствии с лицензией «Creative Commons» 
+(© 2022 Аутори. Објавио Војнотехнички гласник / Vojnotehnički glasnik / Military Technical Courier 
+(www.vtg.mod.gov.rs, втг.мо.упр.срб). Ово је чланак отвореног приступа и дистрибуира се у 
+складу са  Creative Commons licencom ( 
